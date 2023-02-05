@@ -2,15 +2,16 @@ Home As screen:
     LoadingSpinnerColor: =RGBA(73, 130, 5, 1)
 
     Weather_1 As Weather:
-        X: =470
-        Y: =30
+        X: =477
+        Y: =29
         ZIndex: =1
 
     MyDay_1 As MyDay:
         Fill: =RGBA(232, 244, 217, 1)
         Height: =110
-        Width: =640
-        Y: =137
+        Width: =615
+        X: =12
+        Y: =277
         ZIndex: =2
 
     Image2 As image:
@@ -34,13 +35,64 @@ Home As screen:
     LatestEmailInteractions_1 As LatestEmailInteractions:
         Fill: =RGBA(232, 244, 217, 1)
         Height: =585
-        Y: =392
+        Width: =615
+        X: =12
+        Y: =532
         ZIndex: =4
 
     LatestTeams_1 As LatestTeams:
         Fill: =RGBA(232, 244, 217, 1)
         Height: =122
-        Width: =640
-        Y: =258
+        Width: =615
+        X: =12
+        Y: =398
         ZIndex: =5
+
+    Label3 As label:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderStyle: =BorderStyle.None
+        BorderThickness: =2
+        Color: =RGBA(51, 51, 51, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisplayMode: =DisplayMode.View
+        FocusedBorderThickness: =4
+        Font: =Font.Lato
+        Height: =113
+        Size: =40
+        Text: ="Buddy"
+        Width: =306
+        X: =110
+        Y: =10
+        ZIndex: =6
+
+    Label3_1 As label:
+        Align: =Align.Center
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderStyle: =BorderStyle.None
+        BorderThickness: =2
+        Color: =RGBA(51, 51, 51, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisplayMode: =DisplayMode.View
+        FocusedBorderThickness: =4
+        Font: =Font.'Patrick Hand'
+        Height: =113
+        Size: =40
+        Text: |-
+            =If(
+                Hour(Now()) <= 5,
+                Text("Gute Nacht!"),
+                Hour(Now()) <= 11 && Hour(Now()) > 5,
+                Text("Guten Morgen!"),
+                Hour(Now()) <= 15 && Hour(Now()) > 11,
+                Text("Schönen Nachmittag!"),
+                Hour(Now()) <= 20 && Hour(Now()) > 15,
+                Text("Schönen Abend!"),
+                Text("Guten Tag!")
+            )
+        Width: =615
+        X: =12
+        Y: =143
+        ZIndex: =7
 
