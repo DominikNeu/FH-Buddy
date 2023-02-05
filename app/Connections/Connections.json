@@ -1,4 +1,47 @@
 {
+  "0311bc8f-996e-42dd-96e1-82da98b97662": {
+    "connectionParameters": {
+      "baseResourceUrl": "https://graph.microsoft.com/v1.0",
+      "privacySetting": "None",
+      "sku": "Enterprise",
+      "token:ResourceUri": "https://graph.microsoft.com"
+    },
+    "connectionRef": {
+      "apiTier": "Premium",
+      "displayName": "HTTP mit Azure AD",
+      "iconUri": "https://connectoricons-prod.azureedge.net/u/juanq/gateway/greyhound/3000.150.11/1.0.1613.3116/webcontents/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_webcontents",
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {},
+    "dataSources": [
+      "HTTPwithAzureAD"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "0311bc8f-996e-42dd-96e1-82da98b97662"
+  },
+  "09e42160-080c-46ed-a279-30118492c8a3": {
+    "connectionParameters": {
+      "sku": "Enterprise"
+    },
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "Microsoft Teams",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1612/1.0.1612.3109/teams/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_teams",
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {},
+    "dataSources": [
+      "MicrosoftTeams"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "09e42160-080c-46ed-a279-30118492c8a3"
+  },
   "9699119a-686d-4142-9a6a-10eb4a6e06c4": {
     "connectionParameters": {
       "sku": "Enterprise"
@@ -38,5 +81,65 @@
     "dependencies": {},
     "dependents": [],
     "id": "a0c600a9-5832-4dc2-b9dc-b2b4a39f2e17"
+  },
+  "b3828a23-6e12-4dbf-adb7-86648eb3d11a": {
+    "connectionParameters": {
+      "sku": "Enterprise"
+    },
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "MSN Wetter",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1586/1.0.1586.2912/msnweather/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_msnweather",
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {},
+    "dataSources": [
+      "MSNWetter"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "b3828a23-6e12-4dbf-adb7-86648eb3d11a"
+  },
+  "efc96c67-5c41-42eb-804f-fdde5c14a8da": {
+    "connectionParameters": {
+      "sku": "Enterprise"
+    },
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "Office 365-Gruppen",
+      "iconUri": "https://connectoricons-prod.azureedge.net/u/juanq/releases/v1.0.1609-localization/1.0.1609.3085/office365groups/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_office365groups",
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {},
+    "dataSources": [
+      "Office365-Gruppen"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "efc96c67-5c41-42eb-804f-fdde5c14a8da"
+  },
+  "f40c2286-c84d-469f-8808-685b02bbb595": {
+    "connectionParameters": {
+      "sku": "Enterprise"
+    },
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "Azure AD",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1600/1.0.1600.3026/azuread/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_azuread",
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {},
+    "dataSources": [
+      "AzureAD"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "f40c2286-c84d-469f-8808-685b02bbb595"
   }
 }

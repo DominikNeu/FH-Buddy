@@ -1,0 +1,253 @@
+<application xmlns:xml="http://www.w3.org/XML/1998/namespace" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:service="https://europe-002.azure-apim.net/apim/msnweather" xmlns:siena="http://schemas.microsoft.com/MicrosoftProjectSiena/WADL/2014/11" siena:serviceId="MSNWetter" xmlns="http://wadl.dev.java.net/2009/02">
+  <doc title="MSN Wetter">Mit MSN Wetter erhalten Sie die neueste Wettervorhersage, einschließlich Temperatur, Luftfeuchtigkeit, Niederschlag für Ihre Region.</doc>
+  <grammars>
+    <jsonTypes targetNamespace="https://europe-002.azure-apim.net/apim/msnweather" xmlns="http://schemas.microsoft.com/MicrosoftProjectSiena/WADL/2014/11">
+      <number name="CurrentWeather_responses_def_weather_def_current_def_baro_def" />
+      <string name="CurrentWeather_responses_def_weather_def_current_def_cap_def" />
+      <number name="CurrentWeather_responses_def_weather_def_current_def_dewPt_def" />
+      <number name="CurrentWeather_responses_def_weather_def_current_def_feels_def" />
+      <number name="CurrentWeather_responses_def_weather_def_current_def_rh_def" />
+      <string name="CurrentWeather_responses_def_weather_def_current_def_wx_def" />
+      <string name="CurrentWeather_responses_def_weather_def_current_def_sky_def" />
+      <number name="CurrentWeather_responses_def_weather_def_current_def_temp_def" />
+      <number name="CurrentWeather_responses_def_weather_def_current_def_uv_def" />
+      <string name="CurrentWeather_responses_def_weather_def_current_def_uvDesc_def" />
+      <number name="CurrentWeather_responses_def_weather_def_current_def_vis_def" />
+      <integer name="CurrentWeather_responses_def_weather_def_current_def_windDir_def" />
+      <number name="CurrentWeather_responses_def_weather_def_current_def_windSpd_def" />
+      <number name="CurrentWeather_responses_def_weather_def_current_def_windGust_def" />
+      <dateTimeString name="CurrentWeather_responses_def_weather_def_current_def_created_def" />
+      <object name="CurrentWeather_responses_def_weather_def_current_def">
+        <property name="baro" type="number" />
+        <property name="cap" type="string" />
+        <property name="dewPt" type="number" />
+        <property name="feels" type="number" />
+        <property name="rh" type="number" />
+        <property name="wx" type="string" />
+        <property name="sky" type="string" />
+        <property name="temp" type="number" />
+        <property name="uv" type="number" />
+        <property name="uvDesc" type="string" />
+        <property name="vis" type="number" />
+        <property name="windDir" type="integer" />
+        <property name="windSpd" type="number" />
+        <property name="windGust" type="number" />
+        <property name="created" typeRef="CurrentWeather_responses_def_weather_def_current_def_created_def" />
+      </object>
+      <object name="CurrentWeather_responses_def_weather_def">
+        <property name="current" typeRef="CurrentWeather_responses_def_weather_def_current_def" />
+      </object>
+      <number name="CurrentWeather_responses_def_source_def_coordinates_def_lat_def" />
+      <number name="CurrentWeather_responses_def_source_def_coordinates_def_lon_def" />
+      <object name="CurrentWeather_responses_def_source_def_coordinates_def">
+        <property name="lat" type="number" />
+        <property name="lon" type="number" />
+      </object>
+      <string name="CurrentWeather_responses_def_source_def_location_def" />
+      <object name="CurrentWeather_responses_def_source_def">
+        <property name="coordinates" typeRef="CurrentWeather_responses_def_source_def_coordinates_def" />
+        <property name="location" type="string" />
+      </object>
+      <object name="CurrentWeather_responses_def">
+        <property name="weather" typeRef="CurrentWeather_responses_def_weather_def" />
+        <property name="source" typeRef="CurrentWeather_responses_def_source_def" />
+      </object>
+      <string name="CurrentWeather_units_def_system_def" />
+      <string name="CurrentWeather_units_def_pressure_def" />
+      <string name="CurrentWeather_units_def_temperature_def" />
+      <string name="CurrentWeather_units_def_speed_def" />
+      <string name="CurrentWeather_units_def_distance_def" />
+      <object name="CurrentWeather_units_def">
+        <property name="system" type="string" />
+        <property name="pressure" type="string" />
+        <property name="temperature" type="string" />
+        <property name="speed" type="string" />
+        <property name="distance" type="string" />
+      </object>
+      <object name="CurrentWeather">
+        <property name="responses" typeRef="CurrentWeather_responses_def" />
+        <property name="units" typeRef="CurrentWeather_units_def" />
+      </object>
+      <string name="WeatherForecast_responses_def_daily_def_day_def_cap_def" />
+      <number name="WeatherForecast_responses_def_daily_def_day_def_precip_def" />
+      <string name="WeatherForecast_responses_def_daily_def_day_def_wx_def" />
+      <string name="WeatherForecast_responses_def_daily_def_day_def_sky_def" />
+      <integer name="WeatherForecast_responses_def_daily_def_day_def_windDir_def" />
+      <number name="WeatherForecast_responses_def_daily_def_day_def_windSpd_def" />
+      <string name="WeatherForecast_responses_def_daily_def_day_def_summary_def" />
+      <object name="WeatherForecast_responses_def_daily_def_day_def">
+        <property name="cap" type="string" />
+        <property name="precip" type="number" />
+        <property name="wx" type="string" />
+        <property name="sky" type="string" />
+        <property name="windDir" type="integer" />
+        <property name="windSpd" type="number" />
+        <property name="summary" type="string" />
+      </object>
+      <string name="WeatherForecast_responses_def_daily_def_night_def_cap_def" />
+      <number name="WeatherForecast_responses_def_daily_def_night_def_precip_def" />
+      <string name="WeatherForecast_responses_def_daily_def_night_def_wx_def" />
+      <string name="WeatherForecast_responses_def_daily_def_night_def_sky_def" />
+      <integer name="WeatherForecast_responses_def_daily_def_night_def_windDir_def" />
+      <number name="WeatherForecast_responses_def_daily_def_night_def_windSpd_def" />
+      <string name="WeatherForecast_responses_def_daily_def_night_def_summary_def" />
+      <object name="WeatherForecast_responses_def_daily_def_night_def">
+        <property name="cap" type="string" />
+        <property name="precip" type="number" />
+        <property name="wx" type="string" />
+        <property name="sky" type="string" />
+        <property name="windDir" type="integer" />
+        <property name="windSpd" type="number" />
+        <property name="summary" type="string" />
+      </object>
+      <string name="WeatherForecast_responses_def_daily_def_pvdrCap_def" />
+      <dateTimeString name="WeatherForecast_responses_def_daily_def_valid_def" />
+      <number name="WeatherForecast_responses_def_daily_def_precip_def" />
+      <number name="WeatherForecast_responses_def_daily_def_windMax_def" />
+      <integer name="WeatherForecast_responses_def_daily_def_windMaxDir_def" />
+      <number name="WeatherForecast_responses_def_daily_def_rhHi_def" />
+      <number name="WeatherForecast_responses_def_daily_def_rhLo_def" />
+      <number name="WeatherForecast_responses_def_daily_def_tempHi_def" />
+      <number name="WeatherForecast_responses_def_daily_def_tempLo_def" />
+      <number name="WeatherForecast_responses_def_daily_def_uv_def" />
+      <string name="WeatherForecast_responses_def_daily_def_uvDesc_def" />
+      <dateTimeString name="WeatherForecast_responses_def_daily_def_created_def" />
+      <object name="WeatherForecast_responses_def_daily_def">
+        <property name="day" typeRef="WeatherForecast_responses_def_daily_def_day_def" />
+        <property name="night" typeRef="WeatherForecast_responses_def_daily_def_night_def" />
+        <property name="pvdrCap" type="string" />
+        <property name="valid" typeRef="WeatherForecast_responses_def_daily_def_valid_def" />
+        <property name="precip" type="number" />
+        <property name="windMax" type="number" />
+        <property name="windMaxDir" type="integer" />
+        <property name="rhHi" type="number" />
+        <property name="rhLo" type="number" />
+        <property name="tempHi" type="number" />
+        <property name="tempLo" type="number" />
+        <property name="uv" type="number" />
+        <property name="uvDesc" type="string" />
+        <property name="created" typeRef="WeatherForecast_responses_def_daily_def_created_def" />
+      </object>
+      <dateTimeString name="WeatherForecast_responses_def_almanac_def_sunrise_def" />
+      <dateTimeString name="WeatherForecast_responses_def_almanac_def_sunset_def" />
+      <dateTimeString name="WeatherForecast_responses_def_almanac_def_moonrise_def" />
+      <dateTimeString name="WeatherForecast_responses_def_almanac_def_moonset_def" />
+      <string name="WeatherForecast_responses_def_almanac_def_moonPhase_def" />
+      <string name="WeatherForecast_responses_def_almanac_def_moonPhaseCode_def" />
+      <object name="WeatherForecast_responses_def_almanac_def">
+        <property name="sunrise" typeRef="WeatherForecast_responses_def_almanac_def_sunrise_def" />
+        <property name="sunset" typeRef="WeatherForecast_responses_def_almanac_def_sunset_def" />
+        <property name="moonrise" typeRef="WeatherForecast_responses_def_almanac_def_moonrise_def" />
+        <property name="moonset" typeRef="WeatherForecast_responses_def_almanac_def_moonset_def" />
+        <property name="moonPhase" type="string" />
+        <property name="moonPhaseCode" type="string" />
+      </object>
+      <number name="WeatherForecast_responses_def_source_def_coordinates_def_lat_def" />
+      <number name="WeatherForecast_responses_def_source_def_coordinates_def_lon_def" />
+      <object name="WeatherForecast_responses_def_source_def_coordinates_def">
+        <property name="lat" type="number" />
+        <property name="lon" type="number" />
+      </object>
+      <string name="WeatherForecast_responses_def_source_def_location_def" />
+      <object name="WeatherForecast_responses_def_source_def">
+        <property name="coordinates" typeRef="WeatherForecast_responses_def_source_def_coordinates_def" />
+        <property name="location" type="string" />
+      </object>
+      <object name="WeatherForecast_responses_def">
+        <property name="daily" typeRef="WeatherForecast_responses_def_daily_def" />
+        <property name="almanac" typeRef="WeatherForecast_responses_def_almanac_def" />
+        <property name="source" typeRef="WeatherForecast_responses_def_source_def" />
+      </object>
+      <string name="WeatherForecast_units_def_system_def" />
+      <string name="WeatherForecast_units_def_pressure_def" />
+      <string name="WeatherForecast_units_def_temperature_def" />
+      <string name="WeatherForecast_units_def_speed_def" />
+      <string name="WeatherForecast_units_def_distance_def" />
+      <object name="WeatherForecast_units_def">
+        <property name="system" type="string" />
+        <property name="pressure" type="string" />
+        <property name="temperature" type="string" />
+        <property name="speed" type="string" />
+        <property name="distance" type="string" />
+      </object>
+      <object name="WeatherForecast">
+        <property name="responses" typeRef="WeatherForecast_responses_def" />
+        <property name="units" typeRef="WeatherForecast_units_def" />
+      </object>
+      <string name="MeasureUnits_items_def_displayText_def" />
+      <string name="MeasureUnits_items_def_units_def" />
+      <object name="MeasureUnits_items_def">
+        <property name="displayText" type="string" />
+        <property name="units" type="string" />
+      </object>
+      <array typeRef="MeasureUnits_items_def" name="MeasureUnits" />
+    </jsonTypes>
+  </grammars>
+  <resources siena:authenticationProviderHref="#PowerAppAuth" base="https://europe-002.azure-apim.net/apim/msnweather">
+    <resource path="/{connectionId}/current/{Location}">
+      <param style="template" name="connectionId" type="xs:string" required="true" />
+      <param style="template" name="Location" type="xs:string" required="true">
+        <doc title="Die Suchabfrage für den Speicherort. Gültige Eingaben sind Ort, Region, Bundesland, Land, Orientierungspunkt, Postleitzahl, Breiten- und Längengrad" />
+      </param>
+      <method siena:requiresAuthentication="true" name="GET" id="CurrentWeather" actionName="CurrentWeather" visibility="advanced" siena:isDeprecated="false">
+        <doc title="Aktuelles Wetter abrufen&#xA;Hiermit wird das aktuelle Wetter für einen Ort abgerufen." />
+        <request>
+          <param style="query" name="units" type="xs:string" required="true" default="Imperial">
+            <doc title="Das Maßsystem für alle Messwerte in der Anforderung und der Antwort. Gültige Optionen sind &quot;Imperial&quot; und &quot;Metric&quot;." />
+            <option value="Imperial" />
+            <option value="Metric" />
+          </param>
+        </request>
+        <response>
+          <representation mediaType="application/json" element="service:CurrentWeather" />
+        </response>
+      </method>
+    </resource>
+    <resource path="/{connectionId}/forecast/today/{Location}">
+      <param style="template" name="connectionId" type="xs:string" required="true" />
+      <param style="template" name="Location" type="xs:string" required="true">
+        <doc title="Die Suchabfrage für den Speicherort. Gültige Eingaben sind Ort, Region, Bundesland, Land, Orientierungspunkt, Postleitzahl, Breiten- und Längengrad" />
+      </param>
+      <method siena:requiresAuthentication="true" name="GET" id="TodaysForecast" actionName="TodaysForecast" visibility="important" siena:isDeprecated="false">
+        <doc title="Vorhersage für heute abrufen&#xA;Hiermit wird die heutige Vorhersage für den angegebenen Ort abgerufen." />
+        <request>
+          <param style="query" name="units" type="xs:string" required="true" default="Imperial">
+            <doc title="Das Maßsystem für alle Messwerte in der Anforderung und der Antwort. Gültige Optionen sind &quot;Imperial&quot; und &quot;Metric&quot;." />
+            <option value="Imperial" />
+            <option value="Metric" />
+          </param>
+        </request>
+        <response>
+          <representation mediaType="application/json" element="service:WeatherForecast" />
+        </response>
+      </method>
+    </resource>
+    <resource path="/{connectionId}/forecast/tomorrow/{Location}">
+      <param style="template" name="connectionId" type="xs:string" required="true" />
+      <param style="template" name="Location" type="xs:string" required="true">
+        <doc title="Die Suchabfrage für den Speicherort. Gültige Eingaben sind Ort, Region, Bundesland, Land, Orientierungspunkt, Postleitzahl, Breiten- und Längengrad" />
+      </param>
+      <method siena:requiresAuthentication="true" name="GET" id="TomorrowsForecast" actionName="TomorrowsForecast" visibility="advanced" siena:isDeprecated="false">
+        <doc title="Vorhersage für morgen abrufen&#xA;Hiermit wird die morgige Vorhersage für den angegebenen Ort abgerufen." />
+        <request>
+          <param style="query" name="units" type="xs:string" required="true" default="Imperial">
+            <doc title="Das Maßsystem für alle Messwerte in der Anforderung und der Antwort. Gültige Optionen sind &quot;Imperial&quot; und &quot;Metric&quot;." />
+            <option value="Imperial" />
+            <option value="Metric" />
+          </param>
+        </request>
+        <response>
+          <representation mediaType="application/json" element="service:WeatherForecast" />
+        </response>
+      </method>
+    </resource>
+  </resources>
+  <authenticationProviders xmlns="http://schemas.microsoft.com/MicrosoftProjectSiena/WADL/2014/11">
+    <connectionProvider id="PowerAppAuth" siena:connectionProviderId="shared_msnweather" />
+  </authenticationProviders>
+  <template xmlns="http://schemas.microsoft.com/MicrosoftProjectSiena/WADL/2014/11">
+    <variable name="connectionId">
+      <modifyParams style="template" name="connectionId" attribute="fixed" />
+    </variable>
+  </template>
+</application>

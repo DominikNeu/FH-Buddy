@@ -1,0 +1,54 @@
+LatestTeams As CanvasComponent:
+    Fill: =RGBA(0, 0, 0, 0)
+    Height: =115
+    Width: =650
+    X: =0
+    Y: =0
+    ZIndex: =3
+
+    "Teams As gallery.'BrowseLayout_Horizontal_TwoTextOneImageVariant_ver4.0'":
+        BorderColor: =RGBA(0, 18, 107, 1)
+        Height: =115
+        Items: |-
+            =// MicrosoftTeams.GetChats("all";"all").value
+            // 'Office365-Benutzer'.MyProfile().UserPrincipalName
+            ForAll( MicrosoftTeams.GetAllTeams().value, MicrosoftTeams.GetTeam(id))
+        TemplatePadding: =0
+        TemplateSize: =114
+        Width: =650
+        ZIndex: =3
+
+        TeamName As label:
+            Align: =Align.Center
+            Color: =RGBA(0, 0, 0, 1)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            DisplayMode: =DisplayMode.View
+            Height: =48
+            OnSelect: =Select(Parent)
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Text: =ThisItem.displayName
+            VerticalAlign: =VerticalAlign.Top
+            Width: =100
+            X: =7
+            Y: =67
+            ZIndex: =2
+
+        TeamIcon As label:
+            Align: =Align.Center
+            BorderColor: =RGBA(0, 18, 107, 1)
+            Color: =RGBA(255, 255, 255, 1)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            Fill: =RGBA(RandBetween(0,255),RandBetween(0,255),RandBetween(0,255),1)
+            FontWeight: =FontWeight.Lighter
+            Height: =62
+            OnSelect: =Select(Parent)
+            Size: =21
+            Text: =Left( ThisItem.displayName, 1)
+            Width: =62
+            X: =26
+            Y: =5
+            ZIndex: =4
+

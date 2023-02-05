@@ -1,0 +1,96 @@
+LatestEmailInteractions As CanvasComponent:
+    Fill: =RGBA(0, 0, 0, 0)
+    Height: =575
+    Width: =640
+    X: =0
+    Y: =0
+    ZIndex: =1
+
+    "EMailGallery As gallery.'BrowseLayout_Flexible_NewsFeed_ver4.0'":
+        BorderColor: =RGBA(0, 18, 107, 1)
+        Items: |-
+            =Office365Outlook.GetEmails({fetchOnlyUnread:"false",top:"5"})
+        Layout: =Layout.Vertical
+        TemplatePadding: =0
+        TemplateSize: =116
+        ZIndex: =1
+
+        From As label:
+            Color: =RGBA(0, 0, 0, 1)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            FontWeight: =FontWeight.Lighter
+            Height: =Self.Size * 1.8
+            OnSelect: =Select(Parent)
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Text: =ThisItem.From
+            VerticalAlign: =VerticalAlign.Top
+            Width: =377
+            X: =95
+            Y: =76
+            ZIndex: =1
+
+        Subject As label:
+            Color: =RGBA(0, 0, 0, 1)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            Height: =50
+            OnSelect: =Select(Parent)
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Size: =16
+            Text: =ThisItem.Subject
+            Width: =532
+            X: =95
+            Y: =18
+            ZIndex: =2
+
+        Image As image:
+            BorderColor: =RGBA(0, 18, 107, 1)
+            DisabledBorderColor: =RGBA(166, 166, 166, 1)
+            DisabledFill: =RGBA(244, 244, 244, 1)
+            Height: =61
+            Image: |-
+                =If(IsBlankOrError(
+                    'Office365-Benutzer'.UserPhotoMetadata(ThisItem.From).HasPhoto),
+                    user,
+                    'Office365-Benutzer'.UserPhoto(ThisItem.From)
+                )
+            ImagePosition: =
+            OnSelect: =Select(Parent)
+            RadiusBottomLeft: =90
+            RadiusBottomRight: =90
+            RadiusTopLeft: =90
+            RadiusTopRight: =90
+            Width: =61
+            X: =17
+            Y: =28
+            ZIndex: =3
+
+        Separator1 As rectangle:
+            BorderColor: =RGBA(0, 18, 107, 1)
+            Fill: =RGBA(0, 18, 107, 1)
+            Height: =1
+            OnSelect: =Select(Parent)
+            Width: =Parent.TemplateWidth
+            Y: =Max(Parent.TemplateHeight - 1, Subject.Y + Subject.Height + 10)
+            ZIndex: =4
+
+        Date As label:
+            Align: =Align.Center
+            BorderColor: =RGBA(0, 18, 107, 1)
+            Color: =RGBA(0, 0, 0, 1)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            FontWeight: =FontWeight.Lighter
+            Height: =24
+            OnSelect: =Select(Parent)
+            Size: =11
+            Text: =ThisItem.DateTimeReceived
+            Width: =155
+            X: =472
+            Y: =76
+            ZIndex: =5
+
