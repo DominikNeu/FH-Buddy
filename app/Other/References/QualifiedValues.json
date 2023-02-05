@@ -57,6 +57,13 @@
       "Values": {
         "Informationen": "df5bef3a-9237-40bd-a27c-2cd7fd434706"
       }
+    },
+    {
+      "Kind": "default.cds_crfba_krankheit_1_forms",
+      "Namespace": "Krankheit (Formulare)",
+      "Values": {
+        "Informationen": "8bd8f2e8-718a-4e06-a474-f2e41b67f214"
+      }
     }
   ]
 }

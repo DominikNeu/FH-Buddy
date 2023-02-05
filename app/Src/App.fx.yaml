@@ -1,5 +1,5 @@
 App As appinfo:
     BackEnabled: =true
     ConfirmExit: =true
-    StartScreen: =Krankheitsfaelle
+    StartScreen: =Home
 

@@ -1,0 +1,96 @@
+[
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "crfba_krankheit_1s",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "crfba_krankheit_1",
+    "Name": "Krankheit",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "_ownerid_value": "Besitzer",
+      "createdby": "Erstellt von",
+      "createdon": "Erstellt am",
+      "createdonbehalfby": "Erstellt von (Stellvertreter)",
+      "crfba_enddatum": "Enddatum",
+      "crfba_krankheit_1_AsyncOperations": "Systemaufträge",
+      "crfba_krankheit_1_BulkDeleteFailures": "Massenlöschungsfehler",
+      "crfba_krankheit_1_MailboxTrackingFolders": "Automatisch nachverfolgte Postfachordner",
+      "crfba_krankheit_1_PrincipalObjectAttributeAccesses": "Sicherer Feldzugriff",
+      "crfba_krankheit_1_ProcessSession": "Prozesssitzungen",
+      "crfba_krankheit_1_SyncErrors": "Synchronisierungsfehler",
+      "crfba_krankheit_1id": "Krankheit",
+      "crfba_name": "Key",
+      "crfba_startdatum": "Startdatum",
+      "importsequencenumber": "Importsequenznummer",
+      "modifiedby": "Geändert von",
+      "modifiedon": "Geändert am",
+      "modifiedonbehalfby": "Geändert von (Stellvertreter)",
+      "overriddencreatedon": "Datensatz erstellt am",
+      "owningbusinessunit": "Besitzer (Unternehmenseinheit)",
+      "owningteam": "Besitzer (Team)",
+      "owninguser": "Besitzer (Benutzer)",
+      "statecode": "Status",
+      "statuscode": "Statusgrund",
+      "timezoneruleversionnumber": "Versionsnummer der Zeitzonenregel",
+      "utcconversiontimezonecode": "Zeitzonencode für UTC-Konvertierung",
+      "versionnumber": "Versionsnummer"
+    },
+    "PreferredName": "Krankheit",
+    "Type": "NativeCDSDataSourceInfo"
+  },
+  {
+    "DisplayName": "Krankheit (Ansichten)",
+    "Name": "_crfba_krankheit_1_views",
+    "RelatedEntityName": "Krankheit",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "135a85fb-d87b-499d-9eba-d94a55c5c756": "Aktive Krankheit",
+      "31a0224d-74ef-46cc-b04d-5e9fb9778618": "Krankheit Zugeordnete Ansicht",
+      "7b72aa88-6940-4a55-af04-86f0a750042e": "Krankheit Suchansicht",
+      "94b93cfc-de1d-4606-aba6-534ae253dd55": "Inaktive Krankheit",
+      "c817cd62-3223-460c-bca4-a3d5cb4a82fa": "Krankheit Ansicht für die erweiterte Suche"
+    }
+  },
+  {
+    "DisplayName": "Status (Krankheit)",
+    "Name": "crfba_krankheit_1_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Aktiv",
+      "1": "Inaktiv"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "Krankheit"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "Krankheit",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Statusgrund (Krankheit)",
+    "Name": "crfba_krankheit_1_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Aktiv",
+      "2": "Inaktiv"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "Krankheit"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "Krankheit",
+    "Type": "OptionSetInfo"
+  }
+]
