@@ -42,6 +42,27 @@
     "dependents": [],
     "id": "09e42160-080c-46ed-a279-30118492c8a3"
   },
+  "3c1d0d54-c9a9-456e-b634-1976d57c1036": {
+    "connectionParameters": {
+      "sku": "Enterprise"
+    },
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "GraphAPI",
+      "iconUri": "https://az787822.vo.msecnd.net/defaulticons/api-dedicated.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_graphapi-5f1ce191277ce75002-5f13de499b7a131a33",
+      "isCustomApiConnection": true,
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {},
+    "dataSources": [
+      "GraphAPI"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "3c1d0d54-c9a9-456e-b634-1976d57c1036"
+  },
   "8ec558bb-8856-4e04-be82-090b78f363d0": {
     "connectionParameters": {
       "sku": "Enterprise"
@@ -126,6 +147,23 @@
     "dependencies": {},
     "dependents": [],
     "id": "b3828a23-6e12-4dbf-adb7-86648eb3d11a"
+  },
+  "ba43dfd5-206a-482d-9b3e-704de54ed8dd": {
+    "connectionParameters": {
+      "sku": "Enterprise"
+    },
+    "connectionRef": {
+      "displayName": "GraphAPIv2",
+      "iconUri": "https://az787822.vo.msecnd.net/defaulticons/api-dedicated.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_graphapiv2-5f1ce191277ce75002-5f13de499b7a131a33"
+    },
+    "datasets": {},
+    "dataSources": [
+      "GraphAPIv2"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "ba43dfd5-206a-482d-9b3e-704de54ed8dd"
   },
   "efc96c67-5c41-42eb-804f-fdde5c14a8da": {
     "connectionParameters": {

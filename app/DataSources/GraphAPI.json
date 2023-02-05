@@ -1,0 +1,8 @@
+[
+  {
+    "ApiId": "/providers/microsoft.powerapps/apis/shared_graphapi-5f1ce191277ce75002-5f13de499b7a131a33",
+    "Name": "GraphAPI",
+    "ServiceKind": "ConnectedWadl",
+    "Type": "ServiceInfo"
+  }
+]

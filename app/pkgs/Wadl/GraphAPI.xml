@@ -1,0 +1,30 @@
+<application xmlns:xml="http://www.w3.org/XML/1998/namespace" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:service="https://europe-002.azure-apim.net/apim/graphapi-5f1ce191277ce75002-5f13de499b7a131a33" xmlns:siena="http://schemas.microsoft.com/MicrosoftProjectSiena/WADL/2014/11" siena:serviceId="GraphAPI" xmlns="http://wadl.dev.java.net/2009/02">
+  <doc title="GraphAPI"></doc>
+  <grammars>
+    <jsonTypes targetNamespace="https://europe-002.azure-apim.net/apim/graphapi-5f1ce191277ce75002-5f13de499b7a131a33" xmlns="http://schemas.microsoft.com/MicrosoftProjectSiena/WADL/2014/11" />
+  </grammars>
+  <resources siena:authenticationProviderHref="#PowerAppAuth" base="https://europe-002.azure-apim.net/apim/graphapi-5f1ce191277ce75002-5f13de499b7a131a33">
+    <resource path="/{connectionId}/v1.0/me/messages">
+      <param style="template" name="connectionId" type="xs:string" required="true" />
+      <method siena:requiresAuthentication="true" name="GET" id="GetMessages" actionName="GetMessages" visibility="important" siena:isDeprecated="false">
+        <doc title="Get Messages" />
+        <request />
+      </method>
+    </resource>
+    <resource path="/{connectionId}/v1.0/me/drive/recent">
+      <param style="template" name="connectionId" type="xs:string" required="true" />
+      <method siena:requiresAuthentication="true" name="GET" id="GetLatestDocuments" actionName="GetLatestDocuments" visibility="important" siena:isDeprecated="false">
+        <doc title="Get Latest Documents" />
+        <request />
+      </method>
+    </resource>
+  </resources>
+  <authenticationProviders xmlns="http://schemas.microsoft.com/MicrosoftProjectSiena/WADL/2014/11">
+    <connectionProvider id="PowerAppAuth" siena:connectionProviderId="shared_graphapi-5f1ce191277ce75002-5f13de499b7a131a33" />
+  </authenticationProviders>
+  <template xmlns="http://schemas.microsoft.com/MicrosoftProjectSiena/WADL/2014/11">
+    <variable name="connectionId">
+      <modifyParams style="template" name="connectionId" attribute="fixed" />
+    </variable>
+  </template>
+</application>

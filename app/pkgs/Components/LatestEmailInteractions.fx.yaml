@@ -4,7 +4,7 @@ LatestEmailInteractions As CanvasComponent:
     Width: =640
     X: =0
     Y: =0
-    ZIndex: =1
+    ZIndex: =2
 
     "EMailGallery As gallery.'BrowseLayout_Flexible_NewsFeed_ver4.0'":
         BorderColor: =RGBA(0, 18, 107, 1)

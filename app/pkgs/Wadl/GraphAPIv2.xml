@@ -1,0 +1,159 @@
+<application xmlns:xml="http://www.w3.org/XML/1998/namespace" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:service="https://europe-002.azure-apim.net/apim/graphapiv2-5f1ce191277ce75002-5f13de499b7a131a33" xmlns:siena="http://schemas.microsoft.com/MicrosoftProjectSiena/WADL/2014/11" siena:serviceId="GraphAPIv2" xmlns="http://wadl.dev.java.net/2009/02">
+  <doc title="GraphAPIv2"></doc>
+  <grammars>
+    <jsonTypes targetNamespace="https://europe-002.azure-apim.net/apim/graphapiv2-5f1ce191277ce75002-5f13de499b7a131a33" xmlns="http://schemas.microsoft.com/MicrosoftProjectSiena/WADL/2014/11">
+      <string name="MyLatestDocuments_responses_default_def__ux40_odata_context_def" />
+      <string name="MyLatestDocuments_responses_default_def_value_def_items_def__ux40_odata_type_def" />
+      <string name="MyLatestDocuments_responses_default_def_value_def_items_def_createdDateTime_def" />
+      <string name="MyLatestDocuments_responses_default_def_value_def_items_def_id_def" />
+      <string name="MyLatestDocuments_responses_default_def_value_def_items_def_lastModifiedDateTime_def" />
+      <string name="MyLatestDocuments_responses_default_def_value_def_items_def_name_def" />
+      <string name="MyLatestDocuments_responses_default_def_value_def_items_def_webUrl_def" />
+      <integer name="MyLatestDocuments_responses_default_def_value_def_items_def_size_def" />
+      <string name="MyLatestDocuments_responses_default_def_value_def_items_def_createdBy_def_user_def_email_def" />
+      <string name="MyLatestDocuments_responses_default_def_value_def_items_def_createdBy_def_user_def_displayName_def" />
+      <object name="MyLatestDocuments_responses_default_def_value_def_items_def_createdBy_def_user_def">
+        <property name="email" type="string" />
+        <property name="displayName" type="string" />
+      </object>
+      <object name="MyLatestDocuments_responses_default_def_value_def_items_def_createdBy_def">
+        <property name="user" typeRef="MyLatestDocuments_responses_default_def_value_def_items_def_createdBy_def_user_def" />
+      </object>
+      <string name="MyLatestDocuments_responses_default_def_value_def_items_def_lastModifiedBy_def_user_def_email_def" />
+      <string name="MyLatestDocuments_responses_default_def_value_def_items_def_lastModifiedBy_def_user_def_displayName_def" />
+      <object name="MyLatestDocuments_responses_default_def_value_def_items_def_lastModifiedBy_def_user_def">
+        <property name="email" type="string" />
+        <property name="displayName" type="string" />
+      </object>
+      <object name="MyLatestDocuments_responses_default_def_value_def_items_def_lastModifiedBy_def">
+        <property name="user" typeRef="MyLatestDocuments_responses_default_def_value_def_items_def_lastModifiedBy_def_user_def" />
+      </object>
+      <string name="MyLatestDocuments_responses_default_def_value_def_items_def_file_def_mimeType_def" />
+      <object name="MyLatestDocuments_responses_default_def_value_def_items_def_file_def">
+        <property name="mimeType" type="string" />
+      </object>
+      <string name="MyLatestDocuments_responses_default_def_value_def_items_def_fileSystemInfo_def_createdDateTime_def" />
+      <string name="MyLatestDocuments_responses_default_def_value_def_items_def_fileSystemInfo_def_lastModifiedDateTime_def" />
+      <object name="MyLatestDocuments_responses_default_def_value_def_items_def_fileSystemInfo_def">
+        <property name="createdDateTime" type="string" />
+        <property name="lastModifiedDateTime" type="string" />
+      </object>
+      <string name="MyLatestDocuments_responses_default_def_value_def_items_def_remoteItem_def_createdDateTime_def" />
+      <string name="MyLatestDocuments_responses_default_def_value_def_items_def_remoteItem_def_id_def" />
+      <string name="MyLatestDocuments_responses_default_def_value_def_items_def_remoteItem_def_lastModifiedDateTime_def" />
+      <string name="MyLatestDocuments_responses_default_def_value_def_items_def_remoteItem_def_name_def" />
+      <integer name="MyLatestDocuments_responses_default_def_value_def_items_def_remoteItem_def_size_def" />
+      <string name="MyLatestDocuments_responses_default_def_value_def_items_def_remoteItem_def_webDavUrl_def" />
+      <string name="MyLatestDocuments_responses_default_def_value_def_items_def_remoteItem_def_webUrl_def" />
+      <string name="MyLatestDocuments_responses_default_def_value_def_items_def_remoteItem_def_createdBy_def_user_def_email_def" />
+      <string name="MyLatestDocuments_responses_default_def_value_def_items_def_remoteItem_def_createdBy_def_user_def_displayName_def" />
+      <object name="MyLatestDocuments_responses_default_def_value_def_items_def_remoteItem_def_createdBy_def_user_def">
+        <property name="email" type="string" />
+        <property name="displayName" type="string" />
+      </object>
+      <object name="MyLatestDocuments_responses_default_def_value_def_items_def_remoteItem_def_createdBy_def">
+        <property name="user" typeRef="MyLatestDocuments_responses_default_def_value_def_items_def_remoteItem_def_createdBy_def_user_def" />
+      </object>
+      <string name="MyLatestDocuments_responses_default_def_value_def_items_def_remoteItem_def_file_def_mimeType_def" />
+      <object name="MyLatestDocuments_responses_default_def_value_def_items_def_remoteItem_def_file_def">
+        <property name="mimeType" type="string" />
+      </object>
+      <string name="MyLatestDocuments_responses_default_def_value_def_items_def_remoteItem_def_fileSystemInfo_def_createdDateTime_def" />
+      <string name="MyLatestDocuments_responses_default_def_value_def_items_def_remoteItem_def_fileSystemInfo_def_lastModifiedDateTime_def" />
+      <object name="MyLatestDocuments_responses_default_def_value_def_items_def_remoteItem_def_fileSystemInfo_def">
+        <property name="createdDateTime" type="string" />
+        <property name="lastModifiedDateTime" type="string" />
+      </object>
+      <string name="MyLatestDocuments_responses_default_def_value_def_items_def_remoteItem_def_lastModifiedBy_def_user_def_email_def" />
+      <string name="MyLatestDocuments_responses_default_def_value_def_items_def_remoteItem_def_lastModifiedBy_def_user_def_displayName_def" />
+      <object name="MyLatestDocuments_responses_default_def_value_def_items_def_remoteItem_def_lastModifiedBy_def_user_def">
+        <property name="email" type="string" />
+        <property name="displayName" type="string" />
+      </object>
+      <object name="MyLatestDocuments_responses_default_def_value_def_items_def_remoteItem_def_lastModifiedBy_def">
+        <property name="user" typeRef="MyLatestDocuments_responses_default_def_value_def_items_def_remoteItem_def_lastModifiedBy_def_user_def" />
+      </object>
+      <string name="MyLatestDocuments_responses_default_def_value_def_items_def_remoteItem_def_parentReference_def_driveType_def" />
+      <string name="MyLatestDocuments_responses_default_def_value_def_items_def_remoteItem_def_parentReference_def_driveId_def" />
+      <string name="MyLatestDocuments_responses_default_def_value_def_items_def_remoteItem_def_parentReference_def_id_def" />
+      <object name="MyLatestDocuments_responses_default_def_value_def_items_def_remoteItem_def_parentReference_def">
+        <property name="driveType" type="string" />
+        <property name="driveId" type="string" />
+        <property name="id" type="string" />
+      </object>
+      <string name="MyLatestDocuments_responses_default_def_value_def_items_def_remoteItem_def_sharepointIds_def_listId_def" />
+      <string name="MyLatestDocuments_responses_default_def_value_def_items_def_remoteItem_def_sharepointIds_def_listItemId_def" />
+      <string name="MyLatestDocuments_responses_default_def_value_def_items_def_remoteItem_def_sharepointIds_def_listItemUniqueId_def" />
+      <string name="MyLatestDocuments_responses_default_def_value_def_items_def_remoteItem_def_sharepointIds_def_siteId_def" />
+      <string name="MyLatestDocuments_responses_default_def_value_def_items_def_remoteItem_def_sharepointIds_def_siteUrl_def" />
+      <string name="MyLatestDocuments_responses_default_def_value_def_items_def_remoteItem_def_sharepointIds_def_webId_def" />
+      <object name="MyLatestDocuments_responses_default_def_value_def_items_def_remoteItem_def_sharepointIds_def">
+        <property name="listId" type="string" />
+        <property name="listItemId" type="string" />
+        <property name="listItemUniqueId" type="string" />
+        <property name="siteId" type="string" />
+        <property name="siteUrl" type="string" />
+        <property name="webId" type="string" />
+      </object>
+      <string name="MyLatestDocuments_responses_default_def_value_def_items_def_remoteItem_def_shared_def_scope_def" />
+      <object name="MyLatestDocuments_responses_default_def_value_def_items_def_remoteItem_def_shared_def">
+        <property name="scope" type="string" />
+      </object>
+      <object name="MyLatestDocuments_responses_default_def_value_def_items_def_remoteItem_def">
+        <property name="createdDateTime" type="string" />
+        <property name="id" type="string" />
+        <property name="lastModifiedDateTime" type="string" />
+        <property name="name" type="string" />
+        <property name="size" type="integer" />
+        <property name="webDavUrl" type="string" />
+        <property name="webUrl" type="string" />
+        <property name="createdBy" typeRef="MyLatestDocuments_responses_default_def_value_def_items_def_remoteItem_def_createdBy_def" />
+        <property name="file" typeRef="MyLatestDocuments_responses_default_def_value_def_items_def_remoteItem_def_file_def" />
+        <property name="fileSystemInfo" typeRef="MyLatestDocuments_responses_default_def_value_def_items_def_remoteItem_def_fileSystemInfo_def" />
+        <property name="lastModifiedBy" typeRef="MyLatestDocuments_responses_default_def_value_def_items_def_remoteItem_def_lastModifiedBy_def" />
+        <property name="parentReference" typeRef="MyLatestDocuments_responses_default_def_value_def_items_def_remoteItem_def_parentReference_def" />
+        <property name="sharepointIds" typeRef="MyLatestDocuments_responses_default_def_value_def_items_def_remoteItem_def_sharepointIds_def" />
+        <property name="shared" typeRef="MyLatestDocuments_responses_default_def_value_def_items_def_remoteItem_def_shared_def" />
+      </object>
+      <object name="MyLatestDocuments_responses_default_def_value_def_items_def">
+        <property name="@odata.type" type="string" />
+        <property name="createdDateTime" type="string" />
+        <property name="id" type="string" />
+        <property name="lastModifiedDateTime" type="string" />
+        <property name="name" type="string" />
+        <property name="webUrl" type="string" />
+        <property name="size" type="integer" />
+        <property name="createdBy" typeRef="MyLatestDocuments_responses_default_def_value_def_items_def_createdBy_def" />
+        <property name="lastModifiedBy" typeRef="MyLatestDocuments_responses_default_def_value_def_items_def_lastModifiedBy_def" />
+        <property name="file" typeRef="MyLatestDocuments_responses_default_def_value_def_items_def_file_def" />
+        <property name="fileSystemInfo" typeRef="MyLatestDocuments_responses_default_def_value_def_items_def_fileSystemInfo_def" />
+        <property name="remoteItem" typeRef="MyLatestDocuments_responses_default_def_value_def_items_def_remoteItem_def" />
+      </object>
+      <array typeRef="MyLatestDocuments_responses_default_def_value_def_items_def" name="MyLatestDocuments_responses_default_def_value_def" />
+      <object name="MyLatestDocuments_responses_default_def">
+        <property name="@odata.context" type="string" />
+        <property name="value" typeRef="MyLatestDocuments_responses_default_def_value_def" />
+      </object>
+    </jsonTypes>
+  </grammars>
+  <resources siena:authenticationProviderHref="#PowerAppAuth" base="https://europe-002.azure-apim.net/apim/graphapiv2-5f1ce191277ce75002-5f13de499b7a131a33">
+    <resource path="/{connectionId}/v1.0/me/drive/recent">
+      <param style="template" name="connectionId" type="xs:string" required="true" />
+      <method siena:requiresAuthentication="true" name="GET" id="MyLatestDocuments" actionName="MyLatestDocuments" siena:isDeprecated="false">
+        <doc title="My Latest Documents" />
+        <request />
+        <response>
+          <representation mediaType="application/json" element="service:MyLatestDocuments_responses_default_def" />
+        </response>
+      </method>
+    </resource>
+  </resources>
+  <authenticationProviders xmlns="http://schemas.microsoft.com/MicrosoftProjectSiena/WADL/2014/11">
+    <connectionProvider id="PowerAppAuth" siena:connectionProviderId="shared_graphapiv2-5f1ce191277ce75002-5f13de499b7a131a33" />
+  </authenticationProviders>
+  <template xmlns="http://schemas.microsoft.com/MicrosoftProjectSiena/WADL/2014/11">
+    <variable name="connectionId">
+      <modifyParams style="template" name="connectionId" attribute="fixed" />
+    </variable>
+  </template>
+</application>

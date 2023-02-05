@@ -4,7 +4,7 @@ Weather As CanvasComponent:
     Width: =150
     X: =0
     Y: =0
-    ZIndex: =2
+    ZIndex: =1
 
     WeatherImage As image:
         BorderColor: =RGBA(0, 18, 107, 1)

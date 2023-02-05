@@ -85,7 +85,7 @@ Komp_NavigationBar As CanvasComponent:
         HoverColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
         HoverFill: =RGBA(0, 0, 0, 0)
         Icon: =Icon.Newspaper
-        OnSelect: =
+        OnSelect: =Navigate(DokumenteScreen)
         PressedBorderColor: =RGBA(0, 0, 0, 0)
         PressedColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
         PressedFill: =RGBA(0, 0, 0, 0)

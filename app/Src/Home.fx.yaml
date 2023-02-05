@@ -4,7 +4,6 @@ Home As screen:
     Weather_1 As Weather:
         X: =477
         Y: =29
-        ZIndex: =1
 
     MyDay_1 As MyDay:
         Fill: =RGBA(232, 244, 217, 1)
@@ -34,10 +33,10 @@ Home As screen:
 
     LatestEmailInteractions_1 As LatestEmailInteractions:
         Fill: =RGBA(232, 244, 217, 1)
-        Height: =504
+        Height: =366
         Width: =615
         X: =12
-        Y: =532
+        Y: =669
         ZIndex: =4
 
     LatestTeams_1 As LatestTeams:
@@ -45,7 +44,7 @@ Home As screen:
         Height: =122
         Width: =615
         X: =12
-        Y: =398
+        Y: =402
         ZIndex: =5
 
     Label3 As label:
@@ -89,6 +88,8 @@ Home As screen:
                 Text("Schönen Nachmittag!"),
                 Hour(Now()) <= 20 && Hour(Now()) > 15,
                 Text("Schönen Abend!"),
+                Hour(Now()) <= 24 && Hour(Now()) > 20,
+                Text("Gute Nacht!"),
                 Text("Guten Tag!")
             )
         Width: =615
@@ -99,4 +100,11 @@ Home As screen:
     Komp_NavigationBar_4 As Komp_NavigationBar:
         Y: =1036
         ZIndex: =8
+
+    RelevantPeople_1 As RelevantPeople:
+        Fill: =RGBA(232, 244, 217, 1)
+        Width: =615
+        X: =12
+        Y: =539
+        ZIndex: =9
 

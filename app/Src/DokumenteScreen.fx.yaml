@@ -4,3 +4,21 @@ DokumenteScreen As screen:
     Komp_NavigationBar_6 As Komp_NavigationBar:
         Y: =1036
 
+    TrendingDocuments_1 As TrendingDocuments:
+        Height: =948
+        Y: =88
+        ZIndex: =2
+
+    Title_2 As label:
+        Align: =Align.Center
+        BorderColor: =RGBA(0, 18, 107, 1)
+        Color: =RGBA(255, 255, 255, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        Fill: =RGBA(73, 130, 5, 1)
+        FontWeight: =FontWeight.Bold
+        Height: =82
+        Size: =21
+        Text: ="Zuletzt verwendete Dokumente"
+        Width: =640
+        ZIndex: =3
+

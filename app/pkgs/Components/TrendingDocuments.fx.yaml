@@ -1,0 +1,81 @@
+TrendingDocuments As CanvasComponent:
+    Fill: =RGBA(0, 0, 0, 0)
+    Height: =640
+    Width: =640
+    X: =0
+    Y: =0
+    ZIndex: =1
+
+    "Gallery2_1 As gallery.'BrowseLayout_Vertical_TwoTextOneImageVariant_ver4.0'":
+        BorderColor: =RGBA(0, 18, 107, 1)
+        Height: =639
+        Items: =GraphAPIv2.MyLatestDocuments().value
+        Layout: =Layout.Vertical
+        OnSelect: =Launch(ThisItem.webUrl)
+        TemplatePadding: =0
+        TemplateSize: =Min(160, Self.Height - 60)
+        ZIndex: =1
+
+        Image2_1 As image:
+            BorderColor: =RGBA(0, 18, 107, 1)
+            DisabledBorderColor: =RGBA(166, 166, 166, 1)
+            DisabledFill: =RGBA(244, 244, 244, 1)
+            Height: =128
+            Image: |
+                =If(
+                    EndsWith( ThisItem.name, ".pdf"), PDF_file_icon,
+                    EndsWith( ThisItem.name, ".xlsx"), Excel_icon,
+                    EndsWith( ThisItem.name, ".docx"), docx_icon,
+                    EndsWith( ThisItem.name, ".pptx"), powerpoint_icon,
+                    'file-icon'
+                )
+            OnSelect: =Select(Parent)
+            Width: =128
+            X: =16
+            Y: =(Parent.TemplateHeight / 2) - (Self.Height / 2)
+            ZIndex: =1
+
+        Title1_2 As label:
+            Color: =RGBA(0, 0, 0, 1)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            FontWeight: =FontWeight.Semibold
+            Height: =Self.Size * 1.8
+            OnSelect: =Select(Parent)
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Size: =20
+            Text: =ThisItem.name
+            VerticalAlign: =VerticalAlign.Top
+            Width: =Parent.TemplateWidth - Image2_1.Width - 104
+            X: =Image2_1.X + Image2_1.Width + 24
+            Y: =44
+            ZIndex: =2
+
+        Subtitle1_2 As label:
+            Color: =RGBA(0, 0, 0, 1)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            Height: =Self.Size * 1.8
+            OnSelect: =Select(Parent)
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Size: =18
+            Text: =DateTimeValue( ThisItem.lastModifiedDateTime)
+            VerticalAlign: =VerticalAlign.Top
+            Width: =Title1_2.Width
+            X: =Title1_2.X
+            Y: =Title1_2.Y + Title1_2.Height + 4
+            ZIndex: =3
+
+        Separator2_1 As rectangle:
+            BorderColor: =RGBA(0, 18, 107, 1)
+            Fill: =RGBA(0, 18, 107, 1)
+            Height: =1
+            OnSelect: =Select(Parent)
+            Width: =Parent.TemplateWidth
+            Y: =Parent.TemplateHeight - 1
+            ZIndex: =5
+
