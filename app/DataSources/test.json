@@ -106,6 +106,7 @@
     "Name": "test",
     "NativeCDSDataSourceInfoNameMapping": {
       "_ownerid_value": "Besitzer",
+      "{Attachments}": "Attachments",
       "createdby": "Erstellt von",
       "createdon": "Erstellt am",
       "createdonbehalfby": "Erstellt von (Stellvertreter)",
@@ -115,6 +116,7 @@
       "crfba_krankheitsbescheid": "Krankheitsbescheid",
       "crfba_krankheitsgrund": "Krankheitsgrund",
       "crfba_name": "Name",
+      "crfba_test_Annotations": "Notizen",
       "crfba_test_AsyncOperations": "Systemaufträge",
       "crfba_test_BulkDeleteFailures": "Massenlöschungsfehler",
       "crfba_test_FileAttachments": "FileAttachments",
