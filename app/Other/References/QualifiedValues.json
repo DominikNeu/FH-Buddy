@@ -1,0 +1,62 @@
+{
+  "QualifiedValues": [
+    {
+      "Kind": "default.cds_account_forms",
+      "Namespace": "Firmen (Formulare)",
+      "Values": {
+        "Bereich \"Verweise\" des Kontos": "098ae145-1567-41ec-8398-86dbaac70c9b",
+        "Firma": "8448b78f-8f42-454e-8e2a-f8196b0419af",
+        "Firma – Schnellerfassung": "c9e7ec2d-efca-4e4c-b3e3-f63c4bba5e4b",
+        "Firma für interaktive Funktionen": "a72c7955-442b-4ea4-9499-b10cd18b4256",
+        "Informationen": "b053a39a-041a-4356-acef-ddf00182762b",
+        "Kachelformular für Firmenhierarchie": "69cff312-cfb6-4289-9631-249ab85d2c62",
+        "Kontokarte": "b028db32-3619-48a5-ac51-cf3f947b0ef3",
+        "Kontokartenformular": "cccff382-2b92-467e-bf1b-3db179512af8",
+        "Social\u00A0Media-Profile": "2205c86d-ed88-4a2f-a447-3b86a8781f2e"
+      }
+    },
+    {
+      "Kind": "default.cds_crfba_test_forms",
+      "Namespace": "test (Formulare)",
+      "Values": {
+        "Informationen": "015d2a16-aecb-4424-9ab2-e5a4031b0f20"
+      }
+    },
+    {
+      "Kind": "default.cds_contact_forms",
+      "Namespace": "Kontakte (Formulare)",
+      "Values": {
+        "Aktuelle Anfragen und Berechtigungen": "f3b707fb-3b5f-45f9-9c6b-5e573bb5d19e",
+        "Bereich \"Verweise\" des Kontakts": "d880c3cf-80e2-42f3-82f9-24d040d09f17",
+        "Informationen": "894cc46a-b0cb-4ab0-8bf6-200544e46a2d",
+        "Kontakt": "1fed44d1-ae68-4a41-bd2b-f13acac4acfa",
+        "Kontakt – Schnellerfassung": "661157fe-2fc9-4eaa-835f-5bfa2f7b64f7",
+        "Kontakt aktualisieren": "26843818-6508-4afe-9342-5fae2ebf15ca",
+        "Kontaktkarte": "707fc57b-c5e6-471b-a180-e37ed28a38e2",
+        "Kontaktkarte für Konto": "29de27bc-a257-4f29-99cf-bab4a84e688f",
+        "Kontaktkartenformular": "bc0f68dd-a4b1-4a8f-bed3-c8f5db2f89cf",
+        "Kontakt-Schnellerfassung": "bdb0ae1c-32fa-4374-b637-8dafe107bc44",
+        "Live-Rollenkartenformular": "449faa0e-f471-48ec-87d0-4719909546d2",
+        "Social\u00A0Media-Profile": "7bb87dfd-ec3e-4ed9-8e3e-5725d3067295"
+      }
+    },
+    {
+      "Kind": "default.cds_systemuser_forms",
+      "Namespace": "Benutzer (Formulare)",
+      "Values": {
+        "Anwendungsbenutzer": "d26924ef-4d80-46f7-ab1d-e6ae80a54ce8",
+        "Benutzer": "c2cd9e55-d4b4-4b55-9951-16ead79643e5",
+        "Benutzerformular – geschäftlich": "c2413504-7eb2-4c59-a087-95d819866114",
+        "Informationen": "094fb08a-77bb-49e0-b7ea-8dbddfd01294",
+        "Kachelformular für Benutzerhierarchie": "c68d6c09-d7a7-4959-8d0f-44b8cff9b452"
+      }
+    },
+    {
+      "Kind": "default.cds_customeraddress_forms",
+      "Namespace": "Adressen (Formulare)",
+      "Values": {
+        "Informationen": "df5bef3a-9237-40bd-a27c-2cd7fd434706"
+      }
+    }
+  ]
+}

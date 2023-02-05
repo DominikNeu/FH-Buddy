@@ -1,0 +1,143 @@
+[
+  {
+    "DisplayName": "test (Ansichten)",
+    "Name": "_crfba_test_views",
+    "RelatedEntityName": "test",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "0a0bc02b-b818-4842-ae04-18572176a250": "test Ansicht für die erweiterte Suche",
+      "0e6782a6-d049-4a2b-a6e7-3e0279f0c55e": "test Suchansicht",
+      "9b4130f8-42fe-4cbf-825f-9f929eddd5b2": "Aktive test",
+      "baf4f3c1-8a71-4363-b801-0587fde2054d": "Inaktive test",
+      "fbaa437b-3e17-4e76-bc69-0883e33732a1": "test Zugeordnete Ansicht"
+    }
+  },
+  {
+    "DisplayName": "Krankheitsgrund",
+    "Name": "crfba_krankheitsgrund",
+    "OptionSetInfoNameMapping": {
+      "370290000": "Covid",
+      "370290001": "Schnupfen",
+      "370290002": "Bauchschmerzen im kleinen Zeh",
+      "370290003": "Zu viel Alkohol"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": true,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "crfba_krankheitsgrund",
+        "OptionSetReferenceEntityName": "test"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "crfba_krankheitsgrund",
+    "RelatedEntityName": "test",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Freigabe (test)",
+    "Name": "crfba_test_crfba_freigabe",
+    "OptionSetInfoNameMapping": {
+      "0": "Abgelehnt",
+      "1": "Freigegeben"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "crfba_freigabe",
+        "OptionSetReferenceEntityName": "test"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "crfba_freigabe",
+    "RelatedEntityName": "test",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Status (test)",
+    "Name": "crfba_test_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Aktiv",
+      "1": "Inaktiv"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "test"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "test",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Statusgrund (test)",
+    "Name": "crfba_test_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Aktiv",
+      "2": "Inaktiv"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "test"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "test",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "crfba_tests",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "crfba_test",
+    "MaxGetRowsCount": 500,
+    "Name": "test",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "_ownerid_value": "Besitzer",
+      "createdby": "Erstellt von",
+      "createdon": "Erstellt am",
+      "createdonbehalfby": "Erstellt von (Stellvertreter)",
+      "crfba_beginn": "Beginn",
+      "crfba_ende": "Ende",
+      "crfba_freigabe": "Freigabe",
+      "crfba_krankheitsbescheid": "Krankheitsbescheid",
+      "crfba_krankheitsgrund": "Krankheitsgrund",
+      "crfba_name": "Name",
+      "crfba_test_AsyncOperations": "Systemaufträge",
+      "crfba_test_BulkDeleteFailures": "Massenlöschungsfehler",
+      "crfba_test_FileAttachments": "FileAttachments",
+      "crfba_test_MailboxTrackingFolders": "Automatisch nachverfolgte Postfachordner",
+      "crfba_test_PrincipalObjectAttributeAccesses": "Sicherer Feldzugriff",
+      "crfba_test_ProcessSession": "Prozesssitzungen",
+      "crfba_test_SyncErrors": "Synchronisierungsfehler",
+      "crfba_testid": "test",
+      "importsequencenumber": "Importsequenznummer",
+      "modifiedby": "Geändert von",
+      "modifiedon": "Geändert am",
+      "modifiedonbehalfby": "Geändert von (Stellvertreter)",
+      "overriddencreatedon": "Datensatz erstellt am",
+      "owningbusinessunit": "Besitzer (Unternehmenseinheit)",
+      "owningteam": "Besitzer (Team)",
+      "owninguser": "Besitzer (Benutzer)",
+      "statecode": "Status",
+      "statuscode": "Statusgrund",
+      "timezoneruleversionnumber": "Versionsnummer der Zeitzonenregel",
+      "utcconversiontimezonecode": "Zeitzonencode für UTC-Konvertierung",
+      "versionnumber": "Versionsnummer"
+    },
+    "PreferredName": "test",
+    "Type": "NativeCDSDataSourceInfo"
+  }
+]

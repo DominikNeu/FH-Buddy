@@ -1,0 +1,72 @@
+Component1 As CanvasComponent:
+    Fill: =RGBA(0, 0, 0, 0)
+    Height: =640
+    Width: =640
+    X: =0
+    Y: =0
+    ZIndex: =1
+
+    TextInput1 As text:
+        Default: ="Texteingabe"
+        Height: =70
+        Size: =21
+        Width: =560
+        X: =40
+        Y: =204
+        ZIndex: =5
+
+    Header As group:
+        Height: =5
+        Width: =5
+        X: =40
+        Y: =40
+        ZIndex: =5
+
+        Rectangle1 As rectangle:
+            Height: |
+                =88
+            Width: =Parent.Width
+            ZIndex: =1
+
+        Label1 As label:
+            Color: =White
+            Height: =57
+            Size: =27
+            Text: ="Krankheitsformular"
+            Width: =430
+            X: =105
+            Y: =15
+            ZIndex: =2
+
+        Icon1 As icon.Cancel:
+            Color: =White
+            Height: =86
+            Icon: =Icon.Cancel
+            PaddingBottom: =022
+            PaddingLeft: =022
+            PaddingRight: =022
+            PaddingTop: =022
+            Width: =86
+            ZIndex: =3
+
+        Icon2 As icon.Check:
+            Color: =White
+            Height: =86
+            Icon: =Icon.Check
+            PaddingBottom: =22
+            PaddingLeft: =022
+            PaddingRight: =22
+            PaddingTop: =22
+            Width: =86
+            X: =554
+            ZIndex: =4
+
+    Label2 As label:
+        Height: =39
+        Size: =21
+        Text: ="Name"
+        Width: =560
+        X: =40
+        Y: =163
+        ZIndex: =6
+

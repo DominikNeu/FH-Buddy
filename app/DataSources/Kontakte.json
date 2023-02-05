@@ -1,0 +1,1058 @@
+[
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "contacts",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "contact",
+    "MaxGetRowsCount": 500,
+    "Name": "Kontakte",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "_ownerid_value": "Besitzer",
+      "_parentcustomerid_value": "Firmenname",
+      "{Attachments}": "Attachments",
+      "account_primary_contact": "Firmen",
+      "accountrolecode": "Rolle",
+      "address1_addresstypecode": "Adresse 1: Adresstyp",
+      "address1_city": "Adresse 1: Ort",
+      "address1_composite": "Adresse\u00A01",
+      "address1_country": "Adresse 1: Land/Region",
+      "address1_county": "Adresse 1: Verwaltungsbezirk",
+      "address1_fax": "Adresse 1: Fax",
+      "address1_freighttermscode": "Adresse 1: Lieferbedingungen",
+      "address1_latitude": "Adresse 1: Breite",
+      "address1_line1": "Adresse 1: Straße 1",
+      "address1_line2": "Adresse 1: Straße 2",
+      "address1_line3": "Adresse 1: Straße 3",
+      "address1_longitude": "Adresse 1: Länge",
+      "address1_name": "Adresse 1: Name",
+      "address1_postalcode": "Adresse 1: Postleitzahl",
+      "address1_postofficebox": "Adresse 1: Postfach",
+      "address1_primarycontactname": "Adresse 1: Name des primären Kontakts",
+      "address1_shippingmethodcode": "Adresse 1: Versandmethode",
+      "address1_stateorprovince": "Adresse 1: Bundesland/Kanton",
+      "address1_telephone1": "Adresse 1: Telefon",
+      "address1_telephone2": "Adresse 1: Telefon 2",
+      "address1_telephone3": "Adresse 1: Telefon 3",
+      "address1_upszone": "Adresse 1: UPS-Zone",
+      "address1_utcoffset": "Adresse 1: UTC-Offset",
+      "address2_addresstypecode": "Adresse 2: Adresstyp",
+      "address2_city": "Adresse 2: Ort",
+      "address2_composite": "Adresse\u00A02",
+      "address2_country": "Adresse 2: Land/Region",
+      "address2_county": "Adresse 2: Verwaltungsbezirk",
+      "address2_fax": "Adresse 2: Fax",
+      "address2_freighttermscode": "Adresse 2: Lieferbedingungen",
+      "address2_latitude": "Adresse 2: Breite",
+      "address2_line1": "Adresse 2: Straße 1",
+      "address2_line2": "Adresse 2: Straße 2",
+      "address2_line3": "Adresse 2: Straße 3",
+      "address2_longitude": "Adresse 2: Länge",
+      "address2_name": "Adresse 2: Name",
+      "address2_postalcode": "Adresse 2: Postleitzahl",
+      "address2_postofficebox": "Adresse 2: Postfach",
+      "address2_primarycontactname": "Adresse 2: Name des primären Kontakts",
+      "address2_shippingmethodcode": "Adresse 2: Versandmethode",
+      "address2_stateorprovince": "Adresse 2: Bundesland/Kanton",
+      "address2_telephone1": "Adresse 2: Telefon 1",
+      "address2_telephone2": "Adresse 2: Telefon 2",
+      "address2_telephone3": "Adresse 2: Telefon 3",
+      "address2_upszone": "Adresse 2: UPS-Zone",
+      "address2_utcoffset": "Adresse 2: UTC-Offset",
+      "address3_addresstypecode": "Adresse 3: Adresstyp",
+      "address3_city": "Adresse 3: Ort",
+      "address3_composite": "Adresse\u00A03",
+      "address3_country": "Address3: Land/Region",
+      "address3_county": "Adresse 3: Verwaltungsbezirk",
+      "address3_fax": "Adresse 3: Fax",
+      "address3_freighttermscode": "Adresse 3: Lieferbedingungen",
+      "address3_latitude": "Adresse 3: Breite",
+      "address3_line1": "Address3: Straße 1",
+      "address3_line2": "Address3: Straße 2",
+      "address3_line3": "Address3: Straße 3",
+      "address3_longitude": "Adresse 3: Länge",
+      "address3_name": "Adresse 3: Name",
+      "address3_postalcode": "Address3: Postleitzahl",
+      "address3_postofficebox": "Adresse 3: Postfach",
+      "address3_primarycontactname": "Adresse 3: Name des primären Kontakts",
+      "address3_shippingmethodcode": "Adresse 3: Versandmethode",
+      "address3_stateorprovince": "Address3: Bundesland/Kanton",
+      "address3_telephone1": "Adresse 3: Telephone1",
+      "address3_telephone2": "Adresse 3: Telephone2",
+      "address3_telephone3": "Adresse 3: Telephone3",
+      "address3_upszone": "Adresse 3: UPS-Zone",
+      "address3_utcoffset": "Adresse 3: UTC-Offset",
+      "aging30": "Fälligkeit: 30",
+      "aging30_base": "Fälligkeit: 30 (Basis)",
+      "aging60": "Fälligkeit: 60",
+      "aging60_base": "Fälligkeit: 60 (Basis)",
+      "aging90": "Fälligkeit: 90",
+      "aging90_base": "Fälligkeit: 90 (Basis)",
+      "anniversary": "Jahrestag",
+      "annualincome": "Jahreseinkommen",
+      "annualincome_base": "Jahreseinkommen (Basis)",
+      "assistantname": "Sekretariat",
+      "assistantphone": "Telefon (Sekretariat)",
+      "birthdate": "Geburtstag",
+      "business2": "Telefon (geschäftlich)\u00A02",
+      "callback": "Rückrufnummer",
+      "childrensnames": "Namen der Kinder",
+      "company": "Telefonnummer des Unternehmens",
+      "contact_actioncard": "Aktionskarten",
+      "Contact_ActivityPointers": "Aktivitäten",
+      "Contact_Annotation": "Notizen",
+      "Contact_Appointments": "Termine",
+      "Contact_AsyncOperations": "Systemaufträge",
+      "Contact_BulkDeleteFailures": "Massenlöschungsfehler",
+      "contact_chats": "Teams-Chats",
+      "contact_connections1": "Verbindungen (contact_connections1)",
+      "contact_connections2": "Verbindungen (contact_connections2)",
+      "contact_customer_contacts": "Kontakte (contact_customer_contacts)",
+      "Contact_CustomerAddress": "Adressen",
+      "Contact_DuplicateBaseRecord": "Doppelte Datensätze (Contact_DuplicateBaseRecord)",
+      "Contact_DuplicateMatchingRecord": "Doppelte Datensätze (Contact_DuplicateMatchingRecord)",
+      "Contact_Email_EmailSender": "E-Mail-Nachrichten (Contact_Email_EmailSender)",
+      "Contact_Emails": "E-Mail-Nachrichten (Contact_Emails)",
+      "Contact_Faxes": "Faxe",
+      "Contact_Feedback": "Feedback (Contact_Feedback)",
+      "Contact_Letters": "Briefe",
+      "Contact_MailboxTrackingFolder": "Automatisch nachverfolgte Postfachordner",
+      "contact_master_contact": "Kontakte (contact_master_contact)",
+      "Contact_Phonecalls": "Telefonanrufe",
+      "contact_PostFollows": "Folgt",
+      "contact_PostRegardings": "Nachrichtenbezug",
+      "contact_principalobjectattributeaccess": "Sicherer Feldzugriff",
+      "Contact_ProcessSessions": "Prozesssitzungen",
+      "Contact_RecurringAppointmentMasters": "Terminserie",
+      "Contact_SyncErrors": "Synchronisierungsfehler",
+      "Contact_Tasks": "Aufgaben",
+      "contactid": "Kontakt",
+      "createdby": "Erstellt von",
+      "createdon": "Erstellt am",
+      "createdonbehalfby": "Erstellt von (Stellvertreter)",
+      "creditlimit": "Kreditlimit",
+      "creditlimit_base": "Kreditlimit (Basis)",
+      "creditonhold": "Kreditsperre",
+      "customersizecode": "Kundengröße",
+      "customertypecode": "Geschäftsbeziehungstyp",
+      "department": "Abteilung",
+      "description": "Beschreibung",
+      "donotbulkemail": "Massen-E-Mails nicht zulassen",
+      "donotbulkpostalmail": "Massensendungen nicht zulassen",
+      "donotemail": "E-Mails nicht zulassen",
+      "donotfax": "Faxe nicht zulassen",
+      "donotphone": "Telefonanrufe nicht zulassen",
+      "donotpostalmail": "Post nicht zulassen",
+      "donotsendmm": "Marketingmaterial senden",
+      "educationcode": "Bildung",
+      "emailaddress1": "E-Mail",
+      "emailaddress2": "E-Mail-Adresse 2",
+      "emailaddress3": "E-Mail-Adresse 3",
+      "employeeid": "Mitarbeiter",
+      "entityimage": "Bild der Entität",
+      "entityimageid": "Bild-ID der Entität",
+      "exchangerate": "Wechselkurs",
+      "externaluseridentifier": "Bezeichner für externen Benutzer",
+      "familystatuscode": "Familienstand",
+      "fax": "Fax",
+      "firstname": "Vorname",
+      "followemail": "E-Mail-Aktivität folgen",
+      "ftpsiteurl": "FTP-Site",
+      "fullname": "Vollständiger Name",
+      "gendercode": "Geschlecht",
+      "governmentid": "Behörden und Ämter",
+      "haschildrencode": "Hat Kinder",
+      "home2": "Telefon (privat) 2",
+      "importsequencenumber": "Importsequenznummer",
+      "isbackofficecustomer": "Backofficekunde",
+      "jobtitle": "Position",
+      "lastname": "Nachname",
+      "lastonholdtime": "Letzte Zeit der Zurückstellung",
+      "lastusedincampaign": "Letztes Datum in Kampagne",
+      "leadsourcecode": "Leadursprung",
+      "lk_contact_feedback_createdby": "Feedback (lk_contact_feedback_createdby)",
+      "lk_contact_feedback_createdonbehalfby": "Feedback (lk_contact_feedback_createdonbehalfby)",
+      "managername": "Manager",
+      "managerphone": "Telefon (Manager)",
+      "marketingonly": "Nur Marketing",
+      "masterid": "Master-ID",
+      "merged": "Zusammengeführt",
+      "middlename": "Zweiter Vorname",
+      "mobilephone": "Mobiltelefon",
+      "modifiedby": "Geändert von",
+      "modifiedon": "Geändert am",
+      "modifiedonbehalfby": "Geändert von (Stellvertreter)",
+      "nickname": "Spitzname",
+      "numberofchildren": "Anzahl der Kinder",
+      "onholdtime": "Zeit der Zurückstellung (Minuten)",
+      "overriddencreatedon": "Datensatz erstellt am",
+      "owningbusinessunit": "Besitzer (Unternehmenseinheit)",
+      "owningteam": "Besitzer (Team)",
+      "owninguser": "Besitzer (Benutzer)",
+      "pager": "Pager",
+      "participatesinworkflow": "Nimmt an Workflow teil",
+      "paymenttermscode": "Zahlungsbedingungen",
+      "preferredappointmentdaycode": "Bevorzugter Tag",
+      "preferredappointmenttimecode": "Bevorzugte Zeit",
+      "preferredcontactmethodcode": "Bevorzugte Kontaktmethode",
+      "preferredsystemuserid": "Bevorzugter Benutzer",
+      "processid": "Prozess",
+      "salutation": "Anrede",
+      "shippingmethodcode": "Versandmethode",
+      "spousesname": "Name des Ehepartners/der Ehepartnerin",
+      "stageid": "(Veraltet) Prozessphase",
+      "statecode": "Status",
+      "statuscode": "Statusgrund",
+      "suffix": "Suffix",
+      "telephone1": "Telefon (geschäftlich)",
+      "telephone2": "Telefon (privat)",
+      "telephone3": "Telefon 3",
+      "territorycode": "Gebiet",
+      "timespentbymeonemailandmeetings": "Von mir aufgewendete Zeit",
+      "timezoneruleversionnumber": "Versionsnummer der Zeitzonenregel",
+      "transactioncurrencyid": "Währung",
+      "traversedpath": "(Veraltet) Durchlaufener Pfad",
+      "utcconversiontimezonecode": "Zeitzonencode für die UTC-Konvertierung",
+      "versionnumber": "Versionsnummer",
+      "websiteurl": "Website",
+      "yomifirstname": "Yomi - Vorname",
+      "yomifullname": "Yomi - Vollständiger Name",
+      "yomilastname": "Yomi-Nachname",
+      "yomimiddlename": "Yomi - Weitere Vornamen"
+    },
+    "PreferredName": "Kontakte",
+    "Type": "NativeCDSDataSourceInfo"
+  },
+  {
+    "DisplayName": "Kontakte (Ansichten)",
+    "Name": "_contact_views",
+    "RelatedEntityName": "Kontakte",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "00000000-0000-0000-00aa-000000666400": "Ansicht für die erweiterte Suche: Kontakte",
+      "00000000-0000-0000-00aa-000010001003": "Meine aktiven Kontakte",
+      "00000000-0000-0000-00aa-000010001004": "Aktive Kontakte",
+      "00000000-0000-0000-00aa-000010001033": "Inaktive Kontakte",
+      "00000000-0000-0000-00aa-000010001210": "Zugeordnete Ansicht: Kontakte",
+      "0a8fa653-4147-4282-bf6b-168cfa839803": "Kontakte: Beeinflusste von uns gewonnene Geschäfte",
+      "0d5d377b-5e7c-47b5-bab1-a5cb8b4ac105": "Alle Kontakte",
+      "73bc2d9b-4e0e-424c-8839-ed59d6817e3a": "Ansicht Unterraster für aktive Kontakte",
+      "927e6cd8-b3ed-4c20-a154-b8bd8a86d172": "Kontakte: Keine Kampagnenaktivitäten in den letzten 3 Mon.",
+      "9c241a33-ca0b-4e50-ae92-db780d5b2a12": "Kontakte: Reaktion auf Kampagnen in den letzten 6 Mon.",
+      "a2d479c5-53e3-4c69-addd-802327e67a0d": "Suchansicht: Kontakte",
+      "ab582fb0-a846-453e-ad88-77f75ce91264": "Meine Verbindungen",
+      "eda26f1e-dbcc-40ad-91f2-ff2878d1d8d8": "Anspruchskontakte"
+    }
+  },
+  {
+    "DisplayName": "Rolle (Kontakte)",
+    "Name": "contact_accountrolecode",
+    "OptionSetInfoNameMapping": {
+      "1": "Entscheidungsträger",
+      "2": "Mitarbeiter",
+      "3": "Schlüsselperson"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "accountrolecode",
+        "OptionSetReferenceEntityName": "Kontakte"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "accountrolecode",
+    "RelatedEntityName": "Kontakte",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Adresse 1: Adresstyp (Kontakte)",
+    "Name": "contact_address1_addresstypecode",
+    "OptionSetInfoNameMapping": {
+      "1": "Rechnungsadresse",
+      "2": "Lieferadresse",
+      "3": "Primär",
+      "4": "Sonstiges"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "address1_addresstypecode",
+        "OptionSetReferenceEntityName": "Kontakte"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "address1_addresstypecode",
+    "RelatedEntityName": "Kontakte",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Adresse 1: Lieferbedingungen (Kontakte)",
+    "Name": "contact_address1_freighttermscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Frei an Bord",
+      "21": "Abholung",
+      "3": "Kosten und Fracht"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "address1_freighttermscode",
+        "OptionSetReferenceEntityName": "Kontakte"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "address1_freighttermscode",
+    "RelatedEntityName": "Kontakte",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Adresse 1: Versandmethode (Kontakte)",
+    "Name": "contact_address1_shippingmethodcode",
+    "OptionSetInfoNameMapping": {
+      "13": "Deutsche Post",
+      "14": "DPD",
+      "2": "DHL",
+      "3": "FedEx",
+      "4": "UPS",
+      "5": "Postal Mail",
+      "7": "Selbstabholer"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "address1_shippingmethodcode",
+        "OptionSetReferenceEntityName": "Kontakte"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "address1_shippingmethodcode",
+    "RelatedEntityName": "Kontakte",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Adresse 2: Adresstyp (Kontakte)",
+    "Name": "contact_address2_addresstypecode",
+    "OptionSetInfoNameMapping": {
+      "1": "Standardwert"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "address2_addresstypecode",
+        "OptionSetReferenceEntityName": "Kontakte"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "address2_addresstypecode",
+    "RelatedEntityName": "Kontakte",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Adresse 2: Lieferbedingungen (Kontakte)",
+    "Name": "contact_address2_freighttermscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Standardwert"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "address2_freighttermscode",
+        "OptionSetReferenceEntityName": "Kontakte"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "address2_freighttermscode",
+    "RelatedEntityName": "Kontakte",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Adresse 2: Versandmethode (Kontakte)",
+    "Name": "contact_address2_shippingmethodcode",
+    "OptionSetInfoNameMapping": {
+      "1": "Standardwert"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "address2_shippingmethodcode",
+        "OptionSetReferenceEntityName": "Kontakte"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "address2_shippingmethodcode",
+    "RelatedEntityName": "Kontakte",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Adresse 3: Adresstyp (Kontakte)",
+    "Name": "contact_address3_addresstypecode",
+    "OptionSetInfoNameMapping": {
+      "1": "Standardwert"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "address3_addresstypecode",
+        "OptionSetReferenceEntityName": "Kontakte"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "address3_addresstypecode",
+    "RelatedEntityName": "Kontakte",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Adresse 3: Lieferbedingungen (Kontakte)",
+    "Name": "contact_address3_freighttermscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Standardwert"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "address3_freighttermscode",
+        "OptionSetReferenceEntityName": "Kontakte"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "address3_freighttermscode",
+    "RelatedEntityName": "Kontakte",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Adresse 3: Versandmethode (Kontakte)",
+    "Name": "contact_address3_shippingmethodcode",
+    "OptionSetInfoNameMapping": {
+      "1": "Standardwert"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "address3_shippingmethodcode",
+        "OptionSetReferenceEntityName": "Kontakte"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "address3_shippingmethodcode",
+    "RelatedEntityName": "Kontakte",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Kreditsperre (Kontakte)",
+    "Name": "contact_creditonhold",
+    "OptionSetInfoNameMapping": {
+      "0": "Nein",
+      "1": "Ja"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "creditonhold",
+        "OptionSetReferenceEntityName": "Kontakte"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "creditonhold",
+    "RelatedEntityName": "Kontakte",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Kundengröße (Kontakte)",
+    "Name": "contact_customersizecode",
+    "OptionSetInfoNameMapping": {
+      "1": "Standardwert"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "customersizecode",
+        "OptionSetReferenceEntityName": "Kontakte"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "customersizecode",
+    "RelatedEntityName": "Kontakte",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Geschäftsbeziehungstyp (Kontakte)",
+    "Name": "contact_customertypecode",
+    "OptionSetInfoNameMapping": {
+      "1": "Standardwert"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "customertypecode",
+        "OptionSetReferenceEntityName": "Kontakte"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "customertypecode",
+    "RelatedEntityName": "Kontakte",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Massen-E-Mails nicht zulassen (Kontakte)",
+    "Name": "contact_donotbulkemail",
+    "OptionSetInfoNameMapping": {
+      "0": "Zulassen",
+      "1": "Nicht zulassen"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "donotbulkemail",
+        "OptionSetReferenceEntityName": "Kontakte"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "donotbulkemail",
+    "RelatedEntityName": "Kontakte",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Massensendungen nicht zulassen (Kontakte)",
+    "Name": "contact_donotbulkpostalmail",
+    "OptionSetInfoNameMapping": {
+      "0": "Nein",
+      "1": "Ja"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "donotbulkpostalmail",
+        "OptionSetReferenceEntityName": "Kontakte"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "donotbulkpostalmail",
+    "RelatedEntityName": "Kontakte",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "E-Mails nicht zulassen (Kontakte)",
+    "Name": "contact_donotemail",
+    "OptionSetInfoNameMapping": {
+      "0": "Zulassen",
+      "1": "Nicht zulassen"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "donotemail",
+        "OptionSetReferenceEntityName": "Kontakte"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "donotemail",
+    "RelatedEntityName": "Kontakte",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Faxe nicht zulassen (Kontakte)",
+    "Name": "contact_donotfax",
+    "OptionSetInfoNameMapping": {
+      "0": "Zulassen",
+      "1": "Nicht zulassen"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "donotfax",
+        "OptionSetReferenceEntityName": "Kontakte"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "donotfax",
+    "RelatedEntityName": "Kontakte",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Telefonanrufe nicht zulassen (Kontakte)",
+    "Name": "contact_donotphone",
+    "OptionSetInfoNameMapping": {
+      "0": "Zulassen",
+      "1": "Nicht zulassen"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "donotphone",
+        "OptionSetReferenceEntityName": "Kontakte"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "donotphone",
+    "RelatedEntityName": "Kontakte",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Post nicht zulassen (Kontakte)",
+    "Name": "contact_donotpostalmail",
+    "OptionSetInfoNameMapping": {
+      "0": "Zulassen",
+      "1": "Nicht zulassen"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "donotpostalmail",
+        "OptionSetReferenceEntityName": "Kontakte"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "donotpostalmail",
+    "RelatedEntityName": "Kontakte",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Marketingmaterial senden (Kontakte)",
+    "Name": "contact_donotsendmm",
+    "OptionSetInfoNameMapping": {
+      "0": "Senden",
+      "1": "Nicht senden"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "donotsendmm",
+        "OptionSetReferenceEntityName": "Kontakte"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "donotsendmm",
+    "RelatedEntityName": "Kontakte",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Bildung (Kontakte)",
+    "Name": "contact_educationcode",
+    "OptionSetInfoNameMapping": {
+      "1": "Standardwert"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "educationcode",
+        "OptionSetReferenceEntityName": "Kontakte"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "educationcode",
+    "RelatedEntityName": "Kontakte",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Familienstand (Kontakte)",
+    "Name": "contact_familystatuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Ledig",
+      "2": "Verheiratet",
+      "3": "Geschieden",
+      "4": "Verwitwet"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "familystatuscode",
+        "OptionSetReferenceEntityName": "Kontakte"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "familystatuscode",
+    "RelatedEntityName": "Kontakte",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "E-Mail-Aktivität folgen (Kontakte)",
+    "Name": "contact_followemail",
+    "OptionSetInfoNameMapping": {
+      "0": "Nicht zulassen",
+      "1": "Zulassen"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "followemail",
+        "OptionSetReferenceEntityName": "Kontakte"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "followemail",
+    "RelatedEntityName": "Kontakte",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Geschlecht (Kontakte)",
+    "Name": "contact_gendercode",
+    "OptionSetInfoNameMapping": {
+      "1": "Männlich",
+      "2": "Weiblich"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "gendercode",
+        "OptionSetReferenceEntityName": "Kontakte"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "gendercode",
+    "RelatedEntityName": "Kontakte",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Hat Kinder (Kontakte)",
+    "Name": "contact_haschildrencode",
+    "OptionSetInfoNameMapping": {
+      "1": "Standardwert"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "haschildrencode",
+        "OptionSetReferenceEntityName": "Kontakte"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "haschildrencode",
+    "RelatedEntityName": "Kontakte",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Automatisch erstellt (Kontakte)",
+    "Name": "contact_isautocreate",
+    "OptionSetInfoNameMapping": {
+      "0": "Nein",
+      "1": "Ja"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "isautocreate",
+        "OptionSetReferenceEntityName": "Kontakte"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "isautocreate",
+    "RelatedEntityName": "Kontakte",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Backofficekunde (Kontakte)",
+    "Name": "contact_isbackofficecustomer",
+    "OptionSetInfoNameMapping": {
+      "0": "Nein",
+      "1": "Ja"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "isbackofficecustomer",
+        "OptionSetReferenceEntityName": "Kontakte"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "isbackofficecustomer",
+    "RelatedEntityName": "Kontakte",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "IsPrivate (Kontakte)",
+    "Name": "contact_isprivate",
+    "OptionSetInfoNameMapping": {
+      "0": "Nein",
+      "1": "Ja"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "isprivate",
+        "OptionSetReferenceEntityName": "Kontakte"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "isprivate",
+    "RelatedEntityName": "Kontakte",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Leadursprung (Kontakte)",
+    "Name": "contact_leadsourcecode",
+    "OptionSetInfoNameMapping": {
+      "1": "Standardwert"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "leadsourcecode",
+        "OptionSetReferenceEntityName": "Kontakte"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "leadsourcecode",
+    "RelatedEntityName": "Kontakte",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Nur Marketing (Kontakte)",
+    "Name": "contact_marketingonly",
+    "OptionSetInfoNameMapping": {
+      "0": "Nein",
+      "1": "Ja"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "marketingonly",
+        "OptionSetReferenceEntityName": "Kontakte"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "marketingonly",
+    "RelatedEntityName": "Kontakte",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Zusammengeführt (Kontakte)",
+    "Name": "contact_merged",
+    "OptionSetInfoNameMapping": {
+      "0": "Nein",
+      "1": "Ja"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "merged",
+        "OptionSetReferenceEntityName": "Kontakte"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "merged",
+    "RelatedEntityName": "Kontakte",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Nimmt an Workflow teil (Kontakte)",
+    "Name": "contact_participatesinworkflow",
+    "OptionSetInfoNameMapping": {
+      "0": "Nein",
+      "1": "Ja"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "participatesinworkflow",
+        "OptionSetReferenceEntityName": "Kontakte"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "participatesinworkflow",
+    "RelatedEntityName": "Kontakte",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Zahlungsbedingungen (Kontakte)",
+    "Name": "contact_paymenttermscode",
+    "OptionSetInfoNameMapping": {
+      "2": "10 Tage 2%, 30 Tage netto",
+      "5": "7 Tage netto",
+      "7": "14 Tage netto",
+      "8": "21 Tage netto"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "paymenttermscode",
+        "OptionSetReferenceEntityName": "Kontakte"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "paymenttermscode",
+    "RelatedEntityName": "Kontakte",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Bevorzugter Tag (Kontakte)",
+    "Name": "contact_preferredappointmentdaycode",
+    "OptionSetInfoNameMapping": {
+      "0": "Sonntag",
+      "1": "Montag",
+      "2": "Dienstag",
+      "3": "Mittwoch",
+      "4": "Donnerstag",
+      "5": "Freitag",
+      "6": "Samstag"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "preferredappointmentdaycode",
+        "OptionSetReferenceEntityName": "Kontakte"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "preferredappointmentdaycode",
+    "RelatedEntityName": "Kontakte",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Bevorzugte Zeit (Kontakte)",
+    "Name": "contact_preferredappointmenttimecode",
+    "OptionSetInfoNameMapping": {
+      "1": "Morgens",
+      "2": "Nachmittags",
+      "3": "Abends"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "preferredappointmenttimecode",
+        "OptionSetReferenceEntityName": "Kontakte"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "preferredappointmenttimecode",
+    "RelatedEntityName": "Kontakte",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Bevorzugte Kontaktmethode (Kontakte)",
+    "Name": "contact_preferredcontactmethodcode",
+    "OptionSetInfoNameMapping": {
+      "1": "Beliebig",
+      "2": "E-Mail",
+      "3": "Telefon",
+      "4": "Fax",
+      "5": "Post"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "preferredcontactmethodcode",
+        "OptionSetReferenceEntityName": "Kontakte"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "preferredcontactmethodcode",
+    "RelatedEntityName": "Kontakte",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Versandmethode (Kontakte)",
+    "Name": "contact_shippingmethodcode",
+    "OptionSetInfoNameMapping": {
+      "1": "Standardwert"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "shippingmethodcode",
+        "OptionSetReferenceEntityName": "Kontakte"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "shippingmethodcode",
+    "RelatedEntityName": "Kontakte",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Status (Kontakte)",
+    "Name": "contact_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Aktiv",
+      "1": "Inaktiv"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "Kontakte"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "Kontakte",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Statusgrund (Kontakte)",
+    "Name": "contact_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Aktiv",
+      "2": "Inaktiv"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "Kontakte"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "Kontakte",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Gebiet (Kontakte)",
+    "Name": "contact_territorycode",
+    "OptionSetInfoNameMapping": {
+      "1": "Standardwert"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "territorycode",
+        "OptionSetReferenceEntityName": "Kontakte"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "territorycode",
+    "RelatedEntityName": "Kontakte",
+    "Type": "OptionSetInfo"
+  }
+]

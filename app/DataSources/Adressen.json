@@ -1,0 +1,161 @@
+[
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "customeraddresses",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "customeraddress",
+    "MaxGetRowsCount": 500,
+    "Name": "Adressen",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "_parentid_value": "Übergeordnetes Element",
+      "addressnumber": "Adressnummer",
+      "addresstypecode": "Adresstyp",
+      "city": "Ort",
+      "composite": "Adresse (composite)",
+      "country": "Land/Region",
+      "county": "Verwaltungsbezirk",
+      "createdby": "Erstellt von",
+      "createdon": "Erstellt am",
+      "createdonbehalfby": "Erstellt von (Stellvertreter)",
+      "CustomerAddress_AsyncOperations": "Systemaufträge",
+      "CustomerAddress_BulkDeleteFailures": "Massenlöschungsfehler",
+      "customeraddress_principalobjectattributeaccess": "Sicherer Feldzugriff",
+      "CustomerAddress_ProcessSessions": "Prozesssitzungen",
+      "CustomerAddress_SyncErrors": "Synchronisierungsfehler",
+      "customeraddressid": "Adresse (customeraddressid)",
+      "exchangerate": "Wechselkurs",
+      "fax": "Fax",
+      "freighttermscode": "Lieferbedingungen",
+      "importsequencenumber": "Importsequenznummer",
+      "latitude": "Breite",
+      "line1": "Straße 1",
+      "line2": "Straße 2",
+      "line3": "Straße 3",
+      "longitude": "Länge",
+      "modifiedby": "Geändert von",
+      "modifiedon": "Geändert am",
+      "modifiedonbehalfby": "Geändert von (Stellvertreter)",
+      "name": "Adressname",
+      "overriddencreatedon": "Datensatz erstellt am",
+      "postalcode": "Postleitzahl",
+      "postofficebox": "Postfach",
+      "primarycontactname": "Kontaktadresse",
+      "shippingmethodcode": "Versandmethode",
+      "stateorprovince": "Bundesland/Kanton",
+      "telephone1": "Telefon 1",
+      "telephone2": "Telefon 2",
+      "telephone3": "Telefon 3",
+      "timezoneruleversionnumber": "Versionsnummer der Zeitzonenregel",
+      "transactioncurrencyid": "Währung",
+      "upszone": "UPS-Zone",
+      "utcconversiontimezonecode": "Zeitzonencode für die UTC-Konvertierung",
+      "utcoffset": "UTC-Offset",
+      "versionnumber": "Versionsnummer"
+    },
+    "PreferredName": "Adressen",
+    "Type": "NativeCDSDataSourceInfo"
+  },
+  {
+    "DisplayName": "Adressen (Ansichten)",
+    "Name": "_customeraddress_views",
+    "RelatedEntityName": "Adressen",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "03315b35-4585-4447-a4d2-059cf79ca0fd": "Zugeordnete Ansicht: Kundenadressen",
+      "081847fb-4097-426a-affe-904d54d9dfec": "Suchansicht: Kundenadresse",
+      "98f8a370-a3cc-4181-986a-75d2d5fc71ba": "Alle Kundenadressen",
+      "fa6d84a4-2450-4375-8288-5083b58357c4": "Ansicht für die erweiterte Suche: Kundenadresse"
+    }
+  },
+  {
+    "DisplayName": "Adresstyp (Adressen)",
+    "Name": "customeraddress_addresstypecode",
+    "OptionSetInfoNameMapping": {
+      "1": "Rechnungsadresse",
+      "2": "Lieferadresse",
+      "3": "Primär",
+      "4": "Sonstiges"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "addresstypecode",
+        "OptionSetReferenceEntityName": "Adressen"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "addresstypecode",
+    "RelatedEntityName": "Adressen",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Lieferbedingungen (Adressen)",
+    "Name": "customeraddress_freighttermscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Frei an Bord",
+      "21": "Abholung",
+      "3": "Kosten und Fracht"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "freighttermscode",
+        "OptionSetReferenceEntityName": "Adressen"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "freighttermscode",
+    "RelatedEntityName": "Adressen",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Objekttyp  (Adressen)",
+    "Name": "customeraddress_objecttypecode",
+    "OptionSetInfoNameMapping": {
+      "1": "Firma",
+      "2": "Kontakt"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "objecttypecode",
+        "OptionSetReferenceEntityName": "Adressen"
+      }
+    },
+    "OptionSetTypeKey": "EntityNameType",
+    "RelatedColumnInvariantName": "objecttypecode",
+    "RelatedEntityName": "Adressen",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Versandmethode (Adressen)",
+    "Name": "customeraddress_shippingmethodcode",
+    "OptionSetInfoNameMapping": {
+      "13": "Deutsche Post",
+      "14": "DPD",
+      "2": "DHL",
+      "3": "FedEx",
+      "4": "UPS",
+      "5": "Postal Mail",
+      "7": "Selbstabholer"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "shippingmethodcode",
+        "OptionSetReferenceEntityName": "Adressen"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "shippingmethodcode",
+    "RelatedEntityName": "Adressen",
+    "Type": "OptionSetInfo"
+  }
+]

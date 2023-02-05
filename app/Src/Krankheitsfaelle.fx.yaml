@@ -1,0 +1,169 @@
+"Krankheitsfaelle As screen.'phoneLayout_HeaderAndGallery_ver3.0'":
+    LoadingSpinner: =LoadingSpinner.Data
+    OnVisible: =
+
+    RectQuickActionBar5 As rectangle:
+        Height: =88
+        Width: =Parent.Width
+        ZIndex: =1
+
+    LblAppName5 As label:
+        Height: =88
+        Size: =27
+        Text: |-
+            ="Krankheitsfälle
+            "
+        Width: =Parent.Width - LblAppName5.X - IconSortUpDown2.Width - IconNewItem2.Width - IconRefresh2.Width
+        Wrap: =false
+        X: =20
+        ZIndex: =2
+
+    IconRefresh2 As icon.Reload:
+        AccessibleLabel: =IconRefresh2.Tooltip
+        Height: =88
+        Icon: =Icon.Reload
+        PaddingBottom: =22
+        PaddingLeft: =22
+        PaddingRight: =22
+        PaddingTop: =22
+        TabIndex: =0
+        Tooltip: ="Liste aktualisieren"
+        Width: =88
+        X: =Parent.Width - IconNewItem2.Width - IconSortUpDown2.Width - IconRefresh2.Width
+        ZIndex: =3
+
+    IconSortUpDown2 As icon.ArrowsUpDown:
+        AccessibleLabel: =IconSortUpDown2.Tooltip
+        Height: =88
+        Icon: =Icon.Sort
+        OnSelect: |-
+            =UpdateContext({SortDescending1: !SortDescending1})
+        PaddingBottom: =26
+        PaddingLeft: =26
+        PaddingRight: =26
+        PaddingTop: =26
+        TabIndex: =0
+        Tooltip: =If(SortDescending1, "Liste in umgekehrter alphabetischer Reihenfolge sortieren", "Liste alphabetisch sortieren")
+        Width: =88
+        X: =Parent.Width - IconNewItem2.Width - IconSortUpDown2.Width
+        ZIndex: =4
+
+    IconNewItem2 As icon.Add:
+        AccessibleLabel: =IconNewItem2.Tooltip
+        Height: =88
+        Icon: =Icon.Add
+        OnSelect: =Navigate(Krankheitsformular)
+        PaddingBottom: =24
+        PaddingLeft: =24
+        PaddingRight: =24
+        PaddingTop: =24
+        TabIndex: =0
+        Tooltip: ="Neues Element erstellen"
+        Width: =88
+        X: =Parent.Width - IconNewItem2.Width
+        ZIndex: =5
+
+    TextSearchBox3 As text:
+        Align: =Left
+        Default: =""
+        Height: =68
+        HintText: ="Suchelemente"
+        PaddingLeft: =70
+        RadiusBottomLeft: =0
+        RadiusBottomRight: =7
+        RadiusTopLeft: =0
+        RadiusTopRight: =7
+        Size: =21
+        Width: =Parent.Width
+        Y: =RectQuickActionBar5.Height
+        ZIndex: =6
+
+    SearchIcon3 As icon.Search:
+        Height: =SearchIcon3.Width
+        Icon: =Icon.Search
+        PaddingBottom: =14
+        PaddingLeft: =14
+        PaddingRight: =14
+        PaddingTop: =14
+        Tooltip: ="Suchen"
+        Width: =TextSearchBox3.Height
+        X: =TextSearchBox3.X
+        Y: =TextSearchBox3.Y
+        ZIndex: =7
+
+    Rectangle12 As rectangle:
+        Height: =2
+        Width: =Parent.Width
+        Y: =TextSearchBox3.Y + TextSearchBox3.Height
+        ZIndex: =8
+
+    "Gallery1 As gallery.'BrowseLayout_Vertical_TwoTextOneImageVariant_ver4.0'":
+        Height: =980
+        Items: =test
+        Layout: =Layout.Vertical
+        OnSelect: =
+        TemplatePadding: =0
+        TemplateSize: =Min(160, Self.Height - 60)
+        Y: =156
+        ZIndex: =9
+
+        Image1 As image:
+            Height: =128
+            OnSelect: =Select(Parent)
+            Width: =128
+            X: =16
+            Y: =(Parent.TemplateHeight / 2) - (Self.Height / 2)
+            ZIndex: =1
+
+        Title1 As label:
+            Height: =Self.Size * 1.8
+            OnSelect: =Select(Parent)
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Text: =ThisItem.Name
+            VerticalAlign: =VerticalAlign.Top
+            Width: =Parent.TemplateWidth - Image1.Width - 104
+            X: =Image1.X + Image1.Width + 24
+            Y: =44
+            ZIndex: =2
+
+        Subtitle1 As label:
+            Height: =Self.Size * 1.8
+            OnSelect: =Select(Parent)
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Text: =ThisItem.'Erstellt am'
+            VerticalAlign: =VerticalAlign.Top
+            Width: =Title1.Width
+            X: =Title1.X
+            Y: =Title1.Y + Title1.Height + 4
+            ZIndex: =3
+
+        NextArrow1 As icon.ChevronRight:
+            AccessibleLabel: =Self.Tooltip
+            Height: =60
+            Icon: =Icon.ChevronRight
+            OnSelect: |-
+                =Navigate(Krankheitsformular_Ansicht, ScreenTransition.Fade, {displayItem:ThisItem})
+            PaddingBottom: =10
+            PaddingLeft: =10
+            PaddingRight: =10
+            PaddingTop: =10
+            TabIndex: =0
+            Tooltip: ="Elementdetails anzeigen"
+            Width: =60
+            X: =Parent.TemplateWidth - Self.Width - 5
+            Y: =(Parent.TemplateHeight / 2) - (Self.Height / 2)
+            ZIndex: =4
+
+        Separator3 As rectangle:
+            Height: =1
+            OnSelect: =Select(Parent)
+            Width: =Parent.TemplateWidth
+            Y: =Parent.TemplateHeight - 1
+            ZIndex: =5
+

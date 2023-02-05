@@ -1,0 +1,935 @@
+[
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "accounts",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "account",
+    "MaxGetRowsCount": 500,
+    "Name": "Firmen",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "_ownerid_value": "Besitzer",
+      "{Attachments}": "Attachments",
+      "account_actioncard": "Aktionskarten",
+      "Account_ActivityPointers": "Aktivitäten",
+      "Account_Annotation": "Notizen",
+      "Account_Appointments": "Termine",
+      "Account_AsyncOperations": "Systemaufträge",
+      "Account_BulkDeleteFailures": "Massenlöschungsfehler",
+      "account_chats": "Teams-Chats",
+      "account_connections1": "Verbindungen (account_connections1)",
+      "account_connections2": "Verbindungen (account_connections2)",
+      "Account_CustomerAddress": "Adressen",
+      "Account_DuplicateBaseRecord": "Doppelte Datensätze (Account_DuplicateBaseRecord)",
+      "Account_DuplicateMatchingRecord": "Doppelte Datensätze (Account_DuplicateMatchingRecord)",
+      "Account_Email_EmailSender": "E-Mail-Nachrichten (Account_Email_EmailSender)",
+      "Account_Email_SendersAccount": "E-Mail-Nachrichten (Account_Email_SendersAccount)",
+      "Account_Emails": "E-Mail-Nachrichten (Account_Emails)",
+      "Account_Faxes": "Faxe",
+      "Account_Letters": "Briefe",
+      "Account_MailboxTrackingFolder": "Automatisch nachverfolgte Postfachordner",
+      "account_master_account": "Firmen (account_master_account)",
+      "account_parent_account": "Firmen (account_parent_account)",
+      "Account_Phonecalls": "Telefonanrufe",
+      "account_PostFollows": "Folgt",
+      "account_PostRegardings": "Nachrichtenbezug",
+      "account_principalobjectattributeaccess": "Sicherer Feldzugriff",
+      "Account_ProcessSessions": "Prozesssitzungen",
+      "Account_RecurringAppointmentMasters": "Terminserie",
+      "Account_SharepointDocumentLocation": "Dokumentorte",
+      "Account_SyncErrors": "Synchronisierungsfehler",
+      "Account_Tasks": "Aufgaben",
+      "accountcategorycode": "Kategorie",
+      "accountclassificationcode": "Klassifikation",
+      "accountid": "Firma",
+      "accountnumber": "Firmennummer",
+      "accountratingcode": "Firmenbewertung",
+      "address1_addresstypecode": "Adresse 1: Adresstyp",
+      "address1_city": "Adresse 1: Ort",
+      "address1_composite": "Adresse\u00A01",
+      "address1_country": "Adresse 1: Land/Region",
+      "address1_county": "Adresse 1: Verwaltungsbezirk",
+      "address1_fax": "Adresse 1: Fax",
+      "address1_freighttermscode": "Adresse 1: Lieferbedingungen",
+      "address1_latitude": "Adresse 1: Breite",
+      "address1_line1": "Adresse 1: Straße 1",
+      "address1_line2": "Adresse 1: Straße 2",
+      "address1_line3": "Adresse 1: Straße 3",
+      "address1_longitude": "Adresse 1: Länge",
+      "address1_name": "Adresse 1: Name",
+      "address1_postalcode": "Adresse 1: Postleitzahl",
+      "address1_postofficebox": "Adresse 1: Postfach",
+      "address1_primarycontactname": "Adresse 1: Name des primären Kontakts",
+      "address1_shippingmethodcode": "Adresse 1: Versandmethode",
+      "address1_stateorprovince": "Adresse 1: Bundesland/Kanton",
+      "address1_telephone1": "Adresse 1: Telefon 1",
+      "address1_telephone2": "Adresse 1: Telefon 2",
+      "address1_telephone3": "Adresse 1: Telefon 3",
+      "address1_upszone": "Adresse 1: UPS-Zone",
+      "address1_utcoffset": "Adresse 1: UTC-Offset",
+      "address2_addresstypecode": "Adresse 2: Adresstyp",
+      "address2_city": "Adresse 2: Ort",
+      "address2_composite": "Adresse\u00A02",
+      "address2_country": "Adresse 2: Land/Region",
+      "address2_county": "Adresse 2: Verwaltungsbezirk",
+      "address2_fax": "Adresse 2: Fax",
+      "address2_freighttermscode": "Adresse 2: Lieferbedingungen",
+      "address2_latitude": "Adresse 2: Breite",
+      "address2_line1": "Adresse 2: Straße 1",
+      "address2_line2": "Adresse 2: Straße 2",
+      "address2_line3": "Adresse 2: Straße 3",
+      "address2_longitude": "Adresse 2: Länge",
+      "address2_name": "Adresse 2: Name",
+      "address2_postalcode": "Adresse 2: Postleitzahl",
+      "address2_postofficebox": "Adresse 2: Postfach",
+      "address2_primarycontactname": "Adresse 2: Name des primären Kontakts",
+      "address2_shippingmethodcode": "Adresse 2: Versandmethode",
+      "address2_stateorprovince": "Adresse 2: Bundesland/Kanton",
+      "address2_telephone1": "Adresse 2: Telefon 1",
+      "address2_telephone2": "Adresse 2: Telefon 2",
+      "address2_telephone3": "Adresse 2: Telefon 3",
+      "address2_upszone": "Adresse 2: UPS-Zone",
+      "address2_utcoffset": "Adresse 2: UTC-Offset",
+      "aging30": "Fälligkeit: 30",
+      "aging30_base": "Fälligkeit: 30 (Basis)",
+      "aging60": "Fälligkeit: 60",
+      "aging60_base": "Fälligkeit: 60 (Basis)",
+      "aging90": "Fälligkeit: 90",
+      "aging90_base": "Fälligkeit: 90 (Basis)",
+      "businesstypecode": "Unternehmenstyp",
+      "contact_customer_accounts": "Kontakte",
+      "createdby": "Erstellt von",
+      "createdon": "Erstellt am",
+      "createdonbehalfby": "Erstellt von (Stellvertreter)",
+      "creditlimit": "Kreditlimit",
+      "creditlimit_base": "Kreditlimit (Basis)",
+      "creditonhold": "Kreditsperre",
+      "customersizecode": "Kundengröße",
+      "customertypecode": "Geschäftsbeziehungstyp",
+      "description": "Beschreibung",
+      "donotbulkemail": "Massen-E-Mails nicht zulassen",
+      "donotbulkpostalmail": "Massensendungen nicht zulassen",
+      "donotemail": "E-Mails nicht zulassen",
+      "donotfax": "Faxe nicht zulassen",
+      "donotphone": "Telefonanrufe nicht zulassen",
+      "donotpostalmail": "Post nicht zulassen",
+      "donotsendmm": "Marketingmaterial senden",
+      "emailaddress1": "E-Mail",
+      "emailaddress2": "E-Mail-Adresse 2",
+      "emailaddress3": "E-Mail-Adresse 3",
+      "entityimage": "Standardbild",
+      "entityimageid": "Bild-ID der Entität",
+      "exchangerate": "Wechselkurs",
+      "fax": "Fax",
+      "followemail": "E-Mail-Aktivität folgen",
+      "ftpsiteurl": "FTP-Site",
+      "importsequencenumber": "Importsequenznummer",
+      "industrycode": "Branche",
+      "lastonholdtime": "Letzte Zeit der Zurückstellung",
+      "lastusedincampaign": "Letztes Datum in Kampagne",
+      "marketcap": "Marktkapitalisierung",
+      "marketcap_base": "Marktkapitalisierung (Basis)",
+      "marketingonly": "Nur Marketing",
+      "masterid": "Master-ID",
+      "merged": "Zusammengeführt",
+      "modifiedby": "Geändert von",
+      "modifiedon": "Geändert am",
+      "modifiedonbehalfby": "Geändert von (Stellvertreter)",
+      "name": "Firmenname",
+      "numberofemployees": "Anzahl der Mitarbeiter",
+      "onholdtime": "Zeit der Zurückstellung (Minuten)",
+      "overriddencreatedon": "Datensatz erstellt am",
+      "ownershipcode": "Besitz",
+      "owningbusinessunit": "Besitzer (Unternehmenseinheit)",
+      "owningteam": "Besitzer (Team)",
+      "owninguser": "Besitzer (Benutzer)",
+      "parentaccountid": "Übergeordnete Firma",
+      "participatesinworkflow": "Nimmt an Workflow teil",
+      "paymenttermscode": "Zahlungsbedingungen",
+      "preferredappointmentdaycode": "Bevorzugter Tag",
+      "preferredappointmenttimecode": "Bevorzugte Zeit",
+      "preferredcontactmethodcode": "Bevorzugte Kontaktmethode",
+      "preferredsystemuserid": "Bevorzugter Benutzer",
+      "primarycontactid": "Primärer Kontakt",
+      "primarysatoriid": "Primäre Satori-ID",
+      "primarytwitterid": "Primäre Twitter-ID",
+      "processid": "Prozess",
+      "revenue": "Jahresumsatz",
+      "revenue_base": "Jahresumsatz (Basis)",
+      "sharesoutstanding": "Ausgegebene Aktien",
+      "shippingmethodcode": "Versandmethode",
+      "sic": "NACE-Code",
+      "stageid": "(Veraltet) Prozessphase",
+      "statecode": "Status",
+      "statuscode": "Statusgrund",
+      "stockexchange": "Börse",
+      "telephone1": "Telefon 1",
+      "telephone2": "Telefon 2",
+      "telephone3": "Telefon 3",
+      "territorycode": "Gebietscode",
+      "tickersymbol": "Börsenkürzel",
+      "timespentbymeonemailandmeetings": "Von mir aufgewendete Zeit",
+      "timezoneruleversionnumber": "Versionsnummer der Zeitzonenregel",
+      "transactioncurrencyid": "Währung",
+      "traversedpath": "(Veraltet) Durchlaufener Pfad",
+      "utcconversiontimezonecode": "Zeitzonencode für die UTC-Konvertierung",
+      "versionnumber": "Versionsnummer",
+      "websiteurl": "Website",
+      "yominame": "Yom - Firmenname"
+    },
+    "PreferredName": "Firmen",
+    "Type": "NativeCDSDataSourceInfo"
+  },
+  {
+    "DisplayName": "Firmen (Ansichten)",
+    "Name": "_account_views",
+    "RelatedEntityName": "Firmen",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "00000000-0000-0000-00aa-000000666000": "Ansicht für die erweiterte Suche: Firma",
+      "00000000-0000-0000-00aa-000010001001": "Meine aktiven Firmen",
+      "00000000-0000-0000-00aa-000010001002": "Aktive Firmen",
+      "00000000-0000-0000-00aa-000010001031": "Inaktive Firmen",
+      "00000000-0000-0000-00aa-000010001200": "Zugeordnete Ansicht: Firmen",
+      "15c63745-0a6e-4322-8416-a62c84d90279": "Firmen: Beeinflusste von uns gewonnene Geschäfte",
+      "49fb9771-09e1-4e70-b193-198752493577": "Firmen: Reaktion auf Kampagnen in den letzten 6 Mon.",
+      "65ffaf9a-e8c5-432d-860b-32f841b00d87": "Alle Firmen",
+      "a9af0ab8-861d-4cfa-92a5-c6281fed7fab": "Suchansicht: Firma",
+      "cfbcd7af-aee5-4e45-8ecc-c040d4020581": "Firmen: Keine Kampagnenaktivitäten in den letzten 3 Mon.",
+      "d234426e-1f37-4944-9255-50e19b541c4c": "Meine Verbindungen"
+    }
+  },
+  {
+    "DisplayName": "Kategorie (Firmen)",
+    "Name": "account_accountcategorycode",
+    "OptionSetInfoNameMapping": {
+      "1": "Bevorzugter Kunde",
+      "2": "Standard"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "accountcategorycode",
+        "OptionSetReferenceEntityName": "Firmen"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "accountcategorycode",
+    "RelatedEntityName": "Firmen",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Klassifikation (Firmen)",
+    "Name": "account_accountclassificationcode",
+    "OptionSetInfoNameMapping": {
+      "1": "Standardwert"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "accountclassificationcode",
+        "OptionSetReferenceEntityName": "Firmen"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "accountclassificationcode",
+    "RelatedEntityName": "Firmen",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Firmenbewertung (Firmen)",
+    "Name": "account_accountratingcode",
+    "OptionSetInfoNameMapping": {
+      "1": "Standardwert"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "accountratingcode",
+        "OptionSetReferenceEntityName": "Firmen"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "accountratingcode",
+    "RelatedEntityName": "Firmen",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Adresse 1: Adresstyp (Firmen)",
+    "Name": "account_address1_addresstypecode",
+    "OptionSetInfoNameMapping": {
+      "1": "Rechnungsadresse",
+      "2": "Lieferadresse",
+      "3": "Primär",
+      "4": "Sonstiges"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "address1_addresstypecode",
+        "OptionSetReferenceEntityName": "Firmen"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "address1_addresstypecode",
+    "RelatedEntityName": "Firmen",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Adresse 1: Lieferbedingungen (Firmen)",
+    "Name": "account_address1_freighttermscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Frei an Bord",
+      "21": "Abholung",
+      "3": "Kosten und Fracht"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "address1_freighttermscode",
+        "OptionSetReferenceEntityName": "Firmen"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "address1_freighttermscode",
+    "RelatedEntityName": "Firmen",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Adresse 1: Versandmethode (Firmen)",
+    "Name": "account_address1_shippingmethodcode",
+    "OptionSetInfoNameMapping": {
+      "13": "Deutsche Post",
+      "14": "DPD",
+      "2": "DHL",
+      "3": "FedEx",
+      "4": "UPS",
+      "5": "Postal Mail",
+      "7": "Selbstabholer"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "address1_shippingmethodcode",
+        "OptionSetReferenceEntityName": "Firmen"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "address1_shippingmethodcode",
+    "RelatedEntityName": "Firmen",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Adresse 2: Adresstyp (Firmen)",
+    "Name": "account_address2_addresstypecode",
+    "OptionSetInfoNameMapping": {
+      "1": "Standardwert"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "address2_addresstypecode",
+        "OptionSetReferenceEntityName": "Firmen"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "address2_addresstypecode",
+    "RelatedEntityName": "Firmen",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Adresse 2: Lieferbedingungen (Firmen)",
+    "Name": "account_address2_freighttermscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Standardwert"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "address2_freighttermscode",
+        "OptionSetReferenceEntityName": "Firmen"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "address2_freighttermscode",
+    "RelatedEntityName": "Firmen",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Adresse 2: Versandmethode (Firmen)",
+    "Name": "account_address2_shippingmethodcode",
+    "OptionSetInfoNameMapping": {
+      "1": "Standardwert"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "address2_shippingmethodcode",
+        "OptionSetReferenceEntityName": "Firmen"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "address2_shippingmethodcode",
+    "RelatedEntityName": "Firmen",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Unternehmenstyp (Firmen)",
+    "Name": "account_businesstypecode",
+    "OptionSetInfoNameMapping": {
+      "1": "Standardwert"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "businesstypecode",
+        "OptionSetReferenceEntityName": "Firmen"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "businesstypecode",
+    "RelatedEntityName": "Firmen",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Kreditsperre (Firmen)",
+    "Name": "account_creditonhold",
+    "OptionSetInfoNameMapping": {
+      "0": "Nein",
+      "1": "Ja"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "creditonhold",
+        "OptionSetReferenceEntityName": "Firmen"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "creditonhold",
+    "RelatedEntityName": "Firmen",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Kundengröße (Firmen)",
+    "Name": "account_customersizecode",
+    "OptionSetInfoNameMapping": {
+      "1": "Standardwert"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "customersizecode",
+        "OptionSetReferenceEntityName": "Firmen"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "customersizecode",
+    "RelatedEntityName": "Firmen",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Geschäftsbeziehungstyp (Firmen)",
+    "Name": "account_customertypecode",
+    "OptionSetInfoNameMapping": {
+      "1": "Mitbewerber",
+      "10": "Lieferant",
+      "11": "Hersteller",
+      "12": "Sonstiges",
+      "2": "Berater",
+      "3": "Kunde",
+      "4": "Investor",
+      "5": "Partner",
+      "6": "Schlüsselperson",
+      "7": "Presse",
+      "8": "Interessent",
+      "9": "Wiederverkäufer"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "customertypecode",
+        "OptionSetReferenceEntityName": "Firmen"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "customertypecode",
+    "RelatedEntityName": "Firmen",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Massen-E-Mails nicht zulassen (Firmen)",
+    "Name": "account_donotbulkemail",
+    "OptionSetInfoNameMapping": {
+      "0": "Zulassen",
+      "1": "Nicht zulassen"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "donotbulkemail",
+        "OptionSetReferenceEntityName": "Firmen"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "donotbulkemail",
+    "RelatedEntityName": "Firmen",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Massensendungen nicht zulassen (Firmen)",
+    "Name": "account_donotbulkpostalmail",
+    "OptionSetInfoNameMapping": {
+      "0": "Nein",
+      "1": "Ja"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "donotbulkpostalmail",
+        "OptionSetReferenceEntityName": "Firmen"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "donotbulkpostalmail",
+    "RelatedEntityName": "Firmen",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "E-Mails nicht zulassen (Firmen)",
+    "Name": "account_donotemail",
+    "OptionSetInfoNameMapping": {
+      "0": "Zulassen",
+      "1": "Nicht zulassen"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "donotemail",
+        "OptionSetReferenceEntityName": "Firmen"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "donotemail",
+    "RelatedEntityName": "Firmen",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Faxe nicht zulassen (Firmen)",
+    "Name": "account_donotfax",
+    "OptionSetInfoNameMapping": {
+      "0": "Zulassen",
+      "1": "Nicht zulassen"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "donotfax",
+        "OptionSetReferenceEntityName": "Firmen"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "donotfax",
+    "RelatedEntityName": "Firmen",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Telefonanrufe nicht zulassen (Firmen)",
+    "Name": "account_donotphone",
+    "OptionSetInfoNameMapping": {
+      "0": "Zulassen",
+      "1": "Nicht zulassen"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "donotphone",
+        "OptionSetReferenceEntityName": "Firmen"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "donotphone",
+    "RelatedEntityName": "Firmen",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Post nicht zulassen (Firmen)",
+    "Name": "account_donotpostalmail",
+    "OptionSetInfoNameMapping": {
+      "0": "Zulassen",
+      "1": "Nicht zulassen"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "donotpostalmail",
+        "OptionSetReferenceEntityName": "Firmen"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "donotpostalmail",
+    "RelatedEntityName": "Firmen",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Marketingmaterial senden (Firmen)",
+    "Name": "account_donotsendmm",
+    "OptionSetInfoNameMapping": {
+      "0": "Senden",
+      "1": "Nicht senden"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "donotsendmm",
+        "OptionSetReferenceEntityName": "Firmen"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "donotsendmm",
+    "RelatedEntityName": "Firmen",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "E-Mail-Aktivität folgen (Firmen)",
+    "Name": "account_followemail",
+    "OptionSetInfoNameMapping": {
+      "0": "Nicht zulassen",
+      "1": "Zulassen"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "followemail",
+        "OptionSetReferenceEntityName": "Firmen"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "followemail",
+    "RelatedEntityName": "Firmen",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Branche (Firmen)",
+    "Name": "account_industrycode",
+    "OptionSetInfoNameMapping": {
+      "33": "Großhandel",
+      "44": "Chemische Industrie",
+      "47": "Services",
+      "53": "Baugewerbe",
+      "60": "Verarbeitendes Gewerbe",
+      "72": "Einzelhandel",
+      "73": "Herstellung technischer Geräte und Anlagen",
+      "74": "IT-Industrie",
+      "75": "Metallindustrie, Maschinen- und Fahrzeugbau",
+      "76": "Nahrungs- und Genussmittel",
+      "77": "Ver- und Entsorgung"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "industrycode",
+        "OptionSetReferenceEntityName": "Firmen"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "industrycode",
+    "RelatedEntityName": "Firmen",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "IsPrivate (Firmen)",
+    "Name": "account_isprivate",
+    "OptionSetInfoNameMapping": {
+      "0": "Nein",
+      "1": "Ja"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "isprivate",
+        "OptionSetReferenceEntityName": "Firmen"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "isprivate",
+    "RelatedEntityName": "Firmen",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Nur Marketing (Firmen)",
+    "Name": "account_marketingonly",
+    "OptionSetInfoNameMapping": {
+      "0": "Nein",
+      "1": "Ja"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "marketingonly",
+        "OptionSetReferenceEntityName": "Firmen"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "marketingonly",
+    "RelatedEntityName": "Firmen",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Zusammengeführt (Firmen)",
+    "Name": "account_merged",
+    "OptionSetInfoNameMapping": {
+      "0": "Nein",
+      "1": "Ja"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "merged",
+        "OptionSetReferenceEntityName": "Firmen"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "merged",
+    "RelatedEntityName": "Firmen",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Besitz (Firmen)",
+    "Name": "account_ownershipcode",
+    "OptionSetInfoNameMapping": {
+      "1": "Öffentlich",
+      "2": "Privat",
+      "3": "Niederlassung",
+      "4": "Sonstiges"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "ownershipcode",
+        "OptionSetReferenceEntityName": "Firmen"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "ownershipcode",
+    "RelatedEntityName": "Firmen",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Nimmt an Workflow teil (Firmen)",
+    "Name": "account_participatesinworkflow",
+    "OptionSetInfoNameMapping": {
+      "0": "Nein",
+      "1": "Ja"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "participatesinworkflow",
+        "OptionSetReferenceEntityName": "Firmen"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "participatesinworkflow",
+    "RelatedEntityName": "Firmen",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Zahlungsbedingungen (Firmen)",
+    "Name": "account_paymenttermscode",
+    "OptionSetInfoNameMapping": {
+      "2": "10 Tage 2%, 30 Tage netto",
+      "5": "7 Tage netto",
+      "7": "14 Tage netto",
+      "8": "21 Tage netto"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "paymenttermscode",
+        "OptionSetReferenceEntityName": "Firmen"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "paymenttermscode",
+    "RelatedEntityName": "Firmen",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Bevorzugter Tag (Firmen)",
+    "Name": "account_preferredappointmentdaycode",
+    "OptionSetInfoNameMapping": {
+      "0": "Sonntag",
+      "1": "Montag",
+      "2": "Dienstag",
+      "3": "Mittwoch",
+      "4": "Donnerstag",
+      "5": "Freitag",
+      "6": "Samstag"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "preferredappointmentdaycode",
+        "OptionSetReferenceEntityName": "Firmen"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "preferredappointmentdaycode",
+    "RelatedEntityName": "Firmen",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Bevorzugte Zeit (Firmen)",
+    "Name": "account_preferredappointmenttimecode",
+    "OptionSetInfoNameMapping": {
+      "1": "Morgens",
+      "2": "Nachmittags",
+      "3": "Abends"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "preferredappointmenttimecode",
+        "OptionSetReferenceEntityName": "Firmen"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "preferredappointmenttimecode",
+    "RelatedEntityName": "Firmen",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Bevorzugte Kontaktmethode (Firmen)",
+    "Name": "account_preferredcontactmethodcode",
+    "OptionSetInfoNameMapping": {
+      "1": "Beliebig",
+      "2": "E-Mail",
+      "3": "Telefon",
+      "4": "Fax",
+      "5": "Post"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "preferredcontactmethodcode",
+        "OptionSetReferenceEntityName": "Firmen"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "preferredcontactmethodcode",
+    "RelatedEntityName": "Firmen",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Versandmethode (Firmen)",
+    "Name": "account_shippingmethodcode",
+    "OptionSetInfoNameMapping": {
+      "1": "Standardwert"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "shippingmethodcode",
+        "OptionSetReferenceEntityName": "Firmen"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "shippingmethodcode",
+    "RelatedEntityName": "Firmen",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Status (Firmen)",
+    "Name": "account_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Aktiv",
+      "1": "Inaktiv"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "Firmen"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "Firmen",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Statusgrund (Firmen)",
+    "Name": "account_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Aktiv",
+      "2": "Inaktiv"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "Firmen"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "Firmen",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Gebietscode (Firmen)",
+    "Name": "account_territorycode",
+    "OptionSetInfoNameMapping": {
+      "1": "Standardwert"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "territorycode",
+        "OptionSetReferenceEntityName": "Firmen"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "territorycode",
+    "RelatedEntityName": "Firmen",
+    "Type": "OptionSetInfo"
+  }
+]
