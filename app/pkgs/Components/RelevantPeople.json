@@ -34,7 +34,7 @@
             "Name": "galleryTemplate4_1",
             "Parent": "People",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 43,
+            "PublishOrderIndex": 144,
             "Rules": [
               {
                 "Category": "Design",
@@ -105,7 +105,7 @@
             "Name": "Circle1",
             "Parent": "People",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 44,
+            "PublishOrderIndex": 145,
             "Rules": [
               {
                 "Category": "Design",
@@ -293,7 +293,7 @@
             "Name": "Label3_2",
             "Parent": "People",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 45,
+            "PublishOrderIndex": 146,
             "Rules": [
               {
                 "Category": "Data",
@@ -640,7 +640,7 @@
             "Name": "TeamName_1",
             "Parent": "People",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 46,
+            "PublishOrderIndex": 147,
             "Rules": [
               {
                 "Category": "Data",
@@ -923,7 +923,7 @@
         "Name": "People",
         "Parent": "RelevantPeople",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 42,
+        "PublishOrderIndex": 143,
         "Rules": [
           {
             "Category": "Data",

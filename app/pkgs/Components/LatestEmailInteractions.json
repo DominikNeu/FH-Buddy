@@ -26,7 +26,7 @@
             "Name": "galleryTemplate1_1",
             "Parent": "EMailGallery",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 26,
+            "PublishOrderIndex": 127,
             "Rules": [
               {
                 "Category": "Design",
@@ -133,7 +133,7 @@
             "Name": "Subject",
             "Parent": "EMailGallery",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 27,
+            "PublishOrderIndex": 128,
             "Rules": [
               {
                 "Category": "Data",
@@ -466,7 +466,7 @@
             "Name": "Image",
             "Parent": "EMailGallery",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 28,
+            "PublishOrderIndex": 129,
             "Rules": [
               {
                 "Category": "Data",
@@ -745,7 +745,7 @@
             "Name": "From",
             "Parent": "EMailGallery",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 29,
+            "PublishOrderIndex": 130,
             "Rules": [
               {
                 "Category": "Data",
@@ -1060,7 +1060,7 @@
             "Name": "Date",
             "Parent": "EMailGallery",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 30,
+            "PublishOrderIndex": 131,
             "Rules": [
               {
                 "Category": "Data",
@@ -1352,7 +1352,7 @@
             "Name": "Separator1",
             "Parent": "EMailGallery",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 31,
+            "PublishOrderIndex": 132,
             "Rules": [
               {
                 "Category": "Design",
@@ -1508,7 +1508,7 @@
         "Name": "EMailGallery",
         "Parent": "LatestEmailInteractions",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 25,
+        "PublishOrderIndex": 126,
         "Rules": [
           {
             "Category": "Data",

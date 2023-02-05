@@ -37,7 +37,7 @@
         "Name": "NavBarBG",
         "Parent": "Komp_NavigationBar",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 161,
+        "PublishOrderIndex": 162,
         "Rules": [
           {
             "Category": "Design",
@@ -202,7 +202,7 @@
         "Name": "HomeScreen",
         "Parent": "Komp_NavigationBar",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 162,
+        "PublishOrderIndex": 163,
         "Rules": [
           {
             "Category": "Design",
@@ -421,7 +421,7 @@
         "Name": "Checkin",
         "Parent": "Komp_NavigationBar",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 163,
+        "PublishOrderIndex": 164,
         "Rules": [
           {
             "Category": "Design",
@@ -640,7 +640,7 @@
         "Name": "Dokumente",
         "Parent": "Komp_NavigationBar",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 164,
+        "PublishOrderIndex": 165,
         "Rules": [
           {
             "Category": "Design",
@@ -859,7 +859,7 @@
         "Name": "Krankheit",
         "Parent": "Komp_NavigationBar",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 165,
+        "PublishOrderIndex": 166,
         "Rules": [
           {
             "Category": "Design",
@@ -1070,7 +1070,7 @@
         "Name": "Support",
         "Parent": "Komp_NavigationBar",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 166,
+        "PublishOrderIndex": 167,
         "Rules": [
           {
             "Category": "Design",
