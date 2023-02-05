@@ -1,4 +1,4 @@
-Component3 As CanvasComponent:
+Komp_Krankheitsliste As CanvasComponent:
     Fill: =RGBA(0, 0, 0, 0)
     Height: =640
     Width: =640
@@ -7,6 +7,7 @@ Component3 As CanvasComponent:
     ZIndex: =1
 
     "Gallery2 As gallery.'BrowseLayout_Vertical_TwoTextOneImageVariant_ver4.0'":
+        BorderColor: =RGBA(0, 18, 107, 1)
         Items: =test
         Layout: =Layout.Vertical
         TemplatePadding: =0
@@ -15,6 +16,9 @@ Component3 As CanvasComponent:
         ZIndex: =1
 
         Image3 As image:
+            BorderColor: =RGBA(0, 18, 107, 1)
+            DisabledBorderColor: =RGBA(166, 166, 166, 1)
+            DisabledFill: =RGBA(244, 244, 244, 1)
             Height: =128
             OnSelect: =Select(Parent)
             Width: =128
@@ -23,12 +27,16 @@ Component3 As CanvasComponent:
             ZIndex: =1
 
         Title3 As label:
+            Color: =RGBA(0, 0, 0, 1)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            FontWeight: =FontWeight.Semibold
             Height: =Self.Size * 1.8
             OnSelect: =Select(Parent)
             PaddingBottom: =0
             PaddingLeft: =0
             PaddingRight: =0
             PaddingTop: =0
+            Size: =20
             Text: =ThisItem.Name
             VerticalAlign: =VerticalAlign.Top
             Width: =Parent.TemplateWidth - Image3.Width - 104
@@ -37,12 +45,15 @@ Component3 As CanvasComponent:
             ZIndex: =2
 
         Subtitle3 As label:
+            Color: =RGBA(0, 0, 0, 1)
+            DisabledColor: =RGBA(166, 166, 166, 1)
             Height: =Self.Size * 1.8
             OnSelect: =Select(Parent)
             PaddingBottom: =0
             PaddingLeft: =0
             PaddingRight: =0
             PaddingTop: =0
+            Size: =18
             Text: =ThisItem.'Erstellt am'
             VerticalAlign: =VerticalAlign.Top
             Width: =Title3.Width
@@ -52,6 +63,10 @@ Component3 As CanvasComponent:
 
         NextArrow3 As icon.ChevronRight:
             AccessibleLabel: =Self.Tooltip
+            BorderColor: =RGBA(0, 18, 107, 1)
+            Color: =RGBA(0, 18, 107, 1)
+            DisabledBorderColor: =RGBA(166, 166, 166, 1)
+            DisabledColor: =RGBA(244, 244, 244, 1)
             Height: =60
             Icon: =Icon.ChevronRight
             OnSelect: =Select(Parent)
@@ -67,6 +82,8 @@ Component3 As CanvasComponent:
             ZIndex: =4
 
         Separator2 As rectangle:
+            BorderColor: =RGBA(0, 18, 107, 1)
+            Fill: =RGBA(0, 18, 107, 1)
             Height: =1
             OnSelect: =Select(Parent)
             Width: =Parent.TemplateWidth

@@ -14,19 +14,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Component1.TextInput1.AccessibleLabel"
+                  "fullyQualifiedName": "Komp_Krankheitsformular.TextInput1.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Component1.TextInput1.AccessibleLabel",
+                  "fullyQualifiedName": "Komp_Krankheitsformular.TextInput1.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Component1",
-                "type": "Component1.TextInput1"
+                "module": "Komp_Krankheitsformular",
+                "type": "Komp_Krankheitsformular.TextInput1"
               }
             }
           ],
@@ -44,19 +44,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Component3.Gallery2.AccessibleLabel"
+                  "fullyQualifiedName": "Komp_Krankheitsliste.Gallery2.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Component3.Gallery2.AccessibleLabel",
+                  "fullyQualifiedName": "Komp_Krankheitsliste.Gallery2.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Component3",
-                "type": "Component3.Gallery2"
+                "module": "Komp_Krankheitsliste",
+                "type": "Komp_Krankheitsliste.Gallery2"
               }
             }
           ],
@@ -74,19 +74,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Component3.Gallery2.TabIndex"
+                  "fullyQualifiedName": "Komp_Krankheitsliste.Gallery2.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Component3.Gallery2.TabIndex",
+                  "fullyQualifiedName": "Komp_Krankheitsliste.Gallery2.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
-                "module": "Component3",
-                "type": "Component3.Gallery2"
+                "module": "Komp_Krankheitsliste",
+                "type": "Komp_Krankheitsliste.Gallery2"
               }
             }
           ],

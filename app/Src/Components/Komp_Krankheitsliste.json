@@ -8,7 +8,7 @@
     "AllowAccessToGlobals": true,
     "AllowCustomization": true,
     "Description": "test",
-    "Name": "Component3",
+    "Name": "Komp_Krankheitsliste",
     "TemplateGuid": "0c81686236a64bf295d3b6b573f50a47"
   },
   "ComponentType": "CanvasComponent",
@@ -22,7 +22,7 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "638112007412628717",
+  "LastModifiedTimestamp": "638112016405456235",
   "Name": "0c81686236a64bf295d3b6b573f50a47",
   "OverridableProperties": {},
   "Version": "638043664922333919"

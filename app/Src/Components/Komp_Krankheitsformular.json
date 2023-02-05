@@ -5,7 +5,7 @@
     "AllowAccessToGlobals": false,
     "AllowCustomization": true,
     "Description": "",
-    "Name": "Component1",
+    "Name": "Komp_Krankheitsformular",
     "TemplateGuid": "ff3b45b8d5b349de9ad2b6fc61327cff"
   },
   "ComponentType": "CanvasComponent",
@@ -19,7 +19,7 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "638112007412538164",
+  "LastModifiedTimestamp": "638112016261945786",
   "Name": "ff3b45b8d5b349de9ad2b6fc61327cff",
   "OverridableProperties": {},
   "Version": "638025553428951662"

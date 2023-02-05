@@ -95,9 +95,9 @@
     "DocumentType": "App",
     "EnableInstrumentation": false,
     "FileID": "477dafb9-b09c-462f-a01a-0ba262983d84",
-    "Id": "c9dcdf7c-ba11-4c1a-9902-33a1d726cb9a",
+    "Id": "78e38ada-8d8a-4c22-9de9-33fdb15d3dbf",
     "InstrumentationKey": "",
-    "Name": "FH Buddy",
+    "Name": "FH+Buddy.msapp",
     "OriginatingVersion": "1.326"
   },
   "PublishInfo": {
@@ -115,6 +115,7 @@
     "Krankheitsfaelle",
     "Krankheitsformular",
     "Krankheitsformular_Ansicht",
-    "Erfolgreich abgeschlossen"
+    "Erfolgreich abgeschlossen",
+    "Home"
   ]
 }
