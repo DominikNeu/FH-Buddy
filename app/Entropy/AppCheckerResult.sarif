@@ -854,49 +854,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Home.Icon3.AccessibleLabel"
+                  "fullyQualifiedName": "Komp_NavigationBar.Dokumente.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Home.Icon3.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Home",
-                "type": "Home.Icon3"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Home.Icon3.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Home.Icon3.TabIndex",
+                  "fullyQualifiedName": "Komp_NavigationBar.Dokumente.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
-                "module": "Home",
-                "type": "Home.Icon3"
+                "module": "Komp_NavigationBar",
+                "type": "Komp_NavigationBar.Dokumente"
               }
             }
           ],
@@ -914,19 +884,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Home.Icon6.AccessibleLabel"
+                  "fullyQualifiedName": "Komp_NavigationBar.Dokumente.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Home.Icon6.AccessibleLabel",
+                  "fullyQualifiedName": "Komp_NavigationBar.Dokumente.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Home",
-                "type": "Home.Icon6"
+                "module": "Komp_NavigationBar",
+                "type": "Komp_NavigationBar.Dokumente"
               }
             }
           ],
@@ -944,19 +914,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Home.Icon6.TabIndex"
+                  "fullyQualifiedName": "Komp_NavigationBar.HomeScreen.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Home.Icon6.TabIndex",
+                  "fullyQualifiedName": "Komp_NavigationBar.HomeScreen.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
-                "module": "Home",
-                "type": "Home.Icon6"
+                "module": "Komp_NavigationBar",
+                "type": "Komp_NavigationBar.HomeScreen"
               }
             }
           ],
@@ -968,6 +938,36 @@
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
           "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Komp_NavigationBar.HomeScreen.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Komp_NavigationBar.HomeScreen.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Komp_NavigationBar",
+                "type": "Komp_NavigationBar.HomeScreen"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
         },
         {
           "locations": [
