@@ -120,7 +120,7 @@
         "Name": "LoadCalendarItems",
         "Parent": "MyDay",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 105,
+        "PublishOrderIndex": 111,
         "Rules": [
           {
             "Category": "Data",
@@ -371,7 +371,7 @@
             "Name": "galleryTemplate3_1",
             "Parent": "CalenderItems",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 107,
+            "PublishOrderIndex": 113,
             "Rules": [
               {
                 "Category": "Design",
@@ -503,7 +503,7 @@
             "Name": "date",
             "Parent": "CalenderItems",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 108,
+            "PublishOrderIndex": 114,
             "Rules": [
               {
                 "Category": "Data",
@@ -810,7 +810,7 @@
             "Name": "BG",
             "Parent": "CalenderItems",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 109,
+            "PublishOrderIndex": 115,
             "Rules": [
               {
                 "Category": "Design",
@@ -1041,7 +1041,7 @@
             "Name": "Title",
             "Parent": "CalenderItems",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 110,
+            "PublishOrderIndex": 116,
             "Rules": [
               {
                 "Category": "Data",
@@ -1380,7 +1380,7 @@
             "Name": "place",
             "Parent": "CalenderItems",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 112,
+            "PublishOrderIndex": 118,
             "Rules": [
               {
                 "Category": "Data",
@@ -1725,7 +1725,7 @@
             "Name": "Time",
             "Parent": "CalenderItems",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 113,
+            "PublishOrderIndex": 119,
             "Rules": [
               {
                 "Category": "Data",
@@ -2092,7 +2092,7 @@
             "Name": "Time_until",
             "Parent": "CalenderItems",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 114,
+            "PublishOrderIndex": 120,
             "Rules": [
               {
                 "Category": "Data",
@@ -2362,7 +2362,7 @@
             "Name": "Content",
             "Parent": "CalenderItems",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 111,
+            "PublishOrderIndex": 117,
             "Rules": [
               {
                 "Category": "Design",
@@ -2517,7 +2517,7 @@
         "Name": "CalenderItems",
         "Parent": "MyDay",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 106,
+        "PublishOrderIndex": 112,
         "Rules": [
           {
             "Category": "Data",
@@ -2820,7 +2820,7 @@
         "Name": "date_Default",
         "Parent": "MyDay",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 115,
+        "PublishOrderIndex": 121,
         "Rules": [
           {
             "Category": "Data",
@@ -3148,7 +3148,7 @@
         "Name": "BG_Default",
         "Parent": "MyDay",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 117,
+        "PublishOrderIndex": 122,
         "Rules": [
           {
             "Category": "Design",
@@ -3400,7 +3400,7 @@
         "Name": "Title_Default",
         "Parent": "MyDay",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 118,
+        "PublishOrderIndex": 123,
         "Rules": [
           {
             "Category": "Data",
@@ -3706,7 +3706,7 @@
         "Name": "Smily_Default",
         "Parent": "MyDay",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 119,
+        "PublishOrderIndex": 125,
         "Rules": [
           {
             "Category": "Design",
@@ -3904,7 +3904,7 @@
         "Name": "DefaultContent",
         "Parent": "MyDay",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 116,
+        "PublishOrderIndex": 124,
         "Rules": [
           {
             "Category": "Design",
