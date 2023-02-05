@@ -62,7 +62,7 @@ Weather As CanvasComponent:
         DisplayMode: =DisplayMode.View
         Font: =Font.Arial
         Height: =58
-        Size: =30
+        Size: =26
         Text: =If(!IsBlank(_weather),_weather.responses.weather.current.temp & "°", Text("--"))
         Width: =66
         X: =74
