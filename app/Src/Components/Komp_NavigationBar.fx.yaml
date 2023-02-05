@@ -1,6 +1,6 @@
 Komp_NavigationBar As CanvasComponent:
     Fill: =RGBA(0, 0, 0, 0)
-    Height: =640
+    Height: =100
     Width: =640
     X: =0
     Y: =0

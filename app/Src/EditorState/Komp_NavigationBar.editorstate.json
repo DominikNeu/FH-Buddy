@@ -528,7 +528,14 @@
       "AllowAccessToGlobals": true,
       "ControlPropertyState": [
         "Fill",
-        "Height",
+        {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "",
+          "InvariantPropertyName": "Height",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
+        },
         "Width",
         "X",
         "Y",

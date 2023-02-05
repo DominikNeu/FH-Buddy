@@ -67,7 +67,7 @@
         BorderColor: =RGBA(166, 166, 166, 1)
         DataSource: =test
         DefaultMode: =FormMode.New
-        Height: =Parent.Height - EditForm1.Y
+        Height: =946
         Width: =Parent.Width
         Y: =RectQuickActionBar2.Height
         ZIndex: =5
@@ -757,7 +757,6 @@
                 Width: =Parent.Width - 60
                 Wrap: =false
                 X: =30
-                Y: =10
                 ZIndex: =1
 
             DataCardValue16 As combobox:
@@ -958,4 +957,8 @@
                 Wrap: =false
                 Y: =DataCardKey10.Y
                 ZIndex: =4
+
+    Komp_NavigationBar_2 As Komp_NavigationBar:
+        Y: =1036
+        ZIndex: =6
 
