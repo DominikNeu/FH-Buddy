@@ -42,6 +42,31 @@
     "dependents": [],
     "id": "09e42160-080c-46ed-a279-30118492c8a3"
   },
+  "8ec558bb-8856-4e04-be82-090b78f363d0": {
+    "connectionParameters": {
+      "sku": "Enterprise"
+    },
+    "connectionRef": {
+      "displayName": "SharePoint",
+      "iconUri": "https://connectoricons-prod.azureedge.net/u/juanq/gateway/greyhound/3000.150.11/1.0.1613.3116/sharepointonline/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_sharepointonline"
+    },
+    "datasets": {
+      "https://3c8ylc-my.sharepoint.com/personal/mpaier_3c8ylc_onmicrosoft_com": {
+        "dataSources": {
+          "AttendanceList": {
+            "tableName": "47c074d8-8158-4707-84e7-58a01ba03887"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "AttendanceList"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "8ec558bb-8856-4e04-be82-090b78f363d0"
+  },
   "9699119a-686d-4142-9a6a-10eb4a6e06c4": {
     "connectionParameters": {
       "sku": "Enterprise"

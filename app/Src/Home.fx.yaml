@@ -96,3 +96,7 @@ Home As screen:
         Y: =143
         ZIndex: =7
 
+    Komp_NavigationBar_4 As Komp_NavigationBar:
+        Y: =1036
+        ZIndex: =8
+

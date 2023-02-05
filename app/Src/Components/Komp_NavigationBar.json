@@ -37,7 +37,7 @@
         "Name": "NavBarBG",
         "Parent": "Komp_NavigationBar",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 144,
+        "PublishOrderIndex": 147,
         "Rules": [
           {
             "Category": "Design",
@@ -202,7 +202,7 @@
         "Name": "HomeScreen",
         "Parent": "Komp_NavigationBar",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 145,
+        "PublishOrderIndex": 148,
         "Rules": [
           {
             "Category": "Design",
@@ -398,7 +398,15 @@
           "FocusedBorderColor",
           "ZIndex",
           "BorderThickness",
-          "FocusedBorderThickness"
+          "FocusedBorderThickness",
+          {
+            "AFDDataSourceName": "",
+            "AutoRuleBindingEnabled": false,
+            "AutoRuleBindingString": "false",
+            "InvariantPropertyName": "OnSelect",
+            "IsLockable": false,
+            "NameMapSourceSchema": "?"
+          }
         ],
         "ControlUniqueId": "164",
         "HasDynamicProperties": false,
@@ -413,7 +421,7 @@
         "Name": "Checkin",
         "Parent": "Komp_NavigationBar",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 146,
+        "PublishOrderIndex": 149,
         "Rules": [
           {
             "Category": "Design",
@@ -552,6 +560,12 @@
             "InvariantScript": "Self.BorderColor",
             "Property": "FocusedBorderColor",
             "RuleProviderType": "Unknown"
+          },
+          {
+            "Category": "Behavior",
+            "InvariantScript": "Navigate(AnwesenheitsScreen)",
+            "Property": "OnSelect",
+            "RuleProviderType": "Unknown"
           }
         ],
         "StyleName": "defaultIconStyle",
@@ -626,7 +640,7 @@
         "Name": "Dokumente",
         "Parent": "Komp_NavigationBar",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 147,
+        "PublishOrderIndex": 150,
         "Rules": [
           {
             "Category": "Design",
@@ -768,7 +782,7 @@
           },
           {
             "Category": "Behavior",
-            "InvariantScript": "Navigate(Krankheitsfaelle\n)",
+            "InvariantScript": "",
             "Property": "OnSelect",
             "RuleProviderType": "Unknown"
           }
@@ -822,7 +836,15 @@
           "FocusedBorderColor",
           "ZIndex",
           "BorderThickness",
-          "FocusedBorderThickness"
+          "FocusedBorderThickness",
+          {
+            "AFDDataSourceName": "",
+            "AutoRuleBindingEnabled": false,
+            "AutoRuleBindingString": "false",
+            "InvariantPropertyName": "OnSelect",
+            "IsLockable": false,
+            "NameMapSourceSchema": "?"
+          }
         ],
         "ControlUniqueId": "167",
         "HasDynamicProperties": false,
@@ -837,7 +859,7 @@
         "Name": "Krankheit",
         "Parent": "Komp_NavigationBar",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 148,
+        "PublishOrderIndex": 151,
         "Rules": [
           {
             "Category": "Design",
@@ -976,6 +998,12 @@
             "InvariantScript": "Self.BorderColor",
             "Property": "FocusedBorderColor",
             "RuleProviderType": "Unknown"
+          },
+          {
+            "Category": "Behavior",
+            "InvariantScript": "Navigate(Krankheitsfaelle\n)",
+            "Property": "OnSelect",
+            "RuleProviderType": "Unknown"
           }
         ],
         "StyleName": "defaultIconStyle",
@@ -1042,7 +1070,7 @@
         "Name": "Support",
         "Parent": "Komp_NavigationBar",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 149,
+        "PublishOrderIndex": 152,
         "Rules": [
           {
             "Category": "Design",
@@ -1215,7 +1243,7 @@
       "Y",
       "ZIndex"
     ],
-    "LastModifiedTimestamp": "638112083625078282",
+    "LastModifiedTimestamp": "638112106202529526",
     "Name": "Komp_NavigationBar",
     "Rules": [
       {
@@ -1274,7 +1302,7 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "638112083625078282",
+  "LastModifiedTimestamp": "638112106202529526",
   "Name": "b88613bb63744af4a5cc9874ffcb24f1",
   "OverridableProperties": {},
   "Version": "638112081498176499"

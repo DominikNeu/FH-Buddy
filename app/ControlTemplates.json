@@ -27,6 +27,20 @@
     "OverridableProperties": {},
     "Version": "2.3.0"
   },
+  "barcodeScanner": {
+    "CustomGroupControlTemplateName": "",
+    "FirstParty": true,
+    "Id": "http://microsoft.com/appmagic/barcodeScanner",
+    "IsComponentTemplate": false,
+    "IsCustomGroupControlTemplate": false,
+    "IsPcfControl": false,
+    "IsPremiumPcfControl": false,
+    "IsWidgetTemplate": true,
+    "LastModifiedTimestamp": "0",
+    "Name": "barcodeScanner",
+    "OverridableProperties": {},
+    "Version": "2.4.0"
+  },
   "circle": {
     "CustomGroupControlTemplateName": "",
     "FirstParty": true,

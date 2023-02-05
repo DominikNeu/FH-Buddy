@@ -1,0 +1,10 @@
+AnwesenheitsScreen As screen:
+    LoadingSpinnerColor: =RGBA(73, 130, 5, 1)
+
+    Komp_Anwesenheitsliste_1 As Komp_Anwesenheitsliste:
+        Height: =1123
+
+    Komp_NavigationBar_5 As Komp_NavigationBar:
+        Y: =1036
+        ZIndex: =2
+

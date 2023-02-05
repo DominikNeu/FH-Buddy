@@ -1,0 +1,45 @@
+[
+  {
+    "ApiId": "/providers/microsoft.powerapps/apis/shared_sharepointonline",
+    "CdpRevision": {
+      "BaseUrl": "/",
+      "LastChangedTimeString": "2022-12-15T17:53:22.0100000Z",
+      "RevisionNumber": 1
+    },
+    "ConnectedDataSourceInfoNameMapping": {
+      "{Attachments}": "Anlagen",
+      "{Attachments}@odata.type": "{Attachments} ({Attachments}@odata.type)",
+      "{FilenameWithExtension}": "Dateiname mit Erweiterung",
+      "{FullPath}": "Vollständiger Pfad",
+      "{HasAttachments}": "Hat Anlagen",
+      "{Identifier}": "Bezeichner",
+      "{IsFolder}": "IstOrdner",
+      "{Link}": "Link zu Element",
+      "{ModerationComment}": "Die der Inhaltsgenehmigung dieses Listenelements zugeordnete Kommentare.",
+      "{ModerationStatus}": "Inhaltsgenehmigungsstatus",
+      "{Name}": "Name",
+      "{Path}": "Ordnerpfad",
+      "{Thumbnail}": "Thumbnail",
+      "{TriggerWindowEndToken}": "Token für Ende des Zeitfensters auslösen",
+      "{TriggerWindowStartToken}": "Token für Start des Zeitfensters auslösen",
+      "{VersionNumber}": "Versionsnummer",
+      "Author": "Created By",
+      "Author#Claims": "Created By Claims",
+      "ComplianceAssetId": "Compliance Asset Id",
+      "Created": "Created",
+      "Editor": "Modified By",
+      "Editor#Claims": "Modified By Claims",
+      "ID": "ID",
+      "Modified": "Modified",
+      "ScannedPerson": "ScannedPerson",
+      "ScannedTime": "ScannedTime",
+      "Title": "Title"
+    },
+    "DatasetName": "https://3c8ylc-my.sharepoint.com/personal/mpaier_3c8ylc_onmicrosoft_com",
+    "EncodeDataset": true,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "Name": "AttendanceList",
+    "Type": "ConnectedDataSourceInfo"
+  }
+]

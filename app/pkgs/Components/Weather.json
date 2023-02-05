@@ -124,7 +124,7 @@
         "Name": "LoadingTimer",
         "Parent": "Weather",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 123,
+        "PublishOrderIndex": 126,
         "Rules": [
           {
             "Category": "Data",
@@ -389,7 +389,7 @@
         "Name": "WeatherImage",
         "Parent": "Weather",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 124,
+        "PublishOrderIndex": 127,
         "Rules": [
           {
             "Category": "Data",
@@ -682,7 +682,7 @@
         "Name": "Temperature",
         "Parent": "Weather",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 125,
+        "PublishOrderIndex": 128,
         "Rules": [
           {
             "Category": "Data",

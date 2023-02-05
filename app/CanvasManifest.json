@@ -116,6 +116,8 @@
     "Krankheitsformular",
     "Krankheitsformular_Ansicht",
     "Erfolgreich abgeschlossen",
-    "Home"
+    "Home",
+    "AnwesenheitsScreen",
+    "DokumenteScreen"
   ]
 }
