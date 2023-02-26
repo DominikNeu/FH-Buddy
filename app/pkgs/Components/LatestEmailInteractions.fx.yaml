@@ -1,7 +1,7 @@
 LatestEmailInteractions As CanvasComponent:
     Fill: =RGBA(0, 0, 0, 0)
     Height: =575
-    Width: =625
+    Width: =640
     X: =0
     Y: =0
     ZIndex: =2
@@ -9,14 +9,13 @@ LatestEmailInteractions As CanvasComponent:
     "EMailGallery As gallery.'BrowseLayout_Flexible_NewsFeed_ver4.0'":
         BorderColor: =RGBA(0, 18, 107, 1)
         Items: |-
-            =Office365Outlook.GetEmails({fetchOnlyUnread:"false",top:"5"})
+            =Office365Outlook.GetEmails({fetchOnlyUnread:"false",top:"10"})
         Layout: =Layout.Vertical
         OnSelect: |-
             =Set(_currentEmail, ThisItem);
             Set(_currentEmailPopUpVisible,true)
         TemplatePadding: =0
         TemplateSize: =116
-        Width: =625
         ZIndex: =1
 
         From As label:
@@ -110,7 +109,7 @@ LatestEmailInteractions As CanvasComponent:
             Fill: =RGBA(255,255,255,0.95)
             Height: =575
             Visible: =_currentEmailPopUpVisible
-            Width: =625
+            Width: =640
             ZIndex: =2
 
         Body As htmlViewer:
@@ -118,7 +117,7 @@ LatestEmailInteractions As CanvasComponent:
             Height: =510
             HtmlText: =_currentEmail.Body
             Visible: =_currentEmailPopUpVisible
-            Width: =625
+            Width: =640
             Y: =65
             ZIndex: =3
 
@@ -132,6 +131,6 @@ LatestEmailInteractions As CanvasComponent:
             OnSelect: =Set(_currentEmailPopUpVisible,false)
             Visible: =_currentEmailPopUpVisible
             Width: =38
-            X: =587
+            X: =602
             ZIndex: =4
 
