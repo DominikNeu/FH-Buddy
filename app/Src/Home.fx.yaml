@@ -8,8 +8,7 @@ Home As screen:
     MyDay_1 As MyDay:
         Fill: =RGBA(232, 244, 217, 1)
         Height: =110
-        Width: =615
-        X: =12
+        Width: =640
         Y: =277
         ZIndex: =2
 
@@ -34,16 +33,14 @@ Home As screen:
     LatestEmailInteractions_1 As LatestEmailInteractions:
         Fill: =RGBA(232, 244, 217, 1)
         Height: =366
-        Width: =615
-        X: =12
+        Width: =640
         Y: =669
         ZIndex: =4
 
     LatestTeams_1 As LatestTeams:
         Fill: =RGBA(232, 244, 217, 1)
         Height: =122
-        Width: =615
-        X: =12
+        Width: =640
         Y: =402
         ZIndex: =5
 
@@ -103,8 +100,6 @@ Home As screen:
 
     RelevantPeople_1 As RelevantPeople:
         Fill: =RGBA(232, 244, 217, 1)
-        Width: =615
-        X: =12
         Y: =539
         ZIndex: =9
 

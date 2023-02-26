@@ -1,7 +1,7 @@
 LatestEmailInteractions As CanvasComponent:
     Fill: =RGBA(0, 0, 0, 0)
     Height: =575
-    Width: =640
+    Width: =625
     X: =0
     Y: =0
     ZIndex: =2
@@ -11,8 +11,12 @@ LatestEmailInteractions As CanvasComponent:
         Items: |-
             =Office365Outlook.GetEmails({fetchOnlyUnread:"false",top:"5"})
         Layout: =Layout.Vertical
+        OnSelect: |-
+            =Set(_currentEmail, ThisItem);
+            Set(_currentEmailPopUpVisible,true)
         TemplatePadding: =0
         TemplateSize: =116
+        Width: =625
         ZIndex: =1
 
         From As label:
@@ -93,4 +97,41 @@ LatestEmailInteractions As CanvasComponent:
             X: =472
             Y: =76
             ZIndex: =5
+
+    PupUp As group:
+        Height: =5
+        Width: =5
+        X: =40
+        Y: =40
+        ZIndex: =5
+
+        PopUpBG As rectangle:
+            BorderColor: =RGBA(0, 18, 107, 1)
+            Fill: =RGBA(255,255,255,0.95)
+            Height: =575
+            Visible: =_currentEmailPopUpVisible
+            Width: =625
+            ZIndex: =2
+
+        Body As htmlViewer:
+            DisplayMode: =DisplayMode.View
+            Height: =510
+            HtmlText: =_currentEmail.Body
+            Visible: =_currentEmailPopUpVisible
+            Width: =625
+            Y: =65
+            ZIndex: =3
+
+        Close As icon.CancelBadge:
+            BorderColor: =RGBA(0, 18, 107, 1)
+            Color: =RGBA(0, 18, 107, 1)
+            DisabledBorderColor: =RGBA(166, 166, 166, 1)
+            DisabledColor: =RGBA(244, 244, 244, 1)
+            Height: =38
+            Icon: =Icon.CancelBadge
+            OnSelect: =Set(_currentEmailPopUpVisible,false)
+            Visible: =_currentEmailPopUpVisible
+            Width: =38
+            X: =587
+            ZIndex: =4
 

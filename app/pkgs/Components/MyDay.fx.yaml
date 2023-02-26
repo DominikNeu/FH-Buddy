@@ -142,8 +142,7 @@ MyDay As CanvasComponent:
         HoverColor: =RGBA(255, 255, 255, 1)
         HoverFill: =ColorFade(RGBA(56, 96, 178, 1), -20%)
         OnTimerEnd: |
-            =Set(
-                calenderItems,
+            =Set(calenderItems,
                 First(
                     ForAll(
                         Office365Outlook.CalendarGetTablesV2().value,
@@ -153,20 +152,8 @@ MyDay As CanvasComponent:
                                 '$orderby': "Start/DateTime",
                                 '$filter': Concatenate(
                                     "Start/DateTime gt '",
-                                    Text(
-                                        Text(
-                                            Now(),
-                                            UTC
-                                        ),
-                                        "yyyy-mm-ddTHH:mm:ss"
-                                    ),
-                                    "'",
-                                    " and Start/DateTime lt '",
-                                    Text(
-                                        Today() + 1,
-                                        "yyyy-mm-ddTHH:mm:ss"
-                                    ),
-                                    "'"
+                                    Text(Text(Now(),UTC),"yyyy-mm-ddTHH:mm:ss"),"'"," and Start/DateTime lt '",
+                                    Text(Today() + 1,"yyyy-mm-ddTHH:mm:ss"),"'"
                                 )
                             }
                         )

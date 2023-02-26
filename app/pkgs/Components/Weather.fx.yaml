@@ -42,12 +42,8 @@ Weather As CanvasComponent:
                 !IsBlank(Location.Latitude) && !IsBlank(Location.Longitude),
                 Set(
                     _weather,
-                    MSNWetter.CurrentWeather(
-                        Location.Latitude & "," & Location.Longitude,
-                        "Metric"
-                    )
+                    MSNWetter.CurrentWeather(Location.Latitude & "," & Location.Longitude,"Metric")
                 );
-                
             )
         Text: |
             =
