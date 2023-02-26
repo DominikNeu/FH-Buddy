@@ -20,7 +20,7 @@ TrendingDocuments As CanvasComponent:
             BorderColor: =RGBA(0, 18, 107, 1)
             DisabledBorderColor: =RGBA(166, 166, 166, 1)
             DisabledFill: =RGBA(244, 244, 244, 1)
-            Height: =128
+            Height: =92
             Image: |
                 =If(
                     EndsWith( ThisItem.name, ".pdf"), PDF_file_icon,
@@ -30,7 +30,7 @@ TrendingDocuments As CanvasComponent:
                     'file-icon'
                 )
             OnSelect: =Select(Parent)
-            Width: =128
+            Width: =93
             X: =16
             Y: =(Parent.TemplateHeight / 2) - (Self.Height / 2)
             ZIndex: =1

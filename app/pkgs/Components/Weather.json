@@ -124,7 +124,7 @@
         "Name": "LoadingTimer",
         "Parent": "Weather",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 108,
+        "PublishOrderIndex": 7,
         "Rules": [
           {
             "Category": "Data",
@@ -389,7 +389,7 @@
         "Name": "WeatherImage",
         "Parent": "Weather",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 109,
+        "PublishOrderIndex": 8,
         "Rules": [
           {
             "Category": "Data",
@@ -682,7 +682,7 @@
         "Name": "Temperature",
         "Parent": "Weather",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 110,
+        "PublishOrderIndex": 9,
         "Rules": [
           {
             "Category": "Data",
@@ -964,7 +964,7 @@
       "Y",
       "ZIndex"
     ],
-    "LastModifiedTimestamp": "638112265174659939",
+    "LastModifiedTimestamp": "638130062575342499",
     "Name": "Weather",
     "Rules": [
       {
@@ -1008,7 +1008,7 @@
   "ComponentManifest": {
     "AllowAccessToGlobals": false,
     "AllowCustomization": true,
-    "Description": "",
+    "Description": "Aktuelles Wetter",
     "Name": "Weather",
     "TemplateGuid": "30101960fbe84a999f7325f3382c79e1"
   },
@@ -1023,7 +1023,7 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "638112265174659939",
+  "LastModifiedTimestamp": "638130062575342499",
   "Name": "30101960fbe84a999f7325f3382c79e1",
   "OverridableProperties": {},
   "SourceLibraryId": "f0e98cfe-6dfb-481d-bc2e-ba65a2d24459",

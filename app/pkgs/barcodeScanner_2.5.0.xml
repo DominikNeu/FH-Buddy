@@ -1,4 +1,4 @@
-<widget xmlns="http://openajax.org/metadata" spec="1.0" id="http://microsoft.com/appmagic/barcodeScanner" name="barcodeScanner" jsClass="AppMagic.Controls.BarcodeScanner.BarcodeScannerControl" version="2.4.0" styleable="true" runtimeCost="1" xmlns:appMagic="http://schemas.microsoft.com/appMagic">
+<widget xmlns="http://openajax.org/metadata" spec="1.0" id="http://microsoft.com/appmagic/barcodeScanner" name="barcodeScanner" jsClass="AppMagic.Controls.BarcodeScanner.BarcodeScannerControl" version="2.5.0" styleable="true" runtimeCost="1" xmlns:appMagic="http://schemas.microsoft.com/appMagic">
   <author name="Microsoft AppMagic" />
   <license type="text/html"><![CDATA[<p>TODO:  Need license text here.</p>]]></license>
   <description><![CDATA[BARCODE SCANNER
@@ -112,6 +112,12 @@
       <title>Add scanner instruction text</title>
       <appMagic:tooltip>##barcodeScanner_ScannerInstructionText_Tooltip##</appMagic:tooltip>
       <appMagic:displayName>##barcodeScanner_ScannerInstructionText_DisplayName##</appMagic:displayName>
+    </property>
+    <property name="AssumeGS1" localizedName="##barcodeScanner_AssumeGS1##" datatype="boolean" defaultValue="false" direction="in">
+      <title>Assume all Code 128 barcodes are GS1-128 barcodes.</title>
+      <appMagic:tooltip>##barcodeScanner_AssumeGS1_Tooltip##</appMagic:tooltip>
+      <appMagic:displayName>##barcodeScanner_AssumeGS1_DisplayName##</appMagic:displayName>
+      <appMagic:category>Design</appMagic:category>
     </property>
     <property name="OnScan" localizedName="##barcodeScanner_OnScan##" datatype="Boolean" defaultValue="false" direction="in">
       <title>Scan Behavior</title>
@@ -279,5 +285,8 @@
   </appMagic:conversion>
   <appMagic:conversion from="2.3.0" to="2.4.0">
     <appMagic:conversionAction type="add" name="ContentLanguage" />
+  </appMagic:conversion>
+  <appMagic:conversion from="2.4.0" to="2.5.0">
+    <appMagic:conversionAction type="add" name="AssumeGS1" />
   </appMagic:conversion>
 </widget>

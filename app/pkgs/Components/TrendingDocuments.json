@@ -34,7 +34,7 @@
             "Name": "galleryTemplate5",
             "Parent": "Gallery2_1",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 138,
+            "PublishOrderIndex": 37,
             "Rules": [
               {
                 "Category": "Design",
@@ -120,7 +120,7 @@
             "Name": "Image2_1",
             "Parent": "Gallery2_1",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 139,
+            "PublishOrderIndex": 38,
             "Rules": [
               {
                 "Category": "Data",
@@ -154,13 +154,13 @@
               },
               {
                 "Category": "Design",
-                "InvariantScript": "128",
+                "InvariantScript": "93",
                 "Property": "Width",
                 "RuleProviderType": "Unknown"
               },
               {
                 "Category": "Design",
-                "InvariantScript": "128",
+                "InvariantScript": "92",
                 "Property": "Height",
                 "RuleProviderType": "Unknown"
               },
@@ -378,7 +378,7 @@
             "Name": "Title1_2",
             "Parent": "Gallery2_1",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 140,
+            "PublishOrderIndex": 39,
             "Rules": [
               {
                 "Category": "Data",
@@ -660,7 +660,7 @@
             "Name": "Subtitle1_2",
             "Parent": "Gallery2_1",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 141,
+            "PublishOrderIndex": 40,
             "Rules": [
               {
                 "Category": "Data",
@@ -916,7 +916,7 @@
             "Name": "Separator2_1",
             "Parent": "Gallery2_1",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 142,
+            "PublishOrderIndex": 41,
             "Rules": [
               {
                 "Category": "Design",
@@ -1072,7 +1072,7 @@
         "Name": "Gallery2_1",
         "Parent": "TrendingDocuments",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 137,
+        "PublishOrderIndex": 36,
         "Rules": [
           {
             "Category": "Data",
@@ -1244,7 +1244,7 @@
       "Y",
       "ZIndex"
     ],
-    "LastModifiedTimestamp": "638112265174663083",
+    "LastModifiedTimestamp": "638130062575339288",
     "Name": "TrendingDocuments",
     "Rules": [
       {
@@ -1303,7 +1303,7 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "638112265174663083",
+  "LastModifiedTimestamp": "638130062575339288",
   "Name": "4632351efb694a508131d93b1b9ec2c0",
   "OverridableProperties": {},
   "SourceLibraryId": "f0e98cfe-6dfb-481d-bc2e-ba65a2d24459",

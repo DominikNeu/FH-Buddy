@@ -120,7 +120,7 @@
         "Name": "LoadCalendarItems",
         "Parent": "MyDay",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 111,
+        "PublishOrderIndex": 10,
         "Rules": [
           {
             "Category": "Data",
@@ -371,7 +371,7 @@
             "Name": "galleryTemplate3_1",
             "Parent": "CalenderItems",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 113,
+            "PublishOrderIndex": 12,
             "Rules": [
               {
                 "Category": "Design",
@@ -503,7 +503,7 @@
             "Name": "date",
             "Parent": "CalenderItems",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 114,
+            "PublishOrderIndex": 13,
             "Rules": [
               {
                 "Category": "Data",
@@ -810,7 +810,7 @@
             "Name": "BG",
             "Parent": "CalenderItems",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 115,
+            "PublishOrderIndex": 14,
             "Rules": [
               {
                 "Category": "Design",
@@ -1041,7 +1041,7 @@
             "Name": "Title",
             "Parent": "CalenderItems",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 116,
+            "PublishOrderIndex": 15,
             "Rules": [
               {
                 "Category": "Data",
@@ -1380,7 +1380,7 @@
             "Name": "place",
             "Parent": "CalenderItems",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 118,
+            "PublishOrderIndex": 17,
             "Rules": [
               {
                 "Category": "Data",
@@ -1725,7 +1725,7 @@
             "Name": "Time",
             "Parent": "CalenderItems",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 119,
+            "PublishOrderIndex": 18,
             "Rules": [
               {
                 "Category": "Data",
@@ -2092,7 +2092,7 @@
             "Name": "Time_until",
             "Parent": "CalenderItems",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 120,
+            "PublishOrderIndex": 19,
             "Rules": [
               {
                 "Category": "Data",
@@ -2362,7 +2362,7 @@
             "Name": "Content",
             "Parent": "CalenderItems",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 117,
+            "PublishOrderIndex": 16,
             "Rules": [
               {
                 "Category": "Design",
@@ -2517,7 +2517,7 @@
         "Name": "CalenderItems",
         "Parent": "MyDay",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 112,
+        "PublishOrderIndex": 11,
         "Rules": [
           {
             "Category": "Data",
@@ -2820,7 +2820,7 @@
         "Name": "date_Default",
         "Parent": "MyDay",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 121,
+        "PublishOrderIndex": 20,
         "Rules": [
           {
             "Category": "Data",
@@ -3148,7 +3148,7 @@
         "Name": "BG_Default",
         "Parent": "MyDay",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 123,
+        "PublishOrderIndex": 22,
         "Rules": [
           {
             "Category": "Design",
@@ -3400,7 +3400,7 @@
         "Name": "Title_Default",
         "Parent": "MyDay",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 124,
+        "PublishOrderIndex": 23,
         "Rules": [
           {
             "Category": "Data",
@@ -3706,7 +3706,7 @@
         "Name": "Smily_Default",
         "Parent": "MyDay",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 125,
+        "PublishOrderIndex": 24,
         "Rules": [
           {
             "Category": "Design",
@@ -3904,7 +3904,7 @@
         "Name": "DefaultContent",
         "Parent": "MyDay",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 122,
+        "PublishOrderIndex": 21,
         "Rules": [
           {
             "Category": "Design",
@@ -3976,7 +3976,7 @@
       "Y",
       "ZIndex"
     ],
-    "LastModifiedTimestamp": "638112265174660960",
+    "LastModifiedTimestamp": "638130062575343545",
     "Name": "MyDay",
     "Rules": [
       {
@@ -4035,7 +4035,7 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "638112265174660960",
+  "LastModifiedTimestamp": "638130062575343545",
   "Name": "08c9be1d1a69482b9fd210880bc6d9c8",
   "OverridableProperties": {},
   "SourceLibraryId": "f0e98cfe-6dfb-481d-bc2e-ba65a2d24459",

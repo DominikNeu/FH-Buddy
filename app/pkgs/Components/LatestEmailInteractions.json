@@ -26,7 +26,7 @@
             "Name": "galleryTemplate1_1",
             "Parent": "EMailGallery",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 127,
+            "PublishOrderIndex": 26,
             "Rules": [
               {
                 "Category": "Design",
@@ -133,7 +133,7 @@
             "Name": "Subject",
             "Parent": "EMailGallery",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 128,
+            "PublishOrderIndex": 27,
             "Rules": [
               {
                 "Category": "Data",
@@ -466,7 +466,7 @@
             "Name": "Image",
             "Parent": "EMailGallery",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 129,
+            "PublishOrderIndex": 28,
             "Rules": [
               {
                 "Category": "Data",
@@ -745,7 +745,7 @@
             "Name": "From",
             "Parent": "EMailGallery",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 130,
+            "PublishOrderIndex": 29,
             "Rules": [
               {
                 "Category": "Data",
@@ -1060,7 +1060,7 @@
             "Name": "Date",
             "Parent": "EMailGallery",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 131,
+            "PublishOrderIndex": 30,
             "Rules": [
               {
                 "Category": "Data",
@@ -1352,7 +1352,7 @@
             "Name": "Separator1",
             "Parent": "EMailGallery",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 132,
+            "PublishOrderIndex": 31,
             "Rules": [
               {
                 "Category": "Design",
@@ -1508,7 +1508,7 @@
         "Name": "EMailGallery",
         "Parent": "LatestEmailInteractions",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 126,
+        "PublishOrderIndex": 25,
         "Rules": [
           {
             "Category": "Data",
@@ -1687,7 +1687,7 @@
       "Y",
       "ZIndex"
     ],
-    "LastModifiedTimestamp": "638112265174656599",
+    "LastModifiedTimestamp": "638130062575341478",
     "Name": "LatestEmailInteractions",
     "Rules": [
       {
@@ -1746,7 +1746,7 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "638112265174656599",
+  "LastModifiedTimestamp": "638130062575341478",
   "Name": "af4bb91a6c53454aa417c7b08a294414",
   "OverridableProperties": {},
   "SourceLibraryId": "f0e98cfe-6dfb-481d-bc2e-ba65a2d24459",

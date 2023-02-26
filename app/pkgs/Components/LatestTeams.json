@@ -34,7 +34,7 @@
             "Name": "galleryTemplate4",
             "Parent": "Teams",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 134,
+            "PublishOrderIndex": 33,
             "Rules": [
               {
                 "Category": "Design",
@@ -173,7 +173,7 @@
             "Name": "TeamIcon",
             "Parent": "Teams",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 135,
+            "PublishOrderIndex": 34,
             "Rules": [
               {
                 "Category": "Data",
@@ -526,7 +526,7 @@
             "Name": "TeamName",
             "Parent": "Teams",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 136,
+            "PublishOrderIndex": 35,
             "Rules": [
               {
                 "Category": "Data",
@@ -809,7 +809,7 @@
         "Name": "Teams",
         "Parent": "LatestTeams",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 133,
+        "PublishOrderIndex": 32,
         "Rules": [
           {
             "Category": "Data",
@@ -995,7 +995,7 @@
       "Y",
       "ZIndex"
     ],
-    "LastModifiedTimestamp": "638112265174657686",
+    "LastModifiedTimestamp": "638130062575338229",
     "Name": "LatestTeams",
     "Rules": [
       {
@@ -1054,7 +1054,7 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "638112265174657686",
+  "LastModifiedTimestamp": "638130062575338229",
   "Name": "df0f9567f3604f25996e44a6280b657a",
   "OverridableProperties": {},
   "SourceLibraryId": "f0e98cfe-6dfb-481d-bc2e-ba65a2d24459",

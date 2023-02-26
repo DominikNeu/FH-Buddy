@@ -1312,7 +1312,7 @@
       "Metadata": {
         "AllowAccessToGlobals": false,
         "AllowCustomization": true,
-        "Description": ""
+        "Description": "Aktuelles Wetter"
       },
       "MetaDataIDKey": "",
       "Name": "Weather_1",
