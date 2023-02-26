@@ -1243,7 +1243,7 @@
       "Y",
       "ZIndex"
     ],
-    "LastModifiedTimestamp": "638130062575333891",
+    "LastModifiedTimestamp": "638130304555801365",
     "Name": "Komp_NavigationBar",
     "Rules": [
       {
@@ -1302,7 +1302,7 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "638130062575333891",
+  "LastModifiedTimestamp": "638130304555801365",
   "Name": "b88613bb63744af4a5cc9874ffcb24f1",
   "OverridableProperties": {},
   "Version": "638112081498176499"
