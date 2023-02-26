@@ -10,14 +10,32 @@ MyDay As CanvasComponent:
         BorderColor: =RGBA(0, 18, 107, 1)
         DisplayMode: =DisplayMode.View
         Height: =114
-        Items: =calenderItems
+        Items: |-
+            =First(
+                ForAll(
+                    Office365Outlook.CalendarGetTablesV2().value,
+                    Office365Outlook.V4CalendarGetItems(
+                        ThisRecord.id,
+                        {
+                            '$orderby': "Start/DateTime",
+                            '$filter': Concatenate(
+                                "Start/DateTime gt '",
+                                Text(Text(Now(),UTC),"yyyy-mm-ddTHH:mm:ss"),"'"," and Start/DateTime lt '",
+                                Text(Today() + 1,"yyyy-mm-ddTHH:mm:ss"),"'"
+                            )
+                        }
+                    )
+                ).value
+            ).value
         LoadingSpinner: =LoadingSpinner.Controls
         TemplatePadding: =0
         TemplateSize: =290
-        Visible: =If(CountRows(calenderItems) = Blank(), false)
+        Visible: |-
+            =true
+            //If(CountRows(_calenderItems) = Blank(); false)
         Width: =650
         Y: =1
-        ZIndex: =1
+        ZIndex: =6
 
         BG As rectangle:
             BorderColor: =RGBA(0, 18, 107, 1)
@@ -41,11 +59,26 @@ MyDay As CanvasComponent:
             Height: =98
             OnSelect: =Select(Parent)
             Size: =32
-            Text: =Day(DateTimeValue(ThisItem.start))
+            Text: =If(Day(DateTimeValue(ThisItem.start)) = 0, Day(Now()), Day(DateTimeValue(ThisItem.start)))
             Width: =80
             X: =8
             Y: =6
             ZIndex: =6
+
+        Smily_Default As icon.EmojiHappy:
+            BorderColor: =RGBA(0, 18, 107, 1)
+            Color: =RGBA(99, 139, 44, 1)
+            DisabledBorderColor: =RGBA(166, 166, 166, 1)
+            DisabledColor: =RGBA(244, 244, 244, 1)
+            DisplayMode: =DisplayMode.View
+            Height: =40
+            Icon: =Icon.EmojiHappy
+            Rotation: =25
+            Visible: =If(ThisItem.start = Blank(), true, false)
+            Width: =40
+            X: =231
+            Y: =54
+            ZIndex: =8
 
         Content As group:
             Height: =5
@@ -59,13 +92,15 @@ MyDay As CanvasComponent:
                 DisabledColor: =RGBA(166, 166, 166, 1)
                 DisplayMode: =DisplayMode.View
                 FontWeight: =FontWeight.Bold
-                Height: =37
+                Height: =43
+                LineHeight: =1
                 OnSelect: =Select(Parent)
                 PaddingBottom: =0
                 PaddingRight: =0
                 PaddingTop: =0
                 Size: =16
                 Text: =ThisItem.subject
+                VerticalAlign: =VerticalAlign.Top
                 Width: =191
                 X: =88
                 Y: =6
@@ -87,6 +122,7 @@ MyDay As CanvasComponent:
                     //TimeValue(ThisItem.start)
                     
                     //Concatenate(Hour(DateTimeValue(ThisItem.start)); ":"; Minute(DateTimeValue(ThisItem.start)))
+                Visible: =If(ThisItem.start = Blank(), false, true)
                 Width: =122
                 X: =88
                 Y: =73
@@ -96,7 +132,7 @@ MyDay As CanvasComponent:
                 Color: =RGBA(255, 255, 255, 1)
                 DisabledColor: =RGBA(166, 166, 166, 1)
                 FontWeight: =FontWeight.Lighter
-                Height: =31
+                Height: =25
                 LineHeight: =1
                 OnSelect: =Select(Parent)
                 PaddingBottom: =0
@@ -106,7 +142,7 @@ MyDay As CanvasComponent:
                 Text: =ThisItem.location
                 Width: =191
                 X: =88
-                Y: =43
+                Y: =49
                 ZIndex: =5
 
             Time_until As label:
@@ -132,95 +168,6 @@ MyDay As CanvasComponent:
                 Y: =73
                 ZIndex: =7
 
-    LoadCalendarItems As timer:
-        AutoPause: =false
-        AutoStart: =true
-        DisplayMode: =DisplayMode.View
-        Duration: =0
-        Fill: =RGBA(56, 96, 178, 1)
-        Height: =1
-        HoverColor: =RGBA(255, 255, 255, 1)
-        HoverFill: =ColorFade(RGBA(56, 96, 178, 1), -20%)
-        OnTimerEnd: |
-            =Set(calenderItems,
-                First(
-                    ForAll(
-                        Office365Outlook.CalendarGetTablesV2().value,
-                        Office365Outlook.V4CalendarGetItems(
-                            ThisRecord.id,
-                            {
-                                '$orderby': "Start/DateTime",
-                                '$filter': Concatenate(
-                                    "Start/DateTime gt '",
-                                    Text(Text(Now(),UTC),"yyyy-mm-ddTHH:mm:ss"),"'"," and Start/DateTime lt '",
-                                    Text(Today() + 1,"yyyy-mm-ddTHH:mm:ss"),"'"
-                                )
-                            }
-                        )
-                    ).value
-                ).value
-            )
-            // format DateTime: "Text(Now(); UTC)" for UTC timezone and "Text(Now(); Start/DateTime gt 'yyyy-mm-ddTHH:mm:ss')" for Timestamp format
-        Start: =true
-        TabIndex: =-1
-        Text: =
-        Visible: =false
-        Width: =20
-        X: =630
-        ZIndex: =2
-
-    DefaultContent As group:
-        Height: =5
-        Width: =5
-        X: =40
-        Y: =40
-        ZIndex: =7
-
-        date_Default As label:
-            Align: =Align.Center
-            BorderColor: =RGBA(0, 18, 107, 1)
-            Color: =RGBA(255, 255, 255, 1)
-            DisabledColor: =RGBA(166, 166, 166, 1)
-            DisplayMode: =DisplayMode.View
-            Fill: =RGBA(99, 139, 44, 1)
-            FontWeight: =FontWeight.Lighter
-            Height: =98
-            OnSelect: =
-            Size: =32
-            Text: =Day(Now())
-            Visible: =If(CountRows(calenderItems) = Blank(), true)
-            Width: =80
-            X: =8
-            Y: =6
-            ZIndex: =3
-
-        BG_Default As rectangle:
-            BorderColor: =RGBA(0, 18, 107, 1)
-            DisplayMode: =DisplayMode.View
-            Fill: =RGBA(127, 178, 57, 1)
-            Height: =98
-            OnSelect: =
-            Visible: =If(CountRows(calenderItems) = Blank(), true)
-            Width: =191
-            X: =88
-            Y: =6
-            ZIndex: =4
-
-        Smily_Default As icon.EmojiHappy:
-            BorderColor: =RGBA(0, 18, 107, 1)
-            Color: =RGBA(99, 139, 44, 1)
-            DisabledBorderColor: =RGBA(166, 166, 166, 1)
-            DisabledColor: =RGBA(244, 244, 244, 1)
-            DisplayMode: =DisplayMode.View
-            Height: =40
-            Icon: =Icon.EmojiHappy
-            Rotation: =25
-            Visible: =If(CountRows(calenderItems) = Blank(), true)
-            Width: =40
-            X: =224
-            Y: =50
-            ZIndex: =5
-
         Title_Default As label:
             Color: =RGBA(255, 255, 255, 1)
             DisabledColor: =RGBA(166, 166, 166, 1)
@@ -233,9 +180,9 @@ MyDay As CanvasComponent:
             PaddingTop: =0
             Size: =16
             Text: ="Keine Termine"
-            Visible: =If(CountRows(calenderItems) = Blank(), true)
+            Visible: =If(ThisItem.start = Blank(), true, false)
             Width: =191
-            X: =88
+            X: =87
             Y: =6
-            ZIndex: =6
+            ZIndex: =9
 
