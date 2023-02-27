@@ -50,3 +50,7 @@
         Y: =iconCheck1.Y + iconCheck1.Height + 100
         ZIndex: =3
 
+    Komp_NavigationBar_7 As Komp_NavigationBar:
+        Y: =1036
+        ZIndex: =4
+

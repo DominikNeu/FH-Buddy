@@ -663,6 +663,7 @@
     TextInput2 As text:
         Align: =Align.Center
         BorderColor: =RGBA(166, 166, 166, 1)
+        BorderStyle: =BorderStyle.None
         BorderThickness: =0
         Color: =RGBA(255, 255, 255, 1)
         Default: ="Speichern"
@@ -672,10 +673,10 @@
         Fill: =RGBA(0, 0, 0, 0)
         FocusedBorderThickness: =4
         Font: =Font.'Segoe UI'
-        Height: =70
+        Height: =95
         HoverBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
         HoverColor: =RGBA(255, 255, 255, 1)
-        HoverFill: =RGBA(255, 255, 255, 1)
+        HoverFill: =RGBA(255, 255, 255, 0)
         OnSelect: =Navigate(Krankheitsfaelle,ScreenTransition.Fade);SubmitForm(Form2)
         PressedBorderColor: =RGBA(73, 130, 5, 1)
         PressedColor: =RGBA(255, 255, 255, 1)
@@ -685,8 +686,8 @@
         RadiusTopLeft: =0
         RadiusTopRight: =0
         Size: =21
-        Width: =632
-        Y: =962
+        Width: =640
+        Y: =946
         ZIndex: =7
 
     Komp_NavigationBar_3 As Komp_NavigationBar:
