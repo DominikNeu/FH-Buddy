@@ -646,23 +646,9 @@
                 Y: =DataCardKey2.Y
                 ZIndex: =4
 
-    Rectangle2 As rectangle:
-        BorderColor: =RGBA(0, 0, 0, 0)
-        BorderStyle: =BorderStyle.None
-        BorderThickness: =2
-        DisabledFill: =RGBA(166, 166, 166, 1)
-        Fill: =RGBA(146, 180, 105, 1)
-        FocusedBorderThickness: =4
-        Height: =88
-        HoverFill: =RGBA(73, 130, 5, 1)
-        PressedFill: =RGBA(73, 130, 5, 1)
-        Width: =640
-        Y: =953
-        ZIndex: =6
-
     TextInput2 As text:
         Align: =Align.Center
-        BorderColor: =RGBA(166, 166, 166, 1)
+        BorderColor: =RGBA(166, 166, 166, 0)
         BorderStyle: =BorderStyle.None
         BorderThickness: =0
         Color: =RGBA(255, 255, 255, 1)
@@ -670,24 +656,24 @@
         DisabledBorderColor: =RGBA(0, 0, 0, 0)
         DisabledColor: =RGBA(255, 255, 255, 1)
         DisabledFill: =RGBA(244, 244, 244, 1)
-        Fill: =RGBA(0, 0, 0, 0)
+        Fill: =RGBA(146, 180, 105, 1)
         FocusedBorderThickness: =4
         Font: =Font.'Segoe UI'
         Height: =95
         HoverBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
         HoverColor: =RGBA(255, 255, 255, 1)
-        HoverFill: =RGBA(255, 255, 255, 0)
+        HoverFill: =RGBA(73, 130, 5, 1)
         OnSelect: =Navigate(Krankheitsfaelle,ScreenTransition.Fade);SubmitForm(Form2)
         PressedBorderColor: =RGBA(73, 130, 5, 1)
         PressedColor: =RGBA(255, 255, 255, 1)
-        PressedFill: =RGBA(255, 255, 255, 1)
+        PressedFill: =RGBA(73, 130, 5, 1)
         RadiusBottomLeft: =0
         RadiusBottomRight: =0
         RadiusTopLeft: =0
         RadiusTopRight: =0
         Size: =21
         Width: =640
-        Y: =946
+        Y: =954
         ZIndex: =7
 
     Komp_NavigationBar_3 As Komp_NavigationBar:
