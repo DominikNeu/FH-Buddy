@@ -1102,7 +1102,7 @@
       "Y",
       "ZIndex"
     ],
-    "LastModifiedTimestamp": "638131197618370279",
+    "LastModifiedTimestamp": "638144748228938531",
     "Name": "RelevantPeople",
     "Rules": [
       {
@@ -1161,7 +1161,7 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "638131197618370279",
+  "LastModifiedTimestamp": "638144748228938531",
   "Name": "c9e8a3061b804a959606d122a7bbf56c",
   "OverridableProperties": {},
   "SourceLibraryId": "f0e98cfe-6dfb-481d-bc2e-ba65a2d24459",

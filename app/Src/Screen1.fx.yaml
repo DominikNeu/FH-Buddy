@@ -1,0 +1,30 @@
+Screen1 As screen:
+    LoadingSpinnerColor: =RGBA(73, 130, 5, 1)
+
+    Komp_NavigationBar_8 As Komp_NavigationBar:
+        Y: =1036
+
+    "IFrameVirtualPCF1 As 'IFrameVirtualPCF (0.1.0)'":
+        DisplayMode: =DisplayMode.Edit
+        Height: =952
+        src: |-
+            ="https://web.powerva.microsoft.com/environments/Default-e8fee4a3-6312-4ee1-9243-2962de38d66d/bots/new_bot_ef0af31c2c224537a4160d3fb206d218/webchat%22"
+        Width: =640
+        X: =0
+        Y: =84
+        ZIndex: =2
+
+    Title_3 As label:
+        Align: =Align.Center
+        BorderColor: =RGBA(0, 18, 107, 1)
+        Color: =RGBA(255, 255, 255, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        Fill: =RGBA(73, 130, 5, 1)
+        FontWeight: =FontWeight.Bold
+        Height: =82
+        Size: =21
+        Text: ="Studybot"
+        Width: =640
+        Y: =2
+        ZIndex: =3
+

@@ -1,4 +1,14 @@
 {
+  "components": [
+    {
+      "Capabilities": {
+        "PCFExternalServiceUsageAllowed": false
+      },
+      "ComponentName": "CustomControl",
+      "Identifier": "greg_ReactVirtual.IFrameVirtualPCF",
+      "IdentifierType": 0
+    }
+  ],
   "DatasetName": "default.cds",
   "EntityName": "Adressen",
   "InstanceUrl": "https://org641ae7eb.crm4.dynamics.com/",
