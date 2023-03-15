@@ -42,7 +42,7 @@ Komp_Krankheitsformular As CanvasComponent:
 
         Label1 As label:
             BorderColor: =RGBA(0, 18, 107, 1)
-            Color: =White
+            Color: =Color.White
             DisabledColor: =RGBA(166, 166, 166, 1)
             Height: =57
             Size: =27
@@ -54,7 +54,7 @@ Komp_Krankheitsformular As CanvasComponent:
 
         Icon1 As icon.Cancel:
             BorderColor: =RGBA(0, 18, 107, 1)
-            Color: =White
+            Color: =Color.White
             DisabledBorderColor: =RGBA(166, 166, 166, 1)
             DisabledColor: =RGBA(244, 244, 244, 1)
             Height: =86
@@ -68,7 +68,7 @@ Komp_Krankheitsformular As CanvasComponent:
 
         Icon2 As icon.Check:
             BorderColor: =RGBA(0, 18, 107, 1)
-            Color: =White
+            Color: =Color.White
             DisabledBorderColor: =RGBA(166, 166, 166, 1)
             DisabledColor: =RGBA(244, 244, 244, 1)
             Height: =86

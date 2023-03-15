@@ -20,7 +20,7 @@ MyDay As CanvasComponent:
                             '$orderby': "Start/DateTime",
                             '$filter': Concatenate(
                                 "Start/DateTime gt '",
-                                Text(Text(Now(),UTC),"yyyy-mm-ddTHH:mm:ss"),"'"," and Start/DateTime lt '",
+                                Text(Text(Now(),DateTimeFormat.UTC),"yyyy-mm-ddTHH:mm:ss"),"'"," and Start/DateTime lt '",
                                 Text(Today() + 1,"yyyy-mm-ddTHH:mm:ss"),"'"
                             )
                         }
@@ -157,12 +157,12 @@ MyDay As CanvasComponent:
                 PaddingBottom: =0
                 PaddingTop: =0
                 Text: |-
-                    =Concatenate("'",DateDiff(Now(), DateTimeValue(ThisItem.startWithTimeZone),Minutes))
+                    =Concatenate("'",DateDiff(Now(), DateTimeValue(ThisItem.startWithTimeZone),TimeUnit.Minutes))
                     
                     //TimeValue(ThisItem.start)
                     
                     //Concatenate(Hour(DateTimeValue(ThisItem.start)); ":"; Minute(DateTimeValue(ThisItem.start)))
-                Visible: =If(DateDiff(Now(), DateTimeValue(ThisItem.startWithTimeZone),Minutes) > 0 And DateDiff(Now(), DateTimeValue(ThisItem.startWithTimeZone),Minutes) < 59, true)
+                Visible: =If(DateDiff(Now(), DateTimeValue(ThisItem.startWithTimeZone),TimeUnit.Minutes) > 0 And DateDiff(Now(), DateTimeValue(ThisItem.startWithTimeZone),TimeUnit.Minutes) < 59, true)
                 Width: =47
                 X: =231
                 Y: =73

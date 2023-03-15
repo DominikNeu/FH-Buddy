@@ -1,7 +1,7 @@
 {
   "FormatVersion": "0.24",
   "Header": {
-    "DocVersion": "1.328",
+    "DocVersion": "1.330",
     "MinVersionToLoad": "1.327",
     "MSAppStructureVersion": "2.0"
   },
@@ -19,7 +19,7 @@
       "blockmovingcontrol": true,
       "cdsdataformatting": false,
       "classiccontrols": false,
-      "consistentreturnschemafortabularfunctions": false,
+      "consistentreturnschemafortabularfunctions": true,
       "copyandmerge": true,
       "datatablev2control": true,
       "dataverseactionsenabled": false,
@@ -31,6 +31,7 @@
       "enableactionenhancedcomponentproperties": false,
       "enableappembeddingux": false,
       "enablebarcodereaderfeature": false,
+      "enablechatbotfeature": false,
       "enablecomponentnamemaps": false,
       "enablecomponentscopeoldbehavior": false,
       "enableeditcacherefreshfrequency": false,

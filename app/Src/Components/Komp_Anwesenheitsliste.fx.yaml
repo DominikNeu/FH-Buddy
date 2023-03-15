@@ -9,7 +9,7 @@ Komp_Anwesenheitsliste As CanvasComponent:
     "Anwesenheitsliste As gallery.'BrowseLayout_Vertical_ThreeTextVariant_ver4.0'":
         BorderColor: =RGBA(0, 18, 107, 1)
         Height: =768
-        Items: =Filter(AttendanceList,ScannedTime>=Today()&&ScannedTime<DateAdd(Today(),1,Days)&&ScannedPerson=User().FullName)
+        Items: =Filter(AttendanceList,ScannedTime>=Today()&&ScannedTime<DateAdd(Today(),1,TimeUnit.Days)&&ScannedPerson=User().FullName)
         Layout: =Layout.Vertical
         TemplatePadding: =0
         TemplateSize: =Min(168, Self.Height - 60)
@@ -143,7 +143,7 @@ Komp_Anwesenheitsliste As CanvasComponent:
         OnTimerEnd: |-
             =Set(
                 _scanned,
-                Filter(AttendanceList,ScannedTime>=Today()&&ScannedTime<DateAdd(Today(),1,Days)&&ScannedPerson=User().FullName)
+                Filter(AttendanceList,ScannedTime>=Today()&&ScannedTime<DateAdd(Today(),1,TimeUnit.Days)&&ScannedPerson=User().FullName)
             )
         Repeat: =true
         Start: =true
