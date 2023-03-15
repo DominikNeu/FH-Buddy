@@ -34,7 +34,7 @@
             "Name": "galleryTemplate4",
             "Parent": "Teams",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 135,
+            "PublishOrderIndex": 137,
             "Rules": [
               {
                 "Category": "Design",
@@ -173,7 +173,7 @@
             "Name": "TeamIcon",
             "Parent": "Teams",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 136,
+            "PublishOrderIndex": 138,
             "Rules": [
               {
                 "Category": "Data",
@@ -526,7 +526,7 @@
             "Name": "TeamName",
             "Parent": "Teams",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 137,
+            "PublishOrderIndex": 139,
             "Rules": [
               {
                 "Category": "Data",
@@ -809,7 +809,7 @@
         "Name": "Teams",
         "Parent": "LatestTeams",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 134,
+        "PublishOrderIndex": 136,
         "Rules": [
           {
             "Category": "Data",

@@ -96,7 +96,7 @@
         "Name": "Title_1",
         "Parent": "Komp_Anwesenheitsliste",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 169,
+        "PublishOrderIndex": 171,
         "Rules": [
           {
             "Category": "Data",
@@ -458,7 +458,7 @@
         "Name": "Timer2_Check_Scanned_Mode",
         "Parent": "Komp_Anwesenheitsliste",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 170,
+        "PublishOrderIndex": 172,
         "Rules": [
           {
             "Category": "Data",
@@ -796,7 +796,7 @@
         "Name": "Timer2_Check_Scanned_Count",
         "Parent": "Komp_Anwesenheitsliste",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 171,
+        "PublishOrderIndex": 173,
         "Rules": [
           {
             "Category": "Data",
@@ -1134,7 +1134,7 @@
         "Name": "Timer1_CalculateRadius",
         "Parent": "Komp_Anwesenheitsliste",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 172,
+        "PublishOrderIndex": 174,
         "Rules": [
           {
             "Category": "Data",
@@ -1386,7 +1386,7 @@
             "Name": "galleryTemplate1_2",
             "Parent": "Anwesenheitsliste",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 174,
+            "PublishOrderIndex": 176,
             "Rules": [
               {
                 "Category": "Design",
@@ -1469,7 +1469,7 @@
             "Name": "Title1_1",
             "Parent": "Anwesenheitsliste",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 175,
+            "PublishOrderIndex": 177,
             "Rules": [
               {
                 "Category": "Data",
@@ -1744,7 +1744,7 @@
             "Name": "Body1",
             "Parent": "Anwesenheitsliste",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 176,
+            "PublishOrderIndex": 178,
             "Rules": [
               {
                 "Category": "Data",
@@ -2019,7 +2019,7 @@
             "Name": "Subtitle1_1",
             "Parent": "Anwesenheitsliste",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 177,
+            "PublishOrderIndex": 179,
             "Rules": [
               {
                 "Category": "Data",
@@ -2275,7 +2275,7 @@
             "Name": "Separator1_1",
             "Parent": "Anwesenheitsliste",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 178,
+            "PublishOrderIndex": 180,
             "Rules": [
               {
                 "Category": "Design",
@@ -2431,7 +2431,7 @@
         "Name": "Anwesenheitsliste",
         "Parent": "Komp_Anwesenheitsliste",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 173,
+        "PublishOrderIndex": 175,
         "Rules": [
           {
             "Category": "Data",
@@ -2672,7 +2672,7 @@
         "Name": "BarcodeScanner1",
         "Parent": "Komp_Anwesenheitsliste",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 179,
+        "PublishOrderIndex": 181,
         "Rules": [
           {
             "Category": "Data",

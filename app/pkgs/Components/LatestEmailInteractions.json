@@ -34,7 +34,7 @@
             "Name": "galleryTemplate1_1",
             "Parent": "EMailGallery",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 124,
+            "PublishOrderIndex": 126,
             "Rules": [
               {
                 "Category": "Design",
@@ -147,7 +147,7 @@
             "Name": "Subject",
             "Parent": "EMailGallery",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 125,
+            "PublishOrderIndex": 127,
             "Rules": [
               {
                 "Category": "Data",
@@ -480,7 +480,7 @@
             "Name": "Image",
             "Parent": "EMailGallery",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 126,
+            "PublishOrderIndex": 128,
             "Rules": [
               {
                 "Category": "Data",
@@ -759,7 +759,7 @@
             "Name": "From",
             "Parent": "EMailGallery",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 127,
+            "PublishOrderIndex": 129,
             "Rules": [
               {
                 "Category": "Data",
@@ -1074,7 +1074,7 @@
             "Name": "Date",
             "Parent": "EMailGallery",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 128,
+            "PublishOrderIndex": 130,
             "Rules": [
               {
                 "Category": "Data",
@@ -1366,7 +1366,7 @@
             "Name": "Separator1",
             "Parent": "EMailGallery",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 129,
+            "PublishOrderIndex": 131,
             "Rules": [
               {
                 "Category": "Design",
@@ -1529,7 +1529,7 @@
         "Name": "EMailGallery",
         "Parent": "LatestEmailInteractions",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 123,
+        "PublishOrderIndex": 125,
         "Rules": [
           {
             "Category": "Data",
@@ -1740,7 +1740,7 @@
         "Name": "PopUpBG",
         "Parent": "LatestEmailInteractions",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 130,
+        "PublishOrderIndex": 132,
         "Rules": [
           {
             "Category": "Design",
@@ -1912,7 +1912,7 @@
         "Name": "Close",
         "Parent": "LatestEmailInteractions",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 131,
+        "PublishOrderIndex": 133,
         "Rules": [
           {
             "Category": "Design",
@@ -2137,7 +2137,7 @@
         "Name": "Body",
         "Parent": "LatestEmailInteractions",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 133,
+        "PublishOrderIndex": 135,
         "Rules": [
           {
             "Category": "Data",
@@ -2286,7 +2286,7 @@
         "Name": "PupUp",
         "Parent": "LatestEmailInteractions",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 132,
+        "PublishOrderIndex": 134,
         "Rules": [
           {
             "Category": "Design",

@@ -26,7 +26,7 @@
             "Name": "galleryTemplate3_1",
             "Parent": "CalenderItems",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 113,
+            "PublishOrderIndex": 115,
             "Rules": [
               {
                 "Category": "Design",
@@ -158,7 +158,7 @@
             "Name": "date",
             "Parent": "CalenderItems",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 114,
+            "PublishOrderIndex": 116,
             "Rules": [
               {
                 "Category": "Data",
@@ -548,7 +548,7 @@
             "Name": "Title_Default",
             "Parent": "CalenderItems",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 115,
+            "PublishOrderIndex": 117,
             "Rules": [
               {
                 "Category": "Data",
@@ -831,7 +831,7 @@
             "Name": "BG",
             "Parent": "CalenderItems",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 116,
+            "PublishOrderIndex": 118,
             "Rules": [
               {
                 "Category": "Design",
@@ -1071,7 +1071,7 @@
             "Name": "Title",
             "Parent": "CalenderItems",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 117,
+            "PublishOrderIndex": 119,
             "Rules": [
               {
                 "Category": "Data",
@@ -1422,7 +1422,7 @@
             "Name": "place",
             "Parent": "CalenderItems",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 119,
+            "PublishOrderIndex": 121,
             "Rules": [
               {
                 "Category": "Data",
@@ -1728,7 +1728,7 @@
             "Name": "Smily_Default",
             "Parent": "CalenderItems",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 120,
+            "PublishOrderIndex": 122,
             "Rules": [
               {
                 "Category": "Design",
@@ -2015,7 +2015,7 @@
             "Name": "Time",
             "Parent": "CalenderItems",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 121,
+            "PublishOrderIndex": 123,
             "Rules": [
               {
                 "Category": "Data",
@@ -2388,7 +2388,7 @@
             "Name": "Time_until",
             "Parent": "CalenderItems",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 122,
+            "PublishOrderIndex": 124,
             "Rules": [
               {
                 "Category": "Data",
@@ -2658,7 +2658,7 @@
             "Name": "Content",
             "Parent": "CalenderItems",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 118,
+            "PublishOrderIndex": 120,
             "Rules": [
               {
                 "Category": "Design",
@@ -2813,7 +2813,7 @@
         "Name": "CalenderItems",
         "Parent": "MyDay",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 112,
+        "PublishOrderIndex": 114,
         "Rules": [
           {
             "Category": "Data",

@@ -6,9 +6,10 @@ Screen1 As screen:
 
     "IFrameVirtualPCF1 As 'IFrameVirtualPCF (0.1.0)'":
         DisplayMode: =DisplayMode.Edit
+        FullscreenButton: =false
         Height: =952
         src: |-
-            ="https://web.powerva.microsoft.com/environments/Default-e8fee4a3-6312-4ee1-9243-2962de38d66d/bots/new_bot_ef0af31c2c224537a4160d3fb206d218/webchat%22"
+            =Text("https://web.powerva.microsoft.com/environments/Default-e8fee4a3-6312-4ee1-9243-2962de38d66d/bots/new_bot_ef0af31c2c224537a4160d3fb206d218/webchat%22")
         Width: =640
         X: =0
         Y: =84

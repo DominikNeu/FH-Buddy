@@ -16,6 +16,14 @@
           "InvariantPropertyName": "src",
           "IsLockable": false,
           "NameMapSourceSchema": "?"
+        },
+        {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "true",
+          "InvariantPropertyName": "FullscreenButton",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
         }
       ],
       "HasDynamicProperties": false,
@@ -34,6 +42,11 @@
         {
           "Category": "Data",
           "PropertyName": "src",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Data",
+          "PropertyName": "FullscreenButton",
           "RuleProviderType": "Unknown"
         },
         {
@@ -102,7 +115,7 @@
       },
       "MetaDataIDKey": "",
       "Name": "Komp_NavigationBar_8",
-      "ParentIndex": 0,
+      "ParentIndex": 2,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -295,7 +308,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Title_3",
-      "ParentIndex": 2,
+      "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {

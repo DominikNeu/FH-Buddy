@@ -34,7 +34,7 @@
             "Name": "galleryTemplate5",
             "Parent": "Gallery2_1",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 139,
+            "PublishOrderIndex": 141,
             "Rules": [
               {
                 "Category": "Design",
@@ -120,7 +120,7 @@
             "Name": "Image2_1",
             "Parent": "Gallery2_1",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 140,
+            "PublishOrderIndex": 142,
             "Rules": [
               {
                 "Category": "Data",
@@ -378,7 +378,7 @@
             "Name": "Title1_2",
             "Parent": "Gallery2_1",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 141,
+            "PublishOrderIndex": 143,
             "Rules": [
               {
                 "Category": "Data",
@@ -660,7 +660,7 @@
             "Name": "Subtitle1_2",
             "Parent": "Gallery2_1",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 142,
+            "PublishOrderIndex": 144,
             "Rules": [
               {
                 "Category": "Data",
@@ -916,7 +916,7 @@
             "Name": "Separator2_1",
             "Parent": "Gallery2_1",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 143,
+            "PublishOrderIndex": 145,
             "Rules": [
               {
                 "Category": "Design",
@@ -1072,7 +1072,7 @@
         "Name": "Gallery2_1",
         "Parent": "TrendingDocuments",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 138,
+        "PublishOrderIndex": 140,
         "Rules": [
           {
             "Category": "Data",
