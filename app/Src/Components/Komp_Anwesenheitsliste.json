@@ -2941,7 +2941,7 @@
       "Y",
       "ZIndex"
     ],
-    "LastModifiedTimestamp": "638144913706594631",
+    "LastModifiedTimestamp": "638145078927088919",
     "Name": "Komp_Anwesenheitsliste",
     "Rules": [
       {
@@ -3000,7 +3000,7 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "638144913706594631",
+  "LastModifiedTimestamp": "638145078927088919",
   "Name": "6f58cf18a7fd4459a54040417a469877",
   "OverridableProperties": {},
   "TemplateOriginalName": "dd95fb13da6e4df58b13c8f36d6a9459",
