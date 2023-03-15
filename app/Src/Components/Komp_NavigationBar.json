@@ -1055,7 +1055,15 @@
           "FocusedBorderColor",
           "ZIndex",
           "BorderThickness",
-          "FocusedBorderThickness"
+          "FocusedBorderThickness",
+          {
+            "AFDDataSourceName": "",
+            "AutoRuleBindingEnabled": false,
+            "AutoRuleBindingString": "false",
+            "InvariantPropertyName": "OnSelect",
+            "IsLockable": false,
+            "NameMapSourceSchema": "?"
+          }
         ],
         "ControlUniqueId": "55",
         "HasDynamicProperties": false,
@@ -1209,6 +1217,12 @@
             "InvariantScript": "Self.BorderColor",
             "Property": "FocusedBorderColor",
             "RuleProviderType": "Unknown"
+          },
+          {
+            "Category": "Behavior",
+            "InvariantScript": "Navigate(BuddyBot)",
+            "Property": "OnSelect",
+            "RuleProviderType": "Unknown"
           }
         ],
         "StyleName": "defaultIconStyle",
@@ -1243,7 +1257,7 @@
       "Y",
       "ZIndex"
     ],
-    "LastModifiedTimestamp": "638144748228940589",
+    "LastModifiedTimestamp": "638144767851696800",
     "Name": "Komp_NavigationBar",
     "Rules": [
       {
@@ -1302,7 +1316,7 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "638144748228940589",
+  "LastModifiedTimestamp": "638144767851696800",
   "Name": "b88613bb63744af4a5cc9874ffcb24f1",
   "OverridableProperties": {},
   "Version": "638112081498176499"
